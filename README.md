@@ -1,7 +1,7 @@
 # Anole
 A CSS framework for creating websites that adapt to their environment like an Anole.
 
-##Structure:
+## Structure:
 - A single css file, anole.css, will provide everything you need to get started.
 - Themes will be possible, using anole-themename.css to override or extend existing classes.
 

@@ -11,5 +11,5 @@ A website using Anole will consist of three main "parts" or areas:
 - **Body:** sits below the head, centered on the page. Recommended for main content.
 - **Tail:** optional, recommended for author info and links. Can optionally replace the head, to be used for navigation.
 
-#Requirements:
+## Requirements:
 - Lato fonts (might be included). Required for default theme, other themes may use other fonts.

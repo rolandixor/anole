@@ -1,0 +1,442 @@
+/***
+As with Passionfruit, Anole is designed to help you get your site up and running
+quickly. Also, as with Passionfruit, Anole sets nothing by default. Rather, it is
+designed to only come when called, so that you can mix and match it with other
+CSS frameworks such as Bootstrap, Yahoo's Foundation, and others.
+*Anole is light-weight and loads quickly, but it contains numerous components
+and even animations. It is recommended that you use it with Passionfruit if you
+want the finer grained control provided by Passionfruit as opposed to Anole, but
+you should be able to get right to work - right away, without needing to dive
+back into your CSS code very often. Just write your HTML, drop in the right
+classes, and watch Anole do the work of making your site look pretty for you!
+*/
+
+.anole {
+  background-image: radial-gradient(rgb(45, 45, 45), rgb(25, 25, 25));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-family: sans-serif;
+}
+
+.an-head {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgba(135, 235, 35, 0.5);
+  background-color: rgba(95, 195, 105, 1);
+  box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.8), 0px 0px 25px rgba(135, 235, 35, 0.9);
+  z-index: 1030;
+  min-height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  align-content:center;
+  flex-direction:row;
+}
+
+.an-body {
+  padding: 75px 35px 35px 35px;
+}
+
+.an-glass {
+  margin-top: 75px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-color: rgba(135, 135, 135, 0.3);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: rgba(35, 35, 35, 1);
+  padding: 35px;
+  color: white;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.5pt;
+  line-height: 28px;
+}
+
+.an-head > .an-title {
+  color: rgb(95, 195, 35);
+  background-color: rgb(35, 35, 35);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  min-width: 15%;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  flex-direction:row;
+  transition: 1.015s;
+}
+
+.an-head > .an-title > * > img {
+  width: 35px;
+  height: auto;
+  margin: 0px 5px 0px 5px;
+}
+
+.an-head > .an-button {
+  position: relative;
+  color: white;
+  background-color: rgba(135, 135, 135, 0.5);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  min-width: 10%;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-head > .an-button:hover {
+  position: relative;
+  background-color: rgba(75, 75, 75, 0.9);
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  border-bottom-color: rgba(134, 255, 36, 1);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  min-width: 10%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-head > .an-menubutton {
+  position: relative;
+  color: white;
+  background-color: rgba(135, 135, 135, 0.5);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  min-width: 10%;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-head > .an-menubutton:hover {
+  position: relative;
+  background-color: rgba(75, 135, 95, 0.9);
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  border-bottom-color: rgba(134, 255, 36, 0);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  min-width: 10%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-head > .an-menubutton > .an-menu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -155%;
+  left: 0;
+  background-color: black;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  min-width: 100%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.321s, border-color 1.735s;
+}
+
+.an-head > .an-menubutton:hover > .an-menu {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  top: 108.5%;
+  left: 0;
+  z-index: 1031;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  min-width: 100%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 1.021s, border-color 1.735s;
+}
+
+.an-menu > .an-button {
+  position: relative;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 0px 0px 0px 3px;
+  padding: 15px;
+  margin: 5px 0px 5px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-menu > .an-button:hover {
+  position: relative;
+  background-color: rgba(75, 175, 75, 0.9);
+  border-width: 0px 0px 0px 3px;
+  border-style: solid;
+  border-color: rgba(134, 255, 36, 1);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-menu > .an-sub {
+  position: relative;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 0px 0px 0px 3px;
+  padding: 15px;
+  margin: 5px 0px 5px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-menu > .an-sub:hover {
+  position: relative;
+  background-color: rgba(75, 175, 75, 0.9);
+  border-width: 0px 0px 0px 3px;
+  border-style: solid;
+  border-color: rgba(134, 255, 36, 1);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-menu > .an-sub > .an-submenu {
+  visibility: none;
+  opacity: 0;
+  position: absolute;
+  top: -15%;
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 0px 0px 0px 3px;
+  margin: 5px 0px 5px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-menu > .an-sub:hover > .an-submenu {
+  visibility: visible;
+  opacity: 1;
+  top: -15%;
+  left: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(75, 75, 75, 0.9);
+  border-width: 0px 0px 0px 3px;
+  border-style: solid;
+  border-color: rgba(134, 255, 36, 1);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-menu > .an-sub > .an-submenu > .an-button {
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  letter-spacing: 3px;
+  border-color: rgba(134, 255, 36, 0);
+  border-width: 0px 3px 0px 0px;
+  padding: 15px;
+  margin: 5px 0px 5px 0px;
+  border-style: solid;
+  font-variant: small-caps;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 0.715s, border-color 0.932s;
+}
+
+.an-menu > .an-sub > .an-submenu:hover > .an-button:hover {
+  background-color: rgba(75, 175, 75, 0.9);
+  border-width: 0px 3px 0px 0px;
+  border-style: solid;
+  border-color: rgba(134, 255, 36, 1);
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
+}
+
+.an-submenu > .an-title {
+  padding: 5px;
+  background-color: rgba(35, 35, 35, 1);
+  color: rgba(35, 235, 75, 0.8);
+}
+
+/*Spacer*/
+/***
+*Spacers are an option component depending on the theme. If your theme comes
+with bordered ".an-head > .an-button"'s, then there is no need for you to use
+the spacer.
+*/
+.an-head > .an-spacer {
+  width: 2px;
+  background-color: rgba(5, 35, 15, 0.1);
+  box-shadow: 0px 0px 35px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+
+.an-head > .an-spacer-tiny {
+  width: 1px;
+  background-color: rgba(5, 7, 5, 0.3);
+  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+
+.an-tail {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgba(135, 235, 35, 0.3);
+  background-color: rgba(15, 35, 35, 0.8);
+  z-index: 1030;
+  min-height: 45px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  justify-content:space-around;
+  align-content:center;
+  align-items: center;
+  flex-direction:row;
+  color: white;
+}
+
+/*Boxes*/
+.an-35p {
+  width: 35%;
+}
+
+.an-box {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow:  0px 0px 15px 1px rgba(135, 235, 135, 0.7), 0px 0px 45px 7px rgba(0, 0, 0, 1);
+  margin: 35px;
+  padding: 35px;
+  line-height: 21pt;
+  color: black;
+  text-shadow: none;
+}
+
+.an-center {
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.an-center-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.an-label {
+  display: inline !important;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+  margin-right: 1px;
+}
+
+.an-label-green {
+  color: white;
+  background-color: rgba(75, 135, 75, 1);
+}

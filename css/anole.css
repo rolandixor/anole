@@ -1,4 +1,4 @@
-/***
+submit/***
 As with Passionfruit, Anole is designed to help you get your site up and running
 quickly. Also, as with Passionfruit, Anole sets nothing by default. Rather, it is
 designed to only come when called, so that you can mix and match it with other
@@ -266,8 +266,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
 }
 
 .an-glass {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 15px 35px 15px 35px;
   border-color: rgba(135, 135, 135, 0.3);
   box-shadow: 0px 0px 35px rgba(0, 0, 0, 1);
   border-style: solid;
@@ -281,12 +280,43 @@ classes, and watch Anole do the work of making your site look pretty for you!
   line-height: 28px;
 }
 
+.an-title {
+  color: white;
+  font-size: 25px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: rgba(135, 135, 135, 0.3);
+  background-color: rgba(75, 135, 105, 1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  margin: 0px 0px 35px 0px;
+  letter-spacing: 7px;
+  min-width: 15%;
+  padding: 15px;
+  padding-top: 18px;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  flex-direction:row;
+}
+
 .an-head > .an-title {
   color: rgb(95, 195, 35);
+  font-size: 15px;
+  border-color: rgba(135, 135, 135, 0);
+  border-width: 0px;
   background-color: rgb(35, 35, 35);
   text-transform: uppercase;
   letter-spacing: 3px;
   min-width: 15%;
+  border-radius: 0px;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   padding: 0px 15px 0px 15px;
   text-align: center;
   min-height: 100%;
@@ -420,7 +450,6 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-style: solid;
   border-top-color: rgba(134, 255, 36, 1);
   text-transform: uppercase;
-  letter-spacing: 1px;
   min-width: 10%;
   text-align: center;
   min-height: 100%;
@@ -446,7 +475,8 @@ classes, and watch Anole do the work of making your site look pretty for you!
   display: flex;
   justify-content:center;
   align-content:center;
-  flex-direction:column;
+  flex-direction:column;  margin-top: 1px;
+  margin-bottom: 1px;
   transition: all 0.321s, border-color 1.735s;
 }
 
@@ -616,18 +646,22 @@ classes, and watch Anole do the work of making your site look pretty for you!
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-submenu > .an-title, .an-menu > .an-title {
+.an-menu > .an-title, .an-submenu > .an-title {
+  font-size: 12px;
+  border-radius: 0px;
   padding: 5px;
-  background-color: rgba(35, 45, 35, 1);
-  color: white;
-}
-
-.an-menu > .an-title {
   border-color: rgba(134, 255, 36, 1);
   border-style: solid;
+  color: white;
+  letter-spacing: 2px;
+  background-color: rgba(35, 45, 35, 1);
   border-width: 0px 1px 0px 1px;
   margin-top: 1px;
   margin-bottom: 1px;
+}
+
+.an-submenu > .an-title {
+  border-width: 0px 3px 0px 0px;
 }
 
 /*Spacer*/
@@ -679,8 +713,60 @@ the spacer.
 }
 
 /*Boxes*/
+.an-5p {
+  width: 5%;
+}
+
+.an-10p {
+  width: 10%;
+}
+
+.an-15p {
+  width: 15%;
+}
+
+.an-20p {
+  width: 20%;
+}
+
+.an-25p {
+  width: 75%;
+}
+
+.an-30p {
+  width: 75%;
+}
+
 .an-35p {
   width: 35%;
+}
+
+.an-50p {
+  width: 50%;
+}
+
+.an-65p {
+  width: 65%;
+}
+
+.an-70p {
+  width: 70%;
+}
+
+.an-75p {
+  width: 75%;
+}
+
+.an-80p {
+  width: 80%;
+}
+
+.an-85p {
+  width: 85%;
+}
+
+.an-95p {
+  width: 95%;
 }
 
 .an-box {
@@ -838,17 +924,29 @@ the spacer.
   letter-spacing: 2px;
 }
 
-form.an-form > input[type=text] {
-  margin: 0px 15px 0px 15px;
+/*Forms*/
+.an-form {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  color: white;
+  margin: 15px 35px 15px 35px;
+  border-color: rgba(235, 235, 235, 0.3);
+  padding: 35px;
+  background-color: rgba(235, 235, 235, 0.1);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3), inset 0px 0px 105px 15px rgba(0, 0, 0, 0.1);
+}
+
+.an-form > input[type=text], .an-form > * > input[type=text], .an-form > * > * > input[type=text] {
+  margin: 0px 5px 0px 5px;
   min-width: 35px;
-  height: 25px;
-  padding: 8px 15px 8px 15px;
+  height: 32px;
+  padding: 8px 12px 8px 12px;
   font-family: LatoWebMedium;
   font-size: 15px;
   color: rgba(135, 235, 35, 1);
   background-color: rgba(95, 95, 95, 0);
   border-style: solid;
-  border-radius: 15px;
   border-color: rgba(135, 235, 35, 0.1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8), inset 0px 0px 45px 15px rgba(0, 0, 0, 0.7);
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
@@ -857,7 +955,7 @@ form.an-form > input[type=text] {
   transition: 1s;
 }
 
-form.an-form > input[type=text]:hover {
+.an-form > input[type=text]:hover, .an-form > * input[type=text]:hover, .an-form > * > * > input[type=text]:hover {
   background-color: rgba(45, 75, 65, 1);
   border-color: rgba(135, 235, 235, 0.5);
   color: white;
@@ -866,7 +964,7 @@ form.an-form > input[type=text]:hover {
   transition: 0.715s;
 }
 
-form.an-form > input[type=text]:focus {
+.an-form > input[type=text]:focus, .an-form > * > input[type=text]:focus, .an-form > * > * input[type=text]:focus {
   color: rgba(135, 235, 135, 1);
   background-color: rgba(75, 95, 85, 1);
   box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3), inset 0px 0px 75px 15px rgba(0, 0, 0, 0.7);
@@ -875,4 +973,328 @@ form.an-form > input[type=text]:focus {
   letter-spacing: 2px;
   outline: 0;
   transition: 0.615s;
+}
+
+
+.an-form > input[type=submit], .an-form > * > input[type=submit], .an-form > * > * > input[type=submit] {
+  margin: 0px 5px 0px 5px;
+  max-width: 150px;
+  width: 150px;
+  padding: 15px 15px 10px 15px;
+  font-family: LatoWebMedium;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  border-style: solid;
+  border-color: rgba(135, 235, 35, 0);
+  border-bottom-color: rgba(135, 235, 35, 0.3);
+  border-width: 0px 0px 5px 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: none;
+  transition: 1s;
+}
+
+.an-form > input[type=submit]:hover, .an-form > * input[type=submit]:hover, .an-form > * > * > input[type=submit]:hover {
+  background-color: rgba(75, 175, 95, 1);
+  color: white;
+  padding: 15px 15px 10px 15px;
+  border-bottom-color: rgba(135, 235, 35, 1);
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3);
+  transition: 0.715s;
+}
+
+.an-form > input[type=submit]:focus, .an-form > * > input[type=submit]:focus, .an-form > * > * input[type=submit]:focus {
+  background-color: rgba(75, 95, 85, 1);
+  color: white;
+  padding: 15px 15px 10px 15px;
+  border-bottom-color: rgba(135, 235, 235, 1);
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3);
+  transition: 0.715s;
+}
+
+.an-form > input[type=reset], .an-form > * > input[type=reset], .an-form > * > * > input[type=reset] {
+  margin: 0px 5px 0px 5px;
+  max-width: 150px;
+  width: 150px;
+  padding: 15px 15px 10px 15px;
+  font-family: LatoWebMedium;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+  border-style: solid;
+  border-color: rgba(135, 235, 35, 0);
+  border-bottom-color: rgba(235, 35, 135, 0.3);
+  border-width: 0px 0px 5px 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: none;
+  transition: 1s;
+}
+
+.an-form > input[type=reset]:hover, .an-form > * input[type=reset]:hover, .an-form > * > * > input[type=reset]:hover {
+  background-color: rgba(175, 75, 175, 1);
+  color: white;
+  padding: 15px 15px 10px 15px;
+  border-bottom-color: rgba(255, 135, 135, 1);
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3);
+  transition: 0.715s;
+}
+
+.an-form > input[type=reset]:focus, .an-form > * > input[type=reset]:focus, .an-form > * > * input[type=reset]:focus {
+  background-color: rgba(75, 95, 85, 1);
+  color: white;
+  padding: 15px 15px 10px 15px;
+  border-bottom-color: rgba(235, 15, 35, 1);
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3);
+  transition: 0.715s;
+}
+
+.an-form > label, .an-form > * > label, .an-form > * > * > label {
+  background-color: rgba(75, 135, 95, 1);
+  padding: 17px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-family: LatoWebMedium;
+  margin: 0px 5px 0px 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}
+
+.an-form > .an-title {
+  margin-bottom: 35px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: rgba(75, 105, 95, 1);
+  width: 95%;
+  padding: 15px 15px 10px 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.0);
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(135, 235, 35, 1);
+  font-size: 15px;
+  font-family: LatoWebMedium;
+  margin: 0px 5px 0px 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.an-reveal {
+  background-color: rgb(5, 5, 5);
+  position: relative;
+  padding: 15px;
+  margin: 15px 5px 15px 5px;
+}
+
+.an-reveal > .an-wipe-left {
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-wipe-left, .an-wipe-left.active {
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  transition: 1s;
+}
+
+.an-reveal > .an-wipe-right {
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 0;
+  top: 0;
+  left: 100%;
+  width: 0%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-wipe-right, .an-wipe-right.active {
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  transition: 1s;
+}
+
+.an-reveal > .an-wipe-down {
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 0;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 0%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-wipe-down, .an-wipe-down.active {
+  opacity: 1;
+  height: 100%;
+  transition: 1s;
+}
+
+.an-reveal > .an-wipe-up {
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 0;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 0%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-wipe-up, .an-wipe-up.active {
+  opacity: 1;
+  height: 100%;
+  transition: 1s;
+}
+
+.an-reveal > .an-show-down {
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 1;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-show-down, .an-show-down.active {
+  opacity: 0;
+  height: 0%;
+  transition: 1s;
+}
+
+.an-reveal > .an-show-up {
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 1;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-show-up, .an-show-up.active {
+  opacity: 0;
+  height: 0%;
+  transition: 1s;
+}
+
+.an-reveal > .an-show-left {
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 1;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-show-left, .an-show-left.active {
+  opacity: 0;
+  width: 0%;
+  transition: 1s;
+}
+
+.an-reveal > .an-show-right {
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  border-color: rgba(135, 235, 35, 1);
+  position: absolute;
+  background-color: rgb(95, 135, 105);
+  opacity: 1;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: 1s;
+}
+
+.an-reveal:hover > .an-show-right, .an-show-right.active {
+  opacity: 0;
+  width: 0%;
+  transition: 1s;
 }

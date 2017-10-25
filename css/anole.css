@@ -242,7 +242,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: rgba(135, 235, 35, 0.5);
-  background-color: rgba(95, 195, 105, 1);
+  background-color: rgba(35, 35, 35, 1);
   box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.8), 0px 0px 25px rgba(135, 235, 35, 0.9);
   z-index: 1030;
   min-height: 45px;
@@ -304,20 +304,78 @@ classes, and watch Anole do the work of making your site look pretty for you!
   margin: 0px 5px 0px 5px;
 }
 
+.an-menubutton {
+  font-size: 15px;
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
+  min-width: 135px;
+  max-width: 215px;
+  font-family: LatoWebMedium;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 10px 5px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 0.3);
+  transition: 1.2s;
+}
+
+.an-menubutton:hover {
+  background-color: rgb(75, 135, 95);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(45, 135, 95, 0.5);
+  letter-spacing: 1px;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  transition: 1.2s;
+}
+
+.an-button {
+  margin: 0px 5px 0px 5px;
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
+  min-width: 135px;
+  max-width: 215px;
+  font-family: LatoWebMedium;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 10px 5px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 0.0);
+  transition: 1.2s;
+}
+
+.an-button:hover {
+  background-color: rgb(75, 135, 95);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(45, 135, 95, 0.5);
+  letter-spacing: 1px;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 1);
+  transition: 1.2s;
+}
+
 .an-head > .an-button {
   position: relative;
+  margin: 0px;
   color: white;
-  background-color: rgba(135, 135, 135, 0.5);
+  background-color: rgba(48, 48, 48, 1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   letter-spacing: 3px;
-  border-color: rgba(134, 255, 36, 0);
+  border-color: rgba(135, 255, 35, 0);
   border-width: 3px 0px 3px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   min-width: 10%;
+  max-width: 50%;
   padding: 0px 15px 0px 15px;
   text-align: center;
   min-height: 100%;
   display: flex;
+  font-size: 12px;
   justify-content:center;
   align-content:center;
   flex-direction:column;
@@ -325,36 +383,29 @@ classes, and watch Anole do the work of making your site look pretty for you!
 }
 
 .an-head > .an-button:hover {
-  position: relative;
-  background-color: rgba(75, 75, 75, 0.9);
+  background-color: rgba(75, 135, 95, 0.3);
   border-width: 3px 0px 3px 0px;
-  border-style: solid;
-  border-bottom-color: rgba(134, 255, 36, 1);
-  font-variant: small-caps;
+  border-bottom-color: rgba(135, 255, 35, 1);
   letter-spacing: 1px;
   min-width: 10%;
-  text-align: center;
-  min-height: 100%;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
   transition: all 0.421s, border-color 1.735s;
 }
 
 .an-head > .an-menubutton {
   position: relative;
   color: white;
-  background-color: rgba(135, 135, 135, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(48, 48, 48, 1);
   letter-spacing: 3px;
   border-color: rgba(134, 255, 36, 0);
   border-width: 3px 0px 3px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   min-width: 10%;
   padding: 0px 15px 0px 15px;
   text-align: center;
   min-height: 100%;
+  font-size: 12px;
   display: flex;
   justify-content:center;
   align-content:center;
@@ -364,11 +415,11 @@ classes, and watch Anole do the work of making your site look pretty for you!
 
 .an-head > .an-menubutton:hover {
   position: relative;
-  background-color: rgba(75, 135, 95, 0.9);
+  background-color: rgba(75, 135, 95, 0.1);
   border-width: 3px 0px 3px 0px;
   border-style: solid;
-  border-bottom-color: rgba(134, 255, 36, 0);
-  font-variant: small-caps;
+  border-top-color: rgba(134, 255, 36, 1);
+  text-transform: uppercase;
   letter-spacing: 1px;
   min-width: 10%;
   text-align: center;
@@ -387,7 +438,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   top: -155%;
   left: 0;
   background-color: black;
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   min-width: 100%;
   text-align: center;
@@ -406,7 +457,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   top: 108.5%;
   left: 0;
   z-index: 1031;
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   min-width: 100%;
   text-align: center;
@@ -426,10 +477,11 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-color: rgba(134, 255, 36, 0);
   border-width: 0px 0px 0px 3px;
   padding: 15px;
-  margin: 5px 0px 5px 0px;
+  margin: 1px 0px 1px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   text-align: center;
+  font-size: 12px;
   display: flex;
   justify-content:center;
   align-content:center;
@@ -440,10 +492,9 @@ classes, and watch Anole do the work of making your site look pretty for you!
 .an-menu > .an-button:hover {
   position: relative;
   background-color: rgba(75, 175, 75, 0.9);
-  border-width: 0px 0px 0px 3px;
   border-style: solid;
   border-color: rgba(134, 255, 36, 1);
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   display: flex;
@@ -461,9 +512,9 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-color: rgba(134, 255, 36, 0);
   border-width: 0px 0px 0px 3px;
   padding: 15px;
-  margin: 5px 0px 5px 0px;
+  margin: 1px 0px 1px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   text-align: center;
   display: flex;
   justify-content:center;
@@ -478,7 +529,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-width: 0px 0px 0px 3px;
   border-style: solid;
   border-color: rgba(134, 255, 36, 1);
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   display: flex;
@@ -493,7 +544,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   opacity: 0;
   position: absolute;
   top: -35%;
-  left: -35%;
+  left: 75%;
   width: 100%;
   color: white;
   background-color: rgba(75, 75, 75, 1);
@@ -502,13 +553,13 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-width: 0px 0px 0px 3px;
   margin: 5px 0px 5px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   text-align: center;
   display: flex;
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.715s, border-color 0.932s;
+  transition: all 0.315s, border-color 0.932s;
 }
 
 .an-menu > .an-sub:hover > .an-submenu {
@@ -522,7 +573,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-width: 0px 0px 0px 3px;
   border-style: solid;
   border-color: rgba(134, 255, 36, 1);
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   display: flex;
@@ -539,10 +590,11 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-color: rgba(134, 255, 36, 0);
   border-width: 0px 3px 0px 0px;
   padding: 15px;
-  margin: 5px 0px 5px 0px;
+  margin: 1px 0px 1px 0px;
   border-style: solid;
-  font-variant: small-caps;
+  text-transform: uppercase;
   text-align: center;
+  font-size: 12px;
   display: flex;
   justify-content:center;
   align-content:center;
@@ -553,9 +605,8 @@ classes, and watch Anole do the work of making your site look pretty for you!
 .an-menu > .an-sub > .an-submenu:hover > .an-button:hover {
   background-color: rgba(75, 175, 75, 0.9);
   border-width: 0px 3px 0px 0px;
-  border-style: solid;
   border-color: rgba(134, 255, 36, 1);
-  font-variant: small-caps;
+  text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   display: flex;
@@ -567,7 +618,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
 
 .an-submenu > .an-title, .an-menu > .an-title {
   padding: 5px;
-  background-color: rgba(35, 75, 55, 1);
+  background-color: rgba(35, 45, 35, 1);
   color: white;
 }
 
@@ -575,7 +626,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-color: rgba(134, 255, 36, 1);
   border-style: solid;
   border-width: 0px 1px 0px 1px;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 1px;
 }
 
@@ -608,8 +659,9 @@ the spacer.
 .an-tail {
   border-style: solid;
   border-width: 1px 0px 0px 0px;
-  border-color: rgba(135, 235, 35, 0.3);
-  background-color: rgba(15, 35, 35, 0.8);
+  border-color: rgba(135, 235, 35, 0.4);
+  background-color: rgba(15, 35, 35, 0.9);
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3);
   z-index: 1030;
   min-height: 45px;
   position: fixed;
@@ -679,7 +731,7 @@ the spacer.
 }
 
 .an-stickright {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .an-header {
@@ -747,4 +799,80 @@ the spacer.
 
 .an-antisocial {
   margin: 35px 15px 35px 15px;
+}
+
+.an-tip-parent {
+  position: relative;
+}
+
+.an-tip {
+  position: absolute;
+  top: 105%;
+  left: 12.5%;
+  opacity: 0;
+  visibility: hidden;
+  max-width: 75%;
+  min-width: 75%;
+  background-color: rgba(95, 145, 105, 1);
+  color: white;
+  padding: 8px 0px 8px 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0px 0px 9px 0px rgba(95, 235, 135, 0.3);
+  text-align: center;
+  transition: 0.5s, opacity 0.35s;
+  letter-spacing: 2px;
+}
+
+.an-tip-parent:hover .an-tip {
+  position: absolute;
+  top: 135%;
+  left: 12.5%;
+  opacity: 1;
+  visibility: visible;
+  max-width: 75%;
+  min-width: 75%;
+  font-size: 12px;
+  text-align: center;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+
+form.an-form > input[type=text] {
+  margin: 0px 15px 0px 15px;
+  min-width: 35px;
+  height: 25px;
+  padding: 8px 15px 8px 15px;
+  font-family: LatoWebMedium;
+  font-size: 15px;
+  color: rgba(135, 235, 35, 1);
+  background-color: rgba(95, 95, 95, 0);
+  border-style: solid;
+  border-radius: 15px;
+  border-color: rgba(135, 235, 35, 0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8), inset 0px 0px 45px 15px rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 3px;
+  border-width: 1px;
+  transition: 1s;
+}
+
+form.an-form > input[type=text]:hover {
+  background-color: rgba(45, 75, 65, 1);
+  border-color: rgba(135, 235, 235, 0.5);
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.5), inset 0px 0px 45px rgba(0, 0, 0, 0.7);
+  transition: 0.715s;
+}
+
+form.an-form > input[type=text]:focus {
+  color: rgba(135, 235, 135, 1);
+  background-color: rgba(75, 95, 85, 1);
+  box-shadow: 0px 0px 15px rgba(135, 235, 35, 0.3), inset 0px 0px 75px 15px rgba(0, 0, 0, 0.7);
+  border-color: rgba(135, 235, 35, 0.3);
+  border-width: 1px;
+  letter-spacing: 2px;
+  outline: 0;
+  transition: 0.615s;
 }

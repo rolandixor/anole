@@ -10,16 +10,16 @@
     <div class="an-head">
       <div class="an-title an-tip-parent">
         <div class="">
-          <img src="img/anole.png" alt="" style="margin-bottom: -10px;">
+          <img src="img/anole-icon.png" alt="">
         </div>
         Anole
         <div class="an-tip">
-          &#x25b2;.an-title
+          <span class="smallmuhtext8">&#x25b2;</span>&nbsp;&nbsp;.an-title
         </div>
       </div>
       <div class="an-spacer">
       </div>
-      <a class="an-button an-tip-parent">
+      <a class="an-button">
         .an-button
         <div class="an-tip">
           .an-tip
@@ -54,6 +54,9 @@
       </div>
       <a class="an-button an-stickright">
         extra wide button look!
+        <div class="an-tip">
+          .an-tip
+        </div>
       </a>
     </div>
     <div class="an-body">
@@ -64,12 +67,13 @@
         </div>
       </div>
       <div class="an-glass">
-        <div class="an-heading">
+        <div class="an-title">
           Welcome to the Anole Demo!
         </div>
         <div class="an-antisocial">
-          This page gives a demonstration of the features and powers of Anole.
-          It contains almost all of the components and animations of the framework.
+          This page gives a demonstration of the
+          <div class="an-text-tip an-tip-parent">features<div class="an-tip">Some elements will come with tips, like this one.<div class="an-tip-sub">See <a href="#an-tips">.an-tips</a> for more.</div></div></div>
+          and powers of Anole. It contains almost all of the components and animations of the framework.
           Anything that isn't included here will be covered in the documentation.
           By default, Anole uses the Lato font family, but you can override this with your own css.
           Also, Anole is themed out the box, so you can drop it in your html and go.
@@ -83,25 +87,25 @@
           </div>
           <!--Needs to be made responsive-->
           <div class="an-center-row">
-            <div class="an-label an-label-green">.an-glass</div>&nbsp;<div class="an-label an-label-green">.an-heading</div>
-            &nbsp;<div class="an-label an-label-green">.an-antisocial</div>
-            &nbsp;<div class="an-label an-label-green">.an-infobox</div>
-            &nbsp;<div class="an-label an-label-green">.an-center-row</div>
-            &nbsp;<div class="an-label an-label-green">.an-label .an-label-green</div>
+            <div class="an-label an-label-standard">.an-glass</div>&nbsp;<div class="an-label an-label-standard">.an-heading</div>
+            &nbsp;<div class="an-label an-label-standard">.an-antisocial</div>
+            &nbsp;<div class="an-label an-label-standard">.an-infobox</div>
+            &nbsp;<div class="an-label an-label-standard">.an-center-row</div>
+            &nbsp;<div class="an-label an-label-standard">.an-label .an-label-standard</div>
           </div>
         </div>
       </div>
       <div class="an-center-row">
         <div class="an-box an-35p">
-          <div class="an-label an-label-green">.an-box</div> - with this class, you can turn any element into a pretty box,
+          <div class="an-label an-label-standard">.an-box</div> - with this class, you can turn any element into a pretty box,
           like this one. .an-box will take care of line spacing, padding and margins.
           <br>However, if you need anything extra, such as a definite width, you will
           need a helper class such as .an-35p (for example).
         </div>
         <div class="an-box an-center an-35p">
           <span class="">
-            <div class="an-label an-label-green">.an-box</div> with
-            <div class="an-label an-label-green">.an-center</div>
+            <div class="an-label an-label-standard">.an-box</div> with
+            <div class="an-label an-label-standard">.an-center</div>
             applied. With this combination, you can center
             the content of your .an-box.
             <br>
@@ -111,7 +115,7 @@
         </div>
       </div>
       <div class="an-sunkenplace">
-        <div class="an-label an-label-green">.an-sunkenplace</div>
+        <div class="an-label an-label-standard">.an-sunkenplace</div>
         Useful for... well, you decide.
       </div>
       <div class="an-glass an-center-row">
@@ -120,6 +124,28 @@
         </div>
         <div class="an-menubutton">
           .an-menu-button
+          <div class="an-menu">
+            <div class="an-title">
+              .an-title
+            </div>
+            <a class="an-button">
+              .an-button
+            </a>
+            <div class="an-sub">
+              .an-sub
+              <div class="an-submenu">
+                <div class="an-title">
+                  .an-submenu
+                </div>
+                <a class="an-button">
+                  .an-button
+                </a>
+                <a class="an-button">
+                  .an-button
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <form class="an-form" action="" method="post">
@@ -137,6 +163,83 @@
       </form>
       <div class="an-glass">
         <div class="an-title">
+          .an-labels
+        </div>
+        <div class="an-infobox">
+          Please note that the names of these labels are subject to change.
+          They are intended to provide a set of easy to remember components
+          and give a standard for building your websites and applications.
+          However, there are other labels included with anole that have less
+          standard names and serve to provide greater variety within the
+          framework. See <div class="an-label an-label-information">"non-standard labels."</div>
+          <br><br>
+          <div class="">
+            <div class="an-label an-label-standard">
+              .an-label.an-label-standard
+            </div>
+            <div class="an-label an-label-critical">
+              .an-label.an-label-critical
+            </div>
+            <div class="an-label an-label-information">
+              .an-label.an-label-information
+            </div>
+            <div class="an-label an-label-optional">
+              .an-label.an-label-optional
+            </div>
+          </div>
+        </div>
+        <div class="an-infobox">
+          <div class="an-heading">
+            Non-standard labels
+          </div>
+          These are the remaining labels available in Anole. They provide a
+          wider selection of colours, which you can use for any purpose you
+          choose.
+          <br>
+          <div class="an-protip">
+            <div class="an-tip-title">
+              PRO-TIP:
+            </div>
+            <div class="an-tip-text">
+              For the sake of consistency, you should plan ahead which colours
+              you are going use in your website or application, and stick with
+              these.
+            </div>
+          </div>
+          <br>
+          <div class="an-center-row">
+            <div class="an-label an-label-black">
+              .an-label-black
+            </div>
+            <div class="an-label an-label-blue">
+              .an-label-blue
+            </div>
+            <div class="an-label an-label-green">
+              .an-label-green
+            </div>
+            <div class="an-label an-label-orange">
+              .an-label-orange
+            </div>
+          </div>
+          <br>
+          <div class="an-center-row">
+            <div class="an-label an-label-purple">
+              .an-label-purple
+            </div>
+            <div class="an-label an-label-red">
+              an-label-red
+            </div>
+            <div class="an-label an-label-white">
+              .an-label-white
+            </div>
+            <div class="an-label an-label-yellow">
+              .an-label-yellow
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="an-glass">
+        <div class="an-title">
           .an-reveal classes
         </div>
         <div class="an-infobox">
@@ -144,9 +247,9 @@
           Anole reveal animations can be triggered by a simple hover (or tap on mobile),
           or you can trigger them programatically by adding the "active" class via Javascript.
           Since these classes use transitions to produce their animations, you can easily
-          adjust their timing by overriding the corresponding <div class="an-label an-label-green">"an-wipe-*"</div>
-          or <br><div class="an-label an-label-green">"an-show-*"</div> classes with your own.
-          <br>Simply include <div class="an-label an-label-green">transition: Xs</div>.
+          adjust their timing by overriding the corresponding <div class="an-label an-label-standard">"an-wipe-*"</div>
+          or <br><div class="an-label an-label-standard">"an-show-*"</div> classes with your own.
+          <br>Simply include <div class="an-label an-label-standard">transition: Xs</div>.
         </div>
         <div class="an-gen-spacer">
         </div>
@@ -203,7 +306,7 @@
       </div>
     </div>
     <div class="an-tail">
-      <div class="an-label an-label-green">.an-tail</div>
+      <div class="an-label an-label-standard">.an-tail</div>
       <div class="">
         this section is always visible, but can be hidden.
       </div>

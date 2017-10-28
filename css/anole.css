@@ -312,7 +312,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-width: 0px;
   background-color: rgb(35, 35, 35);
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   min-width: 15%;
   border-radius: 0px;
   margin: 0px 0px 0px 0px;
@@ -329,12 +329,13 @@ classes, and watch Anole do the work of making your site look pretty for you!
 }
 
 .an-head > .an-title > * > img {
-  width: 35px;
+  width: 24px;
   height: auto;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 15px -3px -15px;
 }
 
 .an-menubutton {
+  position: relative;
   font-size: 15px;
   background-color: rgb(75, 75, 75);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -355,10 +356,65 @@ classes, and watch Anole do the work of making your site look pretty for you!
 .an-menubutton:hover {
   background-color: rgb(75, 135, 95);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(45, 135, 95, 0.5);
-  letter-spacing: 1px;
   border-width: 0px 0px 5px 0px;
   border-color: rgba(135, 235, 35, 1);
   transition: 1.2s;
+}
+
+.an-menubutton > .an-menu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -155%;
+  left: 0;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 100%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;  margin-top: 1px;
+  margin-bottom: 1px;
+  transition: all 0.321s, border-color 1.735s;
+}
+
+.an-menubutton:hover > .an-menu {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  top: 108.5%;
+  left: 0;
+  z-index: 1031;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 100%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 1.021s, border-color 1.735s;
+}
+
+.an-head > .an-menubutton:hover {
+  position: relative;
+  background-color: rgba(75, 135, 95, 0.1);
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  border-top-color: rgba(134, 255, 36, 1);
+  text-transform: uppercase;
+  min-width: 10%;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.421s, border-color 1.735s;
 }
 
 .an-button {
@@ -802,18 +858,111 @@ the spacer.
   padding-left: 10px;
   border-radius: 5px;
   border-color: rgb(255, 255, 255);
-  margin-right: 1px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.an-label-standard {
+  color: white;
+  background-color: rgba(75, 135, 75, 1);
+}
+
+.an-label-critical {
+  color: white;
+  background-color: rgba(235, 75, 75, 1);
+}
+
+.an-label-information {
+  color: white;
+  background-color: rgba(35, 145, 255, 1);
+}
+
+.an-label-optional {
+  color: white;
+  background-color: rgba(135, 95, 235, 1);
+}
+
+.an-label-black {
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.an-label-blue {
+  color: white;
+  background-color: rgba(45, 145, 255, 1);
 }
 
 .an-label-green {
   color: white;
-  background-color: rgba(75, 135, 75, 1);
+  background-color: rgba(75, 185, 85, 1);
+}
+
+.an-label-orange {
+  color: white;
+  background-color: rgba(235, 135, 35, 1);
+}
+
+.an-label-purple {
+  color: white;
+  background-color: rgba(175, 75, 215, 1);
+}
+
+.an-label-red {
+  color: white;
+  background-color: rgba(235, 75, 75, 1);
+}
+
+.an-label-white {
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.an-label-yellow {
+  color: black;
+  background-color: rgba(255, 215, 75, 1);
 }
 
 .an-spacer-right {
   max-width: 100%;
   width: 10%;
   float: right;
+}
+
+.an-protip {
+  padding: 35px 35px 35px 35px;
+  color: black;
+  font-size: 12px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  border-color: rgb(255, 255, 255);
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-width: 1px;
+  box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.5);
+  word-wrap: break-word;
+}
+
+.an-protip > .an-tip-title {
+  display: inline-block;
+  float: left;
+  padding: 15px 35px 15px 35px;
+  color: white;
+  font-size: 15px;
+  font-family: LatoWebMedium;
+  letter-spacing: 3px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(75, 135, 75, 1);
+  box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.5);
+  margin-right: 35px;
+}
+
+.an-protip > .an-tip-text {
+  display: inline;
+  font-size: 18px;
 }
 
 .an-stickright {
@@ -910,7 +1059,7 @@ the spacer.
   letter-spacing: 2px;
 }
 
-.an-tip-parent:hover .an-tip {
+.an-tip-parent:hover .an-tip, .an-button:hover > .an-tip {
   position: absolute;
   top: 135%;
   left: 12.5%;
@@ -922,6 +1071,82 @@ the spacer.
   text-align: center;
   transition: 0.5s;
   letter-spacing: 2px;
+}
+
+.an-text-tip.an-tip-parent {
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+  text-decoration: underline;
+  text-decoration-color: rgba(35, 135, 235, 1);
+  text-decoration-style: dotted;
+}
+
+.an-text-tip > .an-tip {
+  min-width: 315px;
+  max-width: 315px;
+  font-size: 15px;
+  font-family: LatoWebMedium;
+  padding: 15px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8), 0px 0px 5px rgba(95, 235, 35, 0.7);
+  border-radius: 8px;
+  top: 35px;
+  left: -125px;
+  transition: 1.765s;
+}
+
+.an-tip > .an-tip-sub {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  color: rgb(35, 35, 35);
+  border-radius: 0px 0px 8px 8px;
+  font-family: LatoWebLight;
+  margin: 5px -15px -15px -15px;
+}
+
+.an-text-tip:hover > .an-tip {
+  padding: 15px !important;
+  min-width: 315px !important;
+  max-width: 315px !important;
+  left: -125px;
+  font-size: 15px;
+  font-family: LatoWebMedium;
+  box-shadow: 0px 0px 35px 5px rgba(0, 0, 0, 0.8), 0px 0px 5px rgba(95, 235, 35, 0.7);
+  border-radius: 8px;
+  transition: 1.3s;
+}
+
+.an-tip > a, .an-tip > * > a {
+  color: rgba(95, 235, 135, 1);
+  background-color: rgb(5, 35, 25);
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  outline: none;
+  margin: 0px 5px 0px 5px;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+  text-decoration: underline;
+  text-decoration-color: rgba(35, 235, 135, 0);
+  text-decoration-style: dotted;
+  transition: 1s;
+}
+
+.an-tip > a:hover, .an-tip > * > a:hover {
+  color: rgba(95, 235, 255, 1);
+  background-color: rgb(5, 25, 15);
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  margin: 0px 15px 0px 15px;
+  outline: none;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+  text-decoration: underline;
+  text-decoration-color: rgba(35, 235, 135, 0.5);
+  text-decoration-style: dotted;
+  transition: all 1s;
 }
 
 /*Forms*/
@@ -1095,6 +1320,7 @@ the spacer.
   position: relative;
   padding: 15px;
   margin: 15px 5px 15px 5px;
+
 }
 
 .an-reveal > .an-wipe-left {

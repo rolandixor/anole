@@ -78,6 +78,8 @@
           By default, Anole uses the Lato font family, but you can override this with your own css.
           Also, Anole is themed out the box, so you can drop it in your html and go.
           <br><br>
+          To navigate this demo page, use the <div class="an-text-tip an-tip-parent">sidebar<div class="an-tip">The sidebar on this page uses .an-sidebar, but there is also .an-sidebar-right for right-aligned sidebars.<div class="an-tip-sub">See <a href="#an-sidebars">.an-sidebars</a> for more.</div></div></div> to the left of the page.
+          <br><br>
           If you would like to try other themes, just swap out the existing css
           for another theme and see how it looks!.
         </div>
@@ -148,7 +150,7 @@
           </div>
         </div>
       </div>
-      <form class="an-form" action="" method="post">
+      <form class="an-form" action="" method="post" id="an-form">
         <div class="an-title">
           .anform > .an-title
         </div>
@@ -156,12 +158,16 @@
           <div class="an-50p">
             <label for="demo">.an-form > label</label><input type="text" name="demo" value="test" placeholder="">
           </div>
+          <div class="an-mobile-spacer">
+          </div>
           <div class="an-50p">
             <input type="submit" name="submit" value="submit" placeholder=""><input type="reset" name="reset" value="reset" placeholder="">
           </div>
         </div>
       </form>
-      <div class="an-glass">
+
+      <!--.an-labels-->
+      <div class="an-glass" id="an-labels">
         <div class="an-title">
           .an-labels
         </div>
@@ -240,7 +246,7 @@
       </div>
       <div class="an-glass">
         <div class="an-title">
-          .an-reveal classes
+          .an-reveal class family
         </div>
         <div class="an-infobox">
           Place your mouse over any ".an-reveal" to see its corresponding action.
@@ -253,57 +259,155 @@
         </div>
         <div class="an-gen-spacer">
         </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-wipe-left">
-            .an-wipe-left
+        <div class="an-glass">
+          <div class="an-heading">
+            .an-wipe- classes:
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-wipe-right">
-            .an-wipe-right
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-wipe-left
+              <div class="an-wipe-left">
+                .an-wipe-left
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-wipe-right
+              <div class="an-wipe-right">
+                .an-wipe-right
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-wipe-down">
-            .an-wipe-down
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-wipe-up
+              <div class="an-wipe-up">
+                .an-wipe-up
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > ...-wipe-down
+              <div class="an-wipe-down">
+                .an-wipe-down
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-wipe-up">
-            .an-wipe-up
+          <div class="an-gen-spacer">
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-show-down">
-            .an-show-down
+          <div class="an-heading">
+            .an-show- classes:
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-show-up">
-            .an-show-up
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal
+              <div class="an-show-down">
+                .an-show-down
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal
+              <div class="an-show-up">
+                .an-show-up
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-show-left">
-            .an-show-left
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal
+              <div class="an-show-left">
+                .an-show-left
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal
+              <div class="an-show-right">
+                .an-show-right
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="an-reveal an-center">
-          .an-reveal
-          <div class="an-show-right">
-            .an-show-right
+          <div class="an-gen-spacer">
+
+          </div>
+          <div class="an-heading">
+            .an-spoiler- classes:
+          </div>
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-x
+              <div class="an-spoiler-x">
+                .an-spoiler-x
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-xb
+              <div class="an-spoiler-xb">
+                .an-spoiler-xb
+              </div>
+            </div>
+          </div>
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-y
+              <div class="an-spoiler-y">
+                .an-spoiler-y
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-yb
+              <div class="an-spoiler-yb">
+                .an-spoiler-yb
+              </div>
+            </div>
+          </div>
+          <div class="an-center-row">
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-spinoutx
+              <div class="an-spoiler-spinoutx">
+                .an-spoiler-spinoutx
+              </div>
+            </div>
+            <div class="an-reveal an-center an-35p">
+              .an-reveal > .an-spoiler-spinouty
+              <div class="an-spoiler-spinouty">
+                .an-spoiler-spinouty
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="an-gen-spacer-huge">
       </div>
+
+      <div class="an-sidebar">
+        <div class="">
+          <div class="an-sb-title">
+            .an-sidebar
+          </div>
+          <a class="an-button" href="#an-form">
+            .an-form
+          </a>
+          <a class="an-button" href="#an-labels">
+            .an-labels
+          </a>
+          <div class="an-button">
+            test
+          </div>
+          <div class="an-button">
+            test
+          </div>
+          <div class="an-button">
+            test
+          </div>
+          <div class="an-button">
+            test
+          </div>
+        </div>
+        <!--
+        <div class="an-tip">
+          useful for in-page navigation.
+        </div>
+        -->
+      </div>
+
     </div>
     <div class="an-tail">
       <div class="an-label an-label-standard">.an-tail</div>

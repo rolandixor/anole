@@ -1,4 +1,4 @@
-submit/***
+/***
 As with Passionfruit, Anole is designed to help you get your site up and running
 quickly. Also, as with Passionfruit, Anole sets nothing by default. Rather, it is
 designed to only come when called, so that you can mix and match it with other
@@ -1007,6 +1007,18 @@ the spacer.
   margin: 15px;
 }
 
+.an-infobox-dark, .an-box > * > .an-infobox, .an-box > .an-infobox {
+  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.3);
+  background-color: rgba(35, 35, 35, 1);
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 35px;
+  margin: 15px;
+  color: white;
+}
+
 .an-sunkenplace {
   border-color: rgba(5, 5, 5, 0.1);
   border-style: solid;
@@ -1093,9 +1105,9 @@ the spacer.
   padding: 15px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8), 0px 0px 5px rgba(95, 235, 35, 0.7);
   border-radius: 8px;
-  top: 35px;
+  top: -5px;
   left: -125px;
-  transition: 0.265s;
+  transition: 0.165s;
 }
 
 .an-tip > .an-tip-sub {
@@ -1862,4 +1874,13 @@ the spacer.
     width: 100%;
     margin: 15px 35px 15px 35px !important;
   }
+}
+
+.an-anchorpoint {
+  position: relative;
+}
+
+.an-anchorpoint > div {
+  position: absolute;
+  top: -75px;
 }

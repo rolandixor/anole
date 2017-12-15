@@ -1884,3 +1884,17 @@ the spacer.
   position: absolute;
   top: -75px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.an-text > h1, .an-text > h2, .an-text > h3, .an-text > h4, .an-text > h5, .an-text > h6 {
+  color: rgb(135, 235, 105);
+}
+
+.an-text-alt > h1, .an-text-alt > h2, .an-text-alt > h3, .an-text-alt > h4, .an-text-alt > h5, .an-text-alt > h6 {
+  color: rgb(255, 255, 255);
+}

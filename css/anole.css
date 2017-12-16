@@ -1073,11 +1073,50 @@ the spacer.
   position: relative;
   font-family: monospace;
   line-height: 175%;
+  border-color: rgba(255, 255, 255, 0.1);
   color: rgb(95, 235, 255);
+  transition: 0.915s;
+}
+
+.an-codeblock:hover {
+  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.7), inset 0px 0px 35px 1px rgba(0, 0, 0, 0.3);
+  border-color: rgba(135, 135, 135, 0.2);
+  transition: 1.315s;
 }
 
 .an-codeblock > .an-box {
   margin: 35px 5px 5px 5px;
+  position: relative;
+}
+
+.an-codeblock > .an-box::after {
+  content: 'example';
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  position: absolute;
+  font-family: LatoWebLight;
+  color: rgb(235,235,235);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 5px;
+  background-color: rgba(35, 35, 35, 1);
+  padding: 5px 15px 5px 22px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+  top: -20px;
+  left: 83%;
+  transition: 2.5s;
+}
+
+.an-codeblock > .an-box:hover:after {
+  border-color: rgba(135, 235, 145, 0.3);
+  background-color: rgba(15, 15, 15, 1);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.8);
+  color: rgb(35, 215, 255);
+  text-shadow: 0px 0px 15px rgba(105, 235, 95, 0.5);
+  transition: 1.35s;
 }
 
 .an-codeblock::after {
@@ -1931,7 +1970,30 @@ the spacer.
   left: 155%;
 }
 
-/*Common mobile break point*/
+.an-anchorpoint {
+  position: relative;
+}
+
+.an-anchorpoint > div {
+  position: absolute;
+  top: -75px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.an-text > h1, .an-text > h2, .an-text > h3, .an-text > h4, .an-text > h5, .an-text > h6 {
+  color: rgb(135, 235, 105);
+}
+
+.an-text-alt > h1, .an-text-alt > h2, .an-text-alt > h3, .an-text-alt > h4, .an-text-alt > h5, .an-text-alt > h6 {
+  color: rgb(255, 255, 255);
+}
+
+/*Common mobile break point - always place at the bottom of the file so it's easier to find*/
 @media only screen and (max-width: 768px) {
   .an-sidebar:hover {
     top: 7.5%;
@@ -1973,27 +2035,4 @@ the spacer.
     width: 100%;
     margin: 15px 35px 15px 35px !important;
   }
-}
-
-.an-anchorpoint {
-  position: relative;
-}
-
-.an-anchorpoint > div {
-  position: absolute;
-  top: -75px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-.an-text > h1, .an-text > h2, .an-text > h3, .an-text > h4, .an-text > h5, .an-text > h6 {
-  color: rgb(135, 235, 105);
-}
-
-.an-text-alt > h1, .an-text-alt > h2, .an-text-alt > h3, .an-text-alt > h4, .an-text-alt > h5, .an-text-alt > h6 {
-  color: rgb(255, 255, 255);
 }

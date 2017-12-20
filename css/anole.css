@@ -328,10 +328,10 @@ classes, and watch Anole do the work of making your site look pretty for you!
   transition: 1.015s;
 }
 
-.an-head > .an-title > * > img {
+.an-head > .an-title > * > img, .an-head > .an-title > img {
   width: 24px;
   height: auto;
-  margin: 0px 15px -3px -15px;
+  margin: 0px 15px 3px 0px;
 }
 
 .an-head > a > img {
@@ -1237,16 +1237,16 @@ the spacer.
 }
 
 .an-text-tip > .an-tip {
-  min-width: 315px;
-  max-width: 315px;
+  min-width: 415px;
+  max-width: 715px;
   font-size: 15px;
   font-family: LatoWebMedium;
   padding: 15px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8), 0px 0px 5px rgba(95, 235, 35, 0.7);
   border-radius: 8px;
   top: -5px;
-  left: -125px;
-  transition: 0.165s;
+  left: -175px;
+  transition: 0.135s;
 }
 
 .an-tip > .an-tip-sub {

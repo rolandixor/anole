@@ -1272,7 +1272,7 @@ the spacer.
   color: rgb(35, 35, 35);
   border-radius: 0px 0px 8px 8px;
   font-family: LatoWebLight;
-  margin: 5px -15px -15px -15px;
+  margin: 10px -15px -15px -15px;
 }
 
 .an-text-tip:hover > .an-tip {
@@ -1284,7 +1284,7 @@ the spacer.
   font-family: LatoWebMedium;
   box-shadow: 0px 0px 35px 5px rgba(0, 0, 0, 0.8), 0px 0px 5px rgba(95, 235, 35, 0.7);
   border-radius: 8px;
-  transition: 0.435s;
+  transition: 0.315s;
 }
 
 .an-tip > a, .an-tip > * > a {

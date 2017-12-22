@@ -1240,6 +1240,7 @@ the spacer.
 
 .an-button:hover > .an-tip, .an-head:hover > * > .an-tip {
   top: 135%;
+  left: 7.35%;
 }
 
 .an-text-tip.an-tip-parent {
@@ -2025,6 +2026,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-glass {
     margin: 35px 5px 35px 5px;
+  }
+
+  .an-hdn-dragon, .an-hdn-mobile {
+    display: none;
   }
 
   .an-label {

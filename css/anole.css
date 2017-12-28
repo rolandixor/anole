@@ -713,8 +713,9 @@ classes, and watch Anole do the work of making your site look pretty for you!
   visibility: visible;
   opacity: 1;
   top: -35%;
-  left: 100%;
-  width: 100%;
+  left: 99%;
+  z-index: 200;
+  width: 105%;
   position: absolute;
   background-color: rgba(75, 75, 75, 0.9);
   border-width: 0px 0px 0px 3px;

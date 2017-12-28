@@ -691,7 +691,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   opacity: 0;
   position: absolute;
   top: -35%;
-  left: 75%;
+  left: 135%;
   width: 100%;
   color: white;
   background-color: rgba(75, 75, 75, 1);
@@ -706,7 +706,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.315s, border-color 0.932s;
+  transition: all 0.105s, border-color 0.932s;
 }
 
 .an-menu > .an-sub:hover > .an-submenu {
@@ -728,7 +728,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.421s, border-color 1.735s;
+  transition: all 0.375s, border-color 1.735s;
 }
 
 .an-menu > .an-sub > .an-submenu > .an-button {
@@ -738,6 +738,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   border-color: rgba(134, 255, 36, 0);
   border-width: 0px 3px 0px 0px;
   padding: 15px;
+  z-index: 205;
   margin: 1px 0px 1px 0px;
   border-style: solid;
   text-transform: uppercase;

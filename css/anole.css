@@ -601,7 +601,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   visibility: visible;
   opacity: 1;
   position: absolute;
-  top: 108.5%;
+  top: 103.5%;
   left: 0;
   z-index: 1031;
   text-transform: uppercase;
@@ -686,13 +686,30 @@ classes, and watch Anole do the work of making your site look pretty for you!
   transition: all 0.421s, border-color 1.735s;
 }
 
+.an-sub::after, .an-menubutton::after {
+  content: "▶";
+  position: absolute;
+  top: 31.5%;
+  left: 92.5%;
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+.an-sub:hover:after, .an-menubutton:hover:after {
+  transition: 0.5s;
+  top: 35.5%;
+  transform: rotate(90deg) !important;
+  color: rgba(134, 255, 36, 1);
+}
+
 .an-menu > .an-sub > .an-submenu {
   visibility: none;
   opacity: 0;
   position: absolute;
   top: -35%;
-  left: 135%;
-  width: 100%;
+  left: 100%;
+  width: 0%;
+  z-index: -350;
   color: white;
   background-color: rgba(75, 75, 75, 1);
   letter-spacing: 3px;
@@ -706,7 +723,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.105s, border-color 0.932s;
+  transition: all 0;
 }
 
 .an-menu > .an-sub:hover > .an-submenu {
@@ -728,7 +745,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.375s, border-color 1.735s;
+  transition: all 0.375s;
 }
 
 .an-menu > .an-sub > .an-submenu > .an-button {

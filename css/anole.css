@@ -581,7 +581,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: -155%;
+  top: 75%;
   left: 0;
   background-color: black;
   text-transform: uppercase;
@@ -592,9 +592,9 @@ classes, and watch Anole do the work of making your site look pretty for you!
   display: flex;
   justify-content:center;
   align-content:center;
-  flex-direction:column;  margin-top: 1px;
+  flex-direction:column;
   margin-bottom: 1px;
-  transition: all 0.321s, border-color 1.735s;
+  transition: all 0.435s;
 }
 
 .an-head > .an-menubutton:hover > .an-menu {
@@ -603,6 +603,7 @@ classes, and watch Anole do the work of making your site look pretty for you!
   position: absolute;
   top: 103.5%;
   left: 0;
+  height: auto;
   z-index: 1031;
   text-transform: uppercase;
   letter-spacing: 1px;

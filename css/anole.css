@@ -352,6 +352,13 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   margin-top: -10px;
 }
 
+.an-head > .an-mobile-menubutton {
+  display: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 0px 35px 0px 35px;
+}
+
 .an-head > a {
   position: relative;
   margin: 0px;
@@ -379,6 +386,35 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   letter-spacing: 1px;
   min-width: 7.5%;
   transition: all 0.421s, border-color 1.735s;
+}
+
+.an-head > a.an-home-button {
+  background-color: rgba(75, 135, 95, 0.3);
+  border-width: 0px 0px 0px 0px;
+  letter-spacing: 4px;
+}
+
+.an-head > a.an-home-button:hover {
+  background-color: rgba(75, 135, 95, 1);
+  border-width: 0px 3px 0px 0px !important;
+  border-right-color: rgba(135, 255, 35, 1);
+  letter-spacing: 7px;
+  padding-left: 45px;
+}
+
+.an-head > a.an-home-button::after {
+  position: absolute;
+  top: 37.5%;
+  left: 9.5%;
+  content: "◀";
+  font-size: 9px;
+  opacity: 0;
+  transition: 0.375s;
+}
+
+.an-head > a.an-home-button:hover:after {
+  opacity: 1;
+  transition: 0.735s;
 }
 
 /*Needs work*/
@@ -654,7 +690,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-sub::after, .an-menubutton::after {
+.an-sub::after, .an-menubutton::after, .an-mobile-menubutton::after {
   content: "▶";
   position: absolute;
   top: 31.5%;
@@ -663,7 +699,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.2s;
 }
 
-.an-sub:hover:after, .an-menubutton:hover:after {
+.an-sub:hover:after, .an-menubutton:hover:after, .an-mobile-menubutton:hover:after {
   transition: 0.5s;
   top: 35.5%;
   transform: rotate(90deg) !important;
@@ -1005,6 +1041,7 @@ the spacer.
   background-color: rgba(75, 135, 75, 1);
   box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.5);
   margin-right: 35px;
+  margin-bottom: 5px;
 }
 
 .an-protip > .an-tip-text {
@@ -1998,6 +2035,10 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255, 255, 255);
 }
 
+.an-shn-mobile {
+  display: none;
+}
+
 /*Common mobile break point - always place at the bottom of the file so it's easier to find*/
 @media only screen and (max-width: 768px) {
   .an-sidebar:hover {
@@ -2006,6 +2047,13 @@ h1, h2, h3, h4, h5, h6 {
     height: 85%;
     width: 100%;
     transition: 1s;
+  }
+
+  .an-mobile-menubutton {
+    display: flex !important;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
   }
 
   .an-center-row {
@@ -2017,7 +2065,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-hdn-dragon, .an-hdn-mobile {
-    display: none;
+    display: none !important;
+  }
+
+  .an-shn-mobile {
+    display: inherit;
   }
 
   .an-label {

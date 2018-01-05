@@ -10,7 +10,6 @@
   <body class="anole">
     <div class="an-head">
       <div class="an-title an-tip-parent">
-        <img src="img/anole-icon.png" alt="">
         anole
         <div class="an-tip">
           <span class="smallmuhtext8">&#x25b2;</span>&nbsp;&nbsp;.an-title component
@@ -18,11 +17,31 @@
       </div>
       <div class="an-spacer">
       </div>
-      <div class="an-menubutton">
-        demo navigation
+      <div class="an-menubutton an-hdn-mobile">
+        documentation
         <div class="an-menu">
           <div class="an-title">
             select one:
+          </div>
+          <div class="an-sub">
+            getting started
+            <div class="an-submenu">
+              <div class="an-title">
+                the basics
+              </div>
+              <a class="an-button" href="#">
+                basic template
+              </a>
+              <a class="an-button" href="#">
+                mobile template
+              </a>
+              <div class="an-title">
+                advanced
+              </div>
+              <a class="an-button" href="#">
+                todo
+              </a>
+            </div>
           </div>
           <div class="an-sub">
             components
@@ -38,6 +57,9 @@
               </a>
               <a class="an-button" href="an-labels">
                 labels
+              </a>
+              <a class="an-button" href="an-sidebars">
+                sidebars
               </a>
               <a class="an-button" href="an-tips">
                 tips
@@ -67,20 +89,43 @@
               </a>
             </div>
           </div>
+          <div class="an-sub">
+            extend anole
+            <div class="an-submenu">
+              <div class="an-title">
+                CSS
+              </div>
+              <a href="themes" class="an-button">
+                standard themes
+              </a>
+              <a href="create-themes" class="an-button">
+                creating themes
+              </a>
+              <a href="extensions/css" class="an-button">
+                css extensions
+              </a>
+              <div class="an-title">
+                Javascript
+              </div>
+              <a href="exentensions/js" class="an-button">
+                js extensions
+              </a>
+            </div>
+          </div>
           <a class="an-button" href="an-labels">
             "easter eggs"
           </a>
-          <a class="an-button" href="an-modifiers">
-            modifiers
+          <a class="an-button" href="an-title">
+            mobile
           </a>
           <div class="an-title">
             ---
           </div>
         </div>
       </div>
-      <div class="an-spacer-tiny">
+      <div class="an-spacer-tiny an-hdn-mobile">
       </div>
-      <div class="an-menubutton">
+      <div class="an-menubutton an-hdn-mobile">
         <span><img src="img/anole.svg" alt="">&nbsp;about anole</span>
         <div class="an-menu">
           <div class="an-title">
@@ -97,9 +142,9 @@
           </div>
         </div>
       </div>
-      <div class="an-spacer-tiny">
+      <div class="an-spacer-tiny an-hdn-mobile">
       </div>
-      <a href="https://github.com/rolandixor/anole" class="an-button an-button-wide an-stickright">
+      <a href="https://github.com/rolandixor/anole" class="an-button an-hdn-mobile an-button-wide an-stickright">
         anole on github
         <div class="an-tip">
           Report bugs, contribute, or just get the code.
@@ -113,6 +158,11 @@
           visit my website
         </div>
         <span class="an-hdn-dragon">rolandixor.pro</span>
+      </a>
+      <div class="an-spacer-tiny">
+      </div>
+      <a href="#" class="an-mobile-menubutton">
+        mobile menu
       </a>
     </div>
     <div class="an-body">
@@ -129,12 +179,15 @@
         <div class="an-antisocial">
           Anole is pure CSS framework for creating stylish, responsive web pages, and stunning, modern web-applications,
           without getting into the way. It's also light, fast, and easy to extend. By default, Anole uses the Lato font family, but you can override this with your own css.
-          Also, Anole is themed out the box, so you can drop it in your html and go.
+          Anole is themed out the box, so you can drop it in your html and go.
           <br><br>
           Since it only uses CSS, Anole does have some limitations afforded to similar projects, such as Bootstrap or Foundation,
           but it seeks to shine on its on by leveraging the power of CSS for all that it's worth. And don't forget, if there's
           anything that Anole can't do, you can always mix it up with a little javascript of your own, or use it alongside
-          Bootstrap or any other toolkit that provides the feature you need.
+          Bootstrap or any other toolkit that provides the feature(s) you need.
+          <br><br>
+          If you're looking for fine-grained control and a "building blocks" design, try my other pure CSS framework:
+          <a class="an-link" href="https://github.com/rolandixor/passionfruit" target="_blank">passionfruit</a>test
         </div>
         <div class="an-title">
           About this demo:
@@ -163,38 +216,25 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="an-anchorpoint">
-        <div class="" id="an-box">
-        </div>
-      </div>
-      <div class="an-glass">
-        <div class="an-infobox">
-          <div class="an-heading">
-            an-box
+        <div class="an-protip an-shn-mobile">
+          <div class="an-tip-title">
+            PRO-TIP:
           </div>
-          with this class, you can turn any element into a pretty box,
-          like this one. .an-box will take care of line spacing, padding and margins.
-          <br>However, if you need anything extra, such as a definite width, you will
-          need a helper class such as .an-35p (for example).
-        </div>
-        <div class="an-center">
-          <div class="an-box">
-            <div class="an-label an-label-standard">.an-box</div> with no further content but this text.
+          <div class="an-tip-text">
+            Some elements, such as this one, and the mobile menu, are hidden until you're on a mobile device or until
+            your screen is below a certain width. You can use Anole's an-hdn-mobile and an-shn-mobile for such responsive
+            capabilities on any element.
+            <br>
           </div>
-          <div class="an-box an-center">
-            <span class="">
-              <div class="an-label an-label-standard">.an-box</div> with
-              <div class="an-label an-label-standard">.an-center</div>
-              applied. With this combination, you can center
-              the content of your .an-box.
-              <br>
-              <div class="an-infobox">
-                NOTICE: When using .an-label within .an-center, the contents of
-                <div class="an-label an-label-standard">.an-center</div>
-                will need to be wrapped in another element, such as a span.
-              </div>
-            </span>
+          <br>
+          <div class="an-tip-title">
+            PRO-TIP:
+          </div>
+          <div class="an-tip-text">
+            If you're developing a site with an extensive menu, it is recommended that you place your menu on a separate
+            page. Since Anole uses no Javascript, it is not easy to implement a menu that can be scrolled. Also, you
+            cannot have any elements that overflow the width or height of the screen if hovered or active. Consider
+            How you will layout your site before implementing your design.
           </div>
         </div>
       </div>
@@ -515,13 +555,13 @@
           <br><br>See the example below:
         </div>
         <div class="an-codeblock">
-          &lt;div <span class="an-code-green">class="an-text-tip an-tip-parent"</span>&gt;<span class="an-code-white">Hey kid, I've got a tip: hover the underlined text</span>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="an-code-green">class="an-tip-parent"</span>&gt;<span class="an-code-white">I'm a tip, homie.</span>&lt;&#47;div&gt;
+          &lt;div <span class="an-code-green">class=""</span>&gt;<span class="an-code-white">Hey kid, I've got a tip:</span>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="an-code-green">class="an-text-tip an-tip-parent"</span>&gt;<span class="an-code-white">I'm a tip, homie.</span>&lt;&#47;div&gt;<span class="an-code-white"> hover/tap the underlined text.</span>
           <br>&lt;&#47;div&gt;
           <div class="an-box an-center">
             <div class="">
               Hey kid, <span class="an-text-tip an-tip-parent">I've got a tip:<div class="an-tip">I'm a tip, homie.</div></span>
-              hover the underlined text.
+              hover/tap the underlined text.
             </div>
           </div>
         </div>

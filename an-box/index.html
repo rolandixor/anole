@@ -1,1 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/anole.css">
+    <link rel="shortcut icon" href="../anole-icon.ico">
+    <title>Anole Demo - Boxes</title>
+  </head>
+  <body class="anole">
+    <div class="an-head">
+      <a class="an-button an-home-button"href="../">return home</a>
+      <div class="an-spacer">
+      </div>
+      <div class="an-menubutton an-hdn-mobile">
+        documentation
+        <div class="an-menu">
+          <div class="an-title">
+            select one:
+          </div>
+          <div class="an-sub">
+            components
+            <div class="an-submenu">
+              <div class="an-title">
+                basic
+              </div>
+              <a class="an-button" href="an-reveal">
+                an-reveal family
+              </a>
+              <a class="an-button" href="an-button">
+                buttons/menus
+              </a>
+              <a class="an-button" href="an-labels">
+                labels
+              </a>
+              <a class="an-button" href="an-sidebars">
+                sidebars
+              </a>
+              <a class="an-button" href="an-tips">
+                tips
+              </a>
+              <a class="an-button" href="an-title">
+                titles
+              </a>
+            </div>
+          </div>
+          <div class="an-sub">
+            containers
+            <div class="an-submenu">
+              <div class="an-title">
+                basic
+              </div>
+              <a class="an-button" href="an-sunkenplace">
+                an-sunkenplace
+              </a>
+              <a class="an-button an-disabled">
+                boxes
+              </a>
+              <a class="an-button" href="an-code">
+                codeblocks
+              </a>
+              <a class="an-button" href="an-labels">
+                generic
+              </a>
+            </div>
+          </div>
+          <div class="an-sub">
+            extend anole
+            <div class="an-submenu">
+              <div class="an-title">
+                CSS
+              </div>
+              <a href="themes" class="an-button">
+                standard themes
+              </a>
+              <a href="create-themes" class="an-button">
+                creating themes
+              </a>
+              <a href="extensions/css" class="an-button">
+                css extensions
+              </a>
+              <div class="an-title">
+                Javascript
+              </div>
+              <a href="exentensions/js" class="an-button">
+                js extensions
+              </a>
+            </div>
+          </div>
+          <a class="an-button" href="an-labels">
+            "easter eggs"
+          </a>
+          <a class="an-button" href="an-title">
+            mobile
+          </a>
+          <div class="an-title">
+            ---
+          </div>
+        </div>
+      </div>
+      <div class="an-spacer-tiny an-hdn-mobile">
+      </div>
+      <div class="an-menubutton an-hdn-mobile">
+        <span><img src="img/anole.svg" alt="">&nbsp;about anole</span>
+        <div class="an-menu">
+          <div class="an-title">
+            choose one
+          </div>
+          <a href="#" class="an-button">
+            FAQ
+          </a>
+          <a class="an-button" href="an-modifiers">
+            why anole?
+          </a>
+          <div class="an-title">
+            ---
+          </div>
+        </div>
+      </div>
+      <div class="an-spacer-tiny an-hdn-mobile">
+      </div>
+      <a href="https://github.com/rolandixor/anole" class="an-button an-hdn-mobile an-button-wide an-stickright">
+        anole on github
+        <div class="an-tip">
+          Report bugs, contribute, or just get the code.
+        </div>
+      </a>
+      <div class="an-spacer-tiny">
+      </div>
+      <a href="https://rolandixor.pro" class="an-center-row an-tip-parent">
+        <img src="../img/rx-logo.png" alt="">
+        <div class="an-tip an-hdn-mobile">
+          visit my website
+        </div>
+        <span class="an-hdn-dragon">rolandixor.pro</span>
+      </a>
+      <div class="an-spacer-tiny">
+      </div>
+      <a href="#" class="an-mobile-menubutton">
+        mobile menu
+      </a>
+    </div>
+    <div class="an-body">
+      <div class="an-center-row an-header">
+        <img src="../img/anole.png" alt="" width="128px" height="auto">
+        <div class="" style="margin-left: 35px;">
+          anole framework demo (WIP) - boxes
+        </div>
+      </div>
+      <div class="an-glass">
+        <div class="an-title">
+          an-box
+        </div>
+        Use
+        <div class="an-label an-label-standard">
+          .an-box
+        </div> to turn divs and other block level elements into card-like containers for other content.
+        <div class="an-label an-label-standard">
+          .an-box
+        </div>
+        will take care of line spacing, padding and margins.
+        However, if you need anything extra, such as a definite width, you will
+        need a helper class such as
+        <div class="an-label an-label-blue">
+          .an-35p
+        </div> (for example).
+        <br>
+        <div class="an-center-row">
+          <div class="an-box an-35p">
+            <div class="an-label an-label-standard">
+              .an-box
+            </div>
+            with no further content but this text.
+            This box also has the class
+            <div class="an-label an-label-blue">
+              .an-35p
+            </div>
+             so that it only takes up 35% of the page container's width.
+          </div>
+          <div class="an-box an-45p">
+            <div class="an-label an-label-standard">
+              .an-box
+            </div>
+            with no further content but this text.
+            This box also has the class
+            <div class="an-label an-label-blue">
+              .an-45p
+            </div>
+             so that it only takes up 45% of the page container's width.
+          </div>
+        </div>
+        <div class="an-box an-center">
+          <span class="">
+            <div class="an-label an-label-standard">.an-box</div> with
+            <div class="an-label an-label-blue">.an-center</div>
+            applied. With this combination, you can center
+            the content of your
+            <div class="an-label an-label-standard">
+              .an-box.
+            </div>
+            You will need another helper class to center text itself. See TODO for this.
+            <br>
+            <div class="an-infobox">
+              NOTICE: When using .an-label within .an-center, the contents of
+              <div class="an-label an-label-blue">
+                .an-center
+              </div>
+              will need to be wrapped in another element, such as a span.
+            </div>
+          </span>
+        </div>
+        <br>
+        Use <div class="an-label an-label-standard">
+          .an-infobox
+        </div>
+        to as an alternative, for highlighting important details, for instance.
+        <div class="an-infobox">
+          <div class="an-label an-label-blue">
+            .an-infobox
+          </div>
+        </div>
 
+      </div>
+      <div class="an-gen-spacer-huge">
+      </div>
+
+    </div>
+    <div class="an-tail">
+      <div class="an-label an-label-standard">.an-tail</div>
+      <div class="">
+        this section is always visible, but can be hidden.
+      </div>
+    </div>
+  </body>
+</html>

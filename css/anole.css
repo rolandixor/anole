@@ -238,10 +238,12 @@ a.an-link {
   letter-spacing: 3px;
   font-variant: small-caps;
   transition: 0.435s;
+  display: inline-block;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 
 a.an-link:hover {
+  transform: translateY(-1px);
   color: rgb(105, 255, 135);
   transition: 0.175s;
 }
@@ -253,7 +255,7 @@ a.an-link::after {
   font-size: 8px;
   position: absolute;
   transform: rotate(-15deg);
-  top: -47.5%;
+  top: -13.5%;
   left: 100.5%;
   transition: 0.735s;
 }
@@ -262,7 +264,7 @@ a.an-link:hover:after {
   content: "▶";
   color: rgba(15, 235, 255, 1);
   opacity: 1;
-  top: -33.5%;
+  top: 3.75%;
   transform: rotate(0deg);
   transition: 0.735s;
 }
@@ -276,7 +278,7 @@ a.an-link::before {
   opacity: 0;
   font-size: 8px;
   position: absolute;
-  top: 100.5%;
+  top: 82.5%;
   left: 50%;
   transition: 0.735s;
 }
@@ -284,8 +286,8 @@ a.an-link::before {
 a.an-link:hover:before {
   border-color: rgba(15, 235, 255, 0.7) !important;
   opacity: 1;
-  width: 100%;
-  left: 0%;
+  width: 90.75%;
+  left: 1.75%;
   transition: 0.735s;
 }
 /**Standard stuff**/

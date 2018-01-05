@@ -229,6 +229,67 @@ classes, and watch Anole do the work of making your site look pretty for you!
 }
 /**Fonts**/
 
+/*Standard stuff*/
+a.an-link {
+  position: relative;
+  margin-right: 12px;
+  color: rgba(15, 235, 255, 1);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  transition: 0.435s;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+
+a.an-link:hover {
+  color: rgb(105, 255, 135);
+  transition: 0.175s;
+}
+
+a.an-link::after {
+  content: "▶";
+  color: white;
+  opacity: 0.1;
+  font-size: 8px;
+  position: absolute;
+  transform: rotate(-15deg);
+  top: -47.5%;
+  left: 100.5%;
+  transition: 0.735s;
+}
+
+a.an-link:hover:after {
+  content: "▶";
+  color: rgba(15, 235, 255, 1);
+  opacity: 1;
+  top: -33.5%;
+  transform: rotate(0deg);
+  transition: 0.735s;
+}
+
+a.an-link::before {
+  content: "";
+  border-color: white !important;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  width: 0%;
+  opacity: 0;
+  font-size: 8px;
+  position: absolute;
+  top: 100.5%;
+  left: 50%;
+  transition: 0.735s;
+}
+
+a.an-link:hover:before {
+  border-color: rgba(15, 235, 255, 0.7) !important;
+  opacity: 1;
+  width: 100%;
+  left: 0%;
+  transition: 0.735s;
+}
+/**Standard stuff**/
+
 .anole {
   background-image: radial-gradient(rgb(45, 45, 45), rgb(25, 25, 25));
   background-attachment: fixed;

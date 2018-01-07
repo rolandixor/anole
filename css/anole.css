@@ -2180,7 +2180,7 @@ h1, h2, h3, h4, h5, h6 {
     content: 'open sidebar';
     position: absolute;
     transform: rotate(90deg);
-	transform-origin: left top 0;
+	  transform-origin: left top 0;
     left: 215%;
     opacity: 0.8;
     font-size: 10px;

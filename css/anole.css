@@ -2177,7 +2177,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-sidebar::after {
-    content: 'SIDEBAR';
+    content: '•••';
     letter-spacing: 4px;
     margin-top: 215%;
     position: absolute;

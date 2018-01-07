@@ -794,7 +794,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   height: 18px;
 }
 
-.an-menubutton > * > .an-button, .an-menubutton > * > .an-menubutton {
+.an-menubutton > * > .an-button, .an-menubutton > * > .an-sub {
   padding: 10px;
 }
 

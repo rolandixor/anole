@@ -2179,6 +2179,7 @@ h1, h2, h3, h4, h5, h6 {
   .an-sidebar::after {
     content: 'SIDEBAR';
     letter-spacing: 4px;
+    margin-top: 5%;
     position: absolute;
     writing-mode: vertical-rl;
     text-orientation: upright;

@@ -2176,6 +2176,15 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0s;
   }
 
+  .an-sidebar::after {
+    content: '▶';
+    position: absolute;
+    left: 145%;
+    opacity: 0.8;
+    font-size: 10px;
+    transition: 2.35s;
+  }
+
   [class*="an-3"] {
     width: 100%;
     margin: 15px 35px 15px 35px !important;

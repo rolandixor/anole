@@ -790,7 +790,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   top: 23.5%;
 }
 
-.an-menubutton > * > an-title {
+.an-menubutton > * > * > an-title {
   height: 10px;
 }
 

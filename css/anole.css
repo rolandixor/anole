@@ -2221,7 +2221,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 135%;
     opacity: 1;
     font-size: 10px;
-    transition: 2.35s;
+    transition: 1.35s;
   }
 
   .an-sidebar:hover:after {

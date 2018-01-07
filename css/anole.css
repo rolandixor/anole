@@ -2185,7 +2185,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: 2.35s;
   }
 
-  .an-sidebar > *, .an-sidebar > *
+  .an-sidebar > *, .an-sidebar > * > * {
+    transition: 0;
+  }
 
   [class*="an-3"] {
     width: 100%;

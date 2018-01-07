@@ -2168,8 +2168,8 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-sidebar {
     border-width: 0px 35px 0px 0px;
-    margin-left: 5px;
-    height: 25
+    height: 25%;
+    margin-left: -175px;
     transition: 0.735s;
   }
 

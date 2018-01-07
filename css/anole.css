@@ -916,6 +916,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   min-width: 215px !important;
   width: 215px !important;
   max-width: 215px !important;
+  letter-spacing: 15px;
   margin: 0px -2px 0px -2px;
   border-width: 0px;
   padding: 15px;

@@ -896,6 +896,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-button-group {
+  background-color: rgb(35, 35, 35);
   border-radius: 3px;
   border-width: 1px;
   border-style: solid;

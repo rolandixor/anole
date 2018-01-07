@@ -603,7 +603,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-head > * .an-button, .an-head > * > * .an-button, .an-head > * .an-sub
-.an-head > * > * .an-menubutton {
+.an-head > * > * .an-sub {
   padding: 15px !important;
 }
 

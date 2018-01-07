@@ -2199,7 +2199,7 @@ h1, h2, h3, h4, h5, h6 {
     border-width: 0px 35px 0px 0px;
     height: 25%;
     margin-left: -15px;
-    border-right-color: rgba(35, 135, 35, 0.5);
+    border-right-color: rgba(45, 135, 35, 0.5);
     transition: 0.735s;
   }
 

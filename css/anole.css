@@ -899,7 +899,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   margin: -10px;
   text-decoration: none !important;
   color: white !important;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
 }
 
 /*Spacer*/

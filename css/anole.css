@@ -901,7 +901,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-width: 1px;
   border-style: solid;
   border-color: rgba(134, 255, 36, 0.5);
-  padding: 8px 3px 8px 3px;
+  padding: 7px 3px 8px 3px;
 }
 
 .an-button-group > .an-button {

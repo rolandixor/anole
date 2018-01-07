@@ -602,7 +602,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-head > * > * > .an-button {
+.an-head > * > .an-button {
   padding: 15px;
 }
 

@@ -915,6 +915,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 .an-button-group > .an-button {
   min-width: 215px !important;
   width: 215px !important;
+  max-width: 215px !important;
   margin: 0px -2px 0px -2px;
   border-width: 0px;
   padding: 15px;

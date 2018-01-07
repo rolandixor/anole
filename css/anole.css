@@ -2175,6 +2175,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-sidebar:hover {
+    transform: rotateX(0deg);
     transition: 0.415s;
   }
 

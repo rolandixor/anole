@@ -782,7 +782,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   color: rgba(134, 255, 36, 1);
 }
 
-.an-menubutton::after
+.an-menubutton::after {
+  top: 27.5%;
+}
 
 .an-menu > .an-sub > .an-submenu {
   opacity: 0;

@@ -2177,7 +2177,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-sidebar::after {
-    content: 'open sidebar';
+    content: 'OPEN SIDEBAR';
     position: absolute;
     transform: rotate(90deg);
     left: 215%;

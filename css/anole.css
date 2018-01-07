@@ -2192,7 +2192,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-sidebar:hover:after {
-    transform: scaleX(-1);
+    transform: scaleX(1);
   }
 
   .an-sidebar > *, .an-sidebar > * > * {

@@ -2189,6 +2189,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.375s;
   }
 
+  .an-sidebar > * > * {
+    width: 75%;
+  }
+
   [class*="an-3"] {
     width: 100%;
     margin: 15px 35px 15px 35px !important;

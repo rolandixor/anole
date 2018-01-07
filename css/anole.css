@@ -2169,6 +2169,7 @@ h1, h2, h3, h4, h5, h6 {
   .an-sidebar {
     border-width: 0px 25px 0px 0px;
     height: 15%;
+    transition: 0.315s;
   }
 
   .an-sidebar:hover {

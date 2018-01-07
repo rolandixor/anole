@@ -906,8 +906,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-button-group:hover {
-  border-color: rgba(134, 255, 36, 0.1);
-  box-shadow: 0px 0px 3px rgba(134, 255, 36, 0.1);
+  border-color: rgba(134, 255, 36, 0.3);
+  box-shadow: 0px 0px 3px rgba(134, 255, 36, 0.5);
 }
 
 .an-button-group > .an-button {

@@ -1285,7 +1285,7 @@ the spacer.
 
 /*A general spacer for use anywhere*/
 .an-gen-spacer-tiny {
-  margin: 1px;
+  margin: 0px;
 }
 
 .an-gen-spacer {

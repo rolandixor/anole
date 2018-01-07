@@ -293,7 +293,7 @@ a.an-link:hover:before {
 /**Standard stuff**/
 
 .anole {
-  background-image: radial-gradient(rgb(105, 135, 105), rgb(25, 25, 25));
+  background-image: radial-gradient(rgb(25, 25, 25), rgb(105, 135, 105), );
   /*background-image: radial-gradient(rgb(45, 45, 45), rgb(25, 25, 25));*/
   background-attachment: fixed;
   background-repeat: no-repeat;

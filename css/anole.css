@@ -2205,6 +2205,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-sidebar:hover {
+    margin-top: 0%;
     opacity: 1;
     height: 100%;
     transition: 0.415s;

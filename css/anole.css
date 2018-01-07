@@ -298,7 +298,7 @@ a.an-link:hover:before {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size:cover;
   font-family: LatoWebLight;
 }
 

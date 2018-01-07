@@ -896,8 +896,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-button-group > .an-button, an-button-group > .an-menubutton {
-  margin-left: 1px !important;
-  margin-right: 1px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 

@@ -2179,6 +2179,7 @@ h1, h2, h3, h4, h5, h6 {
   .an-sidebar::after {
     content: 'OPEN SIDEBAR';
     position: absolute;
+    writing-mode: vertical-rl;
     text-orientation: upright;
     left: 215%;
     opacity: 0.8;

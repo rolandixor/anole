@@ -896,7 +896,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-button-group > .an-button*, an-button-group > .an-menubut* {
-  margin-left: 0px;
+  margin-left: 0px !important;
   margin-right: 0px;
 }
 

@@ -2190,6 +2190,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8;
     font-size: 10px;
     transition: 2.35s;
+    transform: scaleX(-1);
   }
 
   .an-sidebar > *, .an-sidebar > * > * {

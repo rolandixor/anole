@@ -792,7 +792,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-head > .an-menubutton:hover:after, .an-head > .an-sub:hover:after {
-  top: 23.5%;
+  top: 33.5%;
 }
 
 .an-menubutton::after, .an-sub::after {

@@ -795,7 +795,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menubutton > * > .an-button {
-  padding: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 .an-menu > .an-sub > .an-submenu {

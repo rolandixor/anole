@@ -294,6 +294,7 @@ a.an-link:hover:before {
 
 .anole {
   background-image: radial-gradient(rgb(45, 45, 45), rgb(25, 25, 25));
+  /*background-image: radial-gradient(rgb(45, 45, 45), rgb(25, 25, 25));*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

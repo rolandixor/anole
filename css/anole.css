@@ -2244,7 +2244,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-box {
-    margin: 35px 0px 35px 0px;
+    margin: 35px;
   }
 
   [class*="an-3"] {

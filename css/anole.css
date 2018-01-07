@@ -791,7 +791,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menubutton > * > .an-title {
-  height: 21px;
+  height: 20px;
 }
 
 .an-menu > .an-sub > .an-submenu {

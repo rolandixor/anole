@@ -879,6 +879,10 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-width: 0px 3px 0px 0px;
 }
 
+.an-button-group > .an-button, an-button-group > .an-menubut* {
+
+}
+
 /*Spacer*/
 /***
 *Spacers are an option component depending on the theme. If your theme comes

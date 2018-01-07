@@ -879,8 +879,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-width: 0px 3px 0px 0px;
 }
 
-.an-button-group > .an-button, an-button-group > .an-menubut* {
-
+.an-button-group > .an-button*, an-button-group > .an-menubut* {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*Spacer*/

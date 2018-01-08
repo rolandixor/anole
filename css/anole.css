@@ -276,7 +276,6 @@ a.an-link::before {
   border-width: 1px 0px 0px 0px;
   width: 0%;
   opacity: 0;
-  font-size: 8px;
   position: absolute;
   top: 82.5%;
   left: 50%;

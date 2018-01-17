@@ -367,6 +367,12 @@ a.an-link:hover:before {
   flex-direction:row;
 }
 
+.an-head > img {
+  align-self: center;
+  max-height: 35px;
+  width: auto;
+}
+
 .an-head > .an-title {
   color: rgb(95, 195, 35);
   font-size: 15px;
@@ -948,11 +954,23 @@ the spacer.
   height: 3%;
   padding: 0px 15px 0px 15px;
   display: flex;
-  justify-content:space-around;
+  justify-content:flex-start;
   align-content:center;
   align-items: center;
   flex-direction:row;
   color: white;
+}
+
+.an-tail > .an-tail-group {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.an-tail-group > * {
+  margin: 1.5%;
 }
 
 /*Boxes*/

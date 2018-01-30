@@ -776,7 +776,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-sub::after, .an-menubutton::after, .an-mobile-menubutton::after {
+.an-sub::after, .an-menubutton::after {
   content: "▶";
   position: absolute;
   top: 31.5%;
@@ -785,7 +785,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.2s;
 }
 
-.an-sub:hover:after, .an-menubutton:hover:after, .an-mobile-menubutton:hover:after {
+.an-sub:hover:after, .an-menubutton:hover:after {
   transition: 0.5s;
   top: 35.5%;
   transform: rotate(90deg) !important;

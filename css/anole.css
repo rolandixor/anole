@@ -480,7 +480,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-head > a.an-mobile-menubutton:hover {
   background-color: rgba(75, 135, 95, 1);
-  border-width: 0px 0px 3px 3px !important;
+  border-width: 0px 0px 0px 3px !important;
   border-right-color: rgba(135, 255, 35, 1);
   letter-spacing: 7px;
   padding-left: 45px;

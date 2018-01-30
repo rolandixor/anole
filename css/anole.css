@@ -2193,19 +2193,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Common mobile break point - always place at the bottom of the file so it's easier to find*/
-@media only screen and (max-height: 550px) {
-  .an-sidebar::after {
-    content: '•••';
-    font-size: 24px !important;
-    top: 10.5% !important;
-    position: absolute;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    left: 135%;
-    opacity: 1;
-    transition: 1.35s;
-  }
-}
 
 @media only screen and (max-width: 768px) {
   .an-sidebar:hover {

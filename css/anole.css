@@ -467,7 +467,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-mobile-menubutton:hover:after {
-
+  opacity: 1;
+  transition: 0.735s;
 }
 
 .an-head > a.an-home-button, a.an-mobile-menubutton {

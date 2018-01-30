@@ -2306,7 +2306,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media only screen and (max-height: 530px) {
+@media only screen and (max-height: 540px) {
   .an-sidebar::after {
     content: '•••';
     font-size: 24px !important;

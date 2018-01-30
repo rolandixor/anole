@@ -2318,6 +2318,6 @@ h1, h2, h3, h4, h5, h6 {
   .an-sidebar::after {
     font-size: 28px !important;
     top: 21.5% !important;
-    left: 175%;
+    left: 165%;
   }
 }

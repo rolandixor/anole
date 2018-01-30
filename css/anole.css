@@ -457,7 +457,11 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-mobile-menubutton::after {
-  
+
+}
+
+.an-mobile-menubutton:hover:after {
+
 }
 
 .an-head > a.an-home-button {

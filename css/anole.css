@@ -460,7 +460,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   position: absolute;
   top: 37.5%;
   left: 9.5%;
-  content: "◀";
+  content: "▶";
   font-size: 9px;
   opacity: 0;
   transition: 0.375s;

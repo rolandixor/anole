@@ -2194,6 +2194,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Common mobile break point - always place at the bottom of the file so it's easier to find*/
 @media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 768px) {
   .an-sidebar:hover {
     top: 7.5%;
     left: 0%;

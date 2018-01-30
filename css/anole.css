@@ -2203,7 +2203,6 @@ h1, h2, h3, h4, h5, h6 {
     text-orientation: upright;
     left: 135%;
     opacity: 1;
-    font-size: 8px !important;
     transition: 1.35s;
   }
 }

@@ -2,10 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/anole.css">
     <link rel="shortcut icon" href="../anole-icon.ico">
-    <title>Anole - Buttons</title>
+    <title>Anole Demo - Codeblocks</title>
   </head>
   <body class="anole">
     <div class="an-head">
@@ -25,13 +24,13 @@
               <div class="an-title">
                 basic
               </div>
-              <a class="an-button" href="../an-boxes">
+              <a class="an-button" href="../boxes">
                 boxes
               </a>
-              <a class="an-button" href="../an-codeblocks">
+              <a class="an-button">
                 codeblocks
               </a>
-              <a class="an-button" href="../an-generic">
+              <a class="an-button" href="../an-labels">
                 generic
               </a>
             </div>
@@ -45,7 +44,7 @@
               <a class="an-button" href="../an-reveal">
                 an-reveal family
               </a>
-              <a class="an-button an-disabled">
+              <a class="an-button" href="../an-buttons">
                 buttons/menus
               </a>
               <a class="an-button" href="../an-labels">
@@ -131,49 +130,56 @@
       </a>
     </div>
 
+    <!--Body-->
     <div class="an-body">
+      <!--Inside navigation-->
+      <div class="an-sidebar">
+        <div class="">
+          <div class="an-sb-title">
+            navigation:
+          </div>
+          <a class="an-button" href="#an-box">
+            an-box
+          </a>
+          <a class="an-button" href="#an-infobox">
+            an-infobox
+          </a>
+          <a class="an-button" href="#an-sunkenplace">
+            an-sunkenplace
+          </a>
+        </div>
+      </div>
+
+      <!--Main content-->
       <div class="an-center-row an-header">
         <img src="../img/anole.png" alt="" width="128px" height="auto">
         <div class="" style="margin-left: 35px;">
-          anole docs - buttons &amp; menus
+          anole docs - codeblocks
         </div>
         <div class="an-anchorpoint" id="an-box">
         </div>
       </div>
-      <div class="an-anchorpoint">
-        <div class="" id="an-button">
+
+      <div class="an-glass">
+        <div class="an-title">
+          an-codeblocks
+        </div>
+        Format any text as code using the <div class="an-label an-label-information">
+          an-codeblock container
+        </div>. Note that you are still responsible to apply various styles to
+        differentiate between distinct components of your code as needed, due
+        to the limitations of HTML/CSS. However, whereever possible, Anole
+        will attempt to make life easier by handling whatever it can.
+        <div class="an-codeblock">
+          <span class="an-code-commment">//example codeblock</span>
+          <span class="an-code-function">function() {
+            }
+          </span>
         </div>
       </div>
-      <div class="an-glass an-center-row">
-        <div class="an-button">
-          .an-button
-        </div>
-        <div class="an-menubutton">
-          .an-menubutton
-          <div class="an-menu">
-            <div class="an-title">
-              .an-menu
-            </div>
-            <a class="an-button">
-              .an-button
-            </a>
-            <div class="an-sub">
-              .an-sub
-              <div class="an-submenu">
-                <div class="an-title">
-                  .an-submenu
-                </div>
-                <a class="an-button">
-                  .an-button
-                </a>
-                <a class="an-button">
-                  .an-button
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="an-gen-spacer-huge">
       </div>
+
     </div>
     <div class="an-tail">
       <div class="an-label an-label-standard">.an-tail</div>

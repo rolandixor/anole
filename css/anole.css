@@ -370,6 +370,7 @@ a.an-link:hover:before {
 .an-head > img {
   align-self: center;
   max-height: 35px;
+  margin: 0px 35px 0px 35px;
   width: auto;
 }
 
@@ -396,7 +397,7 @@ a.an-link:hover:before {
   transition: 1.015s;
 }
 
-.an-head > .an-title > * > img, .an-head > .an-title > img {
+.an-head > .an-title > * > img, .an-head > .an-title > img, .an-title > img {
   width: 24px;
   height: auto;
   margin: 0px 15px 3px 0px;
@@ -1253,17 +1254,20 @@ the spacer.
 }
 
 .an-codeblock {
+  background-color: rgb(15, 15, 15);
   position: relative;
   font-family: monospace;
   line-height: 175%;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
   color: rgb(95, 235, 255);
+  white-space: pre-line;
   transition: 0.915s;
 }
 
 .an-codeblock:hover {
-  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.7), inset 0px 0px 35px 1px rgba(0, 0, 0, 0.3);
-  border-color: rgba(135, 135, 135, 0.2);
+  background-color: rgba(25, 25, 25, 0.1);
+  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.7), inset 0px 0px 135px 5px rgba(0, 0, 0, 0.3);
+  border-color: rgba(135, 135, 135, 0.5);
   transition: 1.315s;
 }
 
@@ -1338,6 +1342,14 @@ the spacer.
 
 .an-code-white {
   color: white;
+}
+
+.an-code-commment {
+  color: rgb(175, 175, 175);
+}
+
+.an-code-function {
+  color: rgb(135, 255, 175);
 }
 
 .an-sunkenplace {
@@ -2289,8 +2301,25 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.75em;
   }
 
+  .an-head {
+    justify-content: center;
+  }
+
+  .an-head > .an-title {
+    display: none;
+  }
+
+  .an-head > *:hover {
+    letter-spacing: 3px !important;
+  }
+
   .an-center-row {
     padding: 35px;
+  }
+
+  .an-codeblock::after {
+    top: 5px;
+    left: 55.5%;
   }
 
   [class*="an-3"] {
@@ -2306,10 +2335,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 600px) {
   .an-sidebar::after {
     font-size: 28px !important;
-    top: 17.5% !important;
+    top: 21.5% !important;
     left: 150%;
   }
 }
@@ -2319,5 +2348,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px !important;
     top: 17.5% !important;
     left: 175%;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .an-sidebar::after {
+    font-size: 20px !important;
+    top: 21.5% !important;
+    left: 195%;
   }
 }

@@ -1376,7 +1376,9 @@ the spacer.
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), inset 0px 0px 35px 5px rgba(0, 0, 0, 0.5);
 }
 
-.an-boxed-list > li > .an-label
+.an-boxed-list > li > .an-label {
+  text-transform: uppercase;
+}
 
 /*A general spacer for use anywhere*/
 .an-gen-spacer-tiny {

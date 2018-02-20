@@ -1368,6 +1368,7 @@ the spacer.
 .an-boxed-list > li {
   border-style: solid;
   border-width: 1px;
+  margin: 0px 0px 15px 0px;
 }
 
 /*A general spacer for use anywhere*/

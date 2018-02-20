@@ -1369,6 +1369,7 @@ the spacer.
   border-style: solid;
   border-width: 1px;
   margin: 0px 0px 15px 0px;
+  padding: 5px;
 }
 
 /*A general spacer for use anywhere*/

@@ -1378,6 +1378,7 @@ the spacer.
 
 .an-boxed-list > li > .an-label {
   font-variant: small-caps;
+  letter-spacing: 3px;
 }
 
 /*A general spacer for use anywhere*/

@@ -1923,6 +1923,7 @@ the spacer.
   flex-direction:column;
   transition: 1s;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .an-reveal:hover > .an-spoiler-x, .an-spoiler-x.active {

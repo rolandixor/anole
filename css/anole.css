@@ -1700,7 +1700,8 @@ the spacer.
   position: relative;
   padding: 15px;
   margin: 15px 5px 15px 5px;
-
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .an-reveal > .an-wipe-left {

@@ -1260,7 +1260,6 @@ the spacer.
   font-family: monospace;
   line-height: 175%;
   border-color: rgba(255, 255, 255, 0.2);
-  color: rgb(95, 235, 255);
   white-space: pre-line;
   transition: 0.915s;
 }
@@ -1338,7 +1337,7 @@ the spacer.
 }
 
 .an-code-blue {
-  
+
 }
 
 .an-code-green {

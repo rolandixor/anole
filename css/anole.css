@@ -1060,7 +1060,7 @@ the spacer.
 
 /***Simple helper classes for an-*p classes***/
 .an-untouchable {
-
+  margin: 5px;
 }
 
 .an-box {

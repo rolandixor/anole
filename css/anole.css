@@ -1336,8 +1336,8 @@ the spacer.
   transition: 1.35s;
 }
 
-.an-code-blue {
-
+.an-code-blue, .an-codeblock {
+  color: rgb(95, 235, 255);
 }
 
 .an-code-green {

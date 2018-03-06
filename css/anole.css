@@ -1058,11 +1058,6 @@ the spacer.
   width: 95%;
 }
 
-/***Simple helper classes for an-*p classes***/
-.an-untouchable {
-  margin: 15px !important;
-}
-
 .an-box {
   background-color: white;
   border-radius: 5px;

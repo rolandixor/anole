@@ -882,7 +882,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.375s;
+  transition: all 0.175s;
 }
 
 .an-menu > .an-sub > .an-submenu > .an-button {

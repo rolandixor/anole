@@ -1239,7 +1239,7 @@ the spacer.
   border-radius: 10px;
   border-width: 1px;
   padding: 35px;
-  margin: 45px 15px 5px 15px !important;
+  margin: 35px 15px 35px 15px;
 }
 
 .an-infobox-dark, .an-box > * > .an-infobox, .an-box > .an-infobox, .an-codeblock {

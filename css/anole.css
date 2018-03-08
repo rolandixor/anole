@@ -847,7 +847,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   left: 100%;
   width: 0%;
   height: 0%;
-  z-index: -350;
+  z-index: -350 !important;
   color: white;
   background-color: rgba(75, 75, 75, 1);
   letter-spacing: 3px;

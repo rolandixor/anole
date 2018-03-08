@@ -781,7 +781,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: 0.715s, border-color 0.932s;
+  transition: 0.115s, border-color 0.932s;
 }
 
 .an-menu > .an-sub:hover {

@@ -693,7 +693,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-disabled:hover {
   color: rgba(255, 255, 255, 0.5) !important;
-  letter-spacing: 7px !important;
+  letter-spacing: 3px !important;
   border-right-color: rgba(0, 0, 0, 0) !important;
 }
 

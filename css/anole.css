@@ -553,10 +553,10 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menubutton > .an-menu, .an-title > .an-menu {
-  display: none;
+  visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 0%;
+  top: -105%;
   left: 0;
   background-color: black;
   text-transform: uppercase;
@@ -564,6 +564,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   min-width: 100%;
   text-align: center;
   min-height: 100%;
+  display: flex;
   justify-content:center;
   align-content:center;
   flex-direction:column;

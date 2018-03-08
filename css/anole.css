@@ -553,7 +553,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menubutton > .an-menu, .an-title > .an-menu {
-  visibility: hidden;
+  display: none;
   opacity: 0;
   position: absolute;
   top: -105%;

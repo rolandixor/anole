@@ -847,7 +847,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   left: 100%;
   width: 0%;
   height: 0%;
-  z-index: -999 !important;
+  z-index: -350;
   color: white;
   background-color: rgba(75, 75, 75, 1);
   letter-spacing: 3px;
@@ -867,6 +867,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   opacity: 1;
   top: -35%;
   left: 99%;
+  z-index: 200;
   width: 105%;
   height: auto;
   position: absolute;

@@ -814,7 +814,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-sub:hover:after,
-.an-menubutton:hover:after
+.an-menubutton:hover:after,
 .an-menuactor:hover:after {
   transition: 0.5s;
   top: 35.5%;

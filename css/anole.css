@@ -2428,7 +2428,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-menuactor:hover {
-  position: relative;
+  position: absolute;
   min-width: 175px !important;
   max-width: 235px !important;
 }

@@ -2480,6 +2480,7 @@ input.an-menucheck {
 
 @media only screen and (min-width: 768px) {
   .an-menubutton-alt:hover .an-menu-alt {
+  top: 99%;
   opacity: 1;
   visibility: visible;
   width: 100%;

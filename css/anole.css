@@ -904,6 +904,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.475s;
 }
 
+.an-menu > .an-sub > .an-submenu > .an-button,
 .an-menu > .an-sub > .an-submenu > .an-button {
   color: white;
   background-color: rgba(75, 75, 75, 1);

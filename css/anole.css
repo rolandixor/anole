@@ -2405,6 +2405,7 @@ input.an-menucheck {
   text-transform: uppercase;
   padding: 0px 5px 0px 5px;
   text-align: center;
+    min-width: 100%;
   min-height: 100%;
   text-decoration: none;
   transition: all 0.421s, border-color 1.735s;
@@ -2421,7 +2422,7 @@ input.an-menucheck {
   border-width: 3px 0px 3px 0px;
   border-style: solid;
   text-transform: uppercase;
-  min-width: 100%;
+
   padding: 0px 5px 0px 5px;
   text-align: center;
   min-height: 100%;

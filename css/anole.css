@@ -923,7 +923,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menu > .an-title,
-.an-submenu > .an-title
+.an-submenu > .an-title,
 .an-menu-alt > .an-title {
   font-size: 12px;
   border-radius: 0px;

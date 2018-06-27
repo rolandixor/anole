@@ -2415,7 +2415,7 @@ input.an-menucheck {
   position: relative;
   margin: 0px;
   color: white;
-  background-color: rgba(48, 48, 48, 1);
+  background-color: rgba(75, 135, 95, 0.1);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   letter-spacing: 3px;
   border-top-color: rgba(135, 255, 35, 1);

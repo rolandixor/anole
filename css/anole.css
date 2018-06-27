@@ -2436,10 +2436,6 @@ input.an-menucheck {
   transition: .3s;
 }
 
-.an-menuactor:hover ~ .an-menu-2 {
-max-height: 1999px;
-}
-
 @media only screen and (max-width: 768px) {
   .an-menuactor:focus ~ .an-menu-2 {
   max-height: 1999px;

@@ -843,7 +843,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menu > .an-sub > .an-submenu,
-.an-sub-alt > .an-submenu {
+.an-menu-alt > .an-submenu {
   opacity: 0;
   position: absolute;
   top: 0%;
@@ -2436,7 +2436,7 @@ input.an-menucheck {
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-sub-alt {
+.an-menu-alt {
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -2458,7 +2458,7 @@ input.an-menucheck {
 }
 
 @media only screen and (min-width: 768px) {
-  .an-menubutton-alt:hover .an-sub-alt {
+  .an-menubutton-alt:hover .an-menu-alt {
   opacity: 1;
   visibility: visible;
   width: 100%;
@@ -2468,7 +2468,7 @@ input.an-menucheck {
 }
 
 @media only screen and (max-width: 768px) {
-  .an-menuactor:focus ~ .an-sub-alt {
+  .an-menuactor:focus ~ .an-menu-alt {
   opacity: 1;
   visibility: visible;
   width: 100%;

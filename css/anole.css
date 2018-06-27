@@ -881,7 +881,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   flex-direction:column;
 }
 
-.an-menu > .an-sub:hover > .an-submenu {
+.an-menu > .an-sub:hover > .an-submenu,
+.an-menubutton:hover > .an-submenu, {
   opacity: 1;
   top: 0%;
   left: 100%;

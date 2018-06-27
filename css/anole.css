@@ -2425,6 +2425,6 @@ input:checked + .an-menu-label {
   background-color: white;
 }
 
-.testme:checked ~ .test {
+.testme:checked + .test {
 background-color: blue !important;
 }

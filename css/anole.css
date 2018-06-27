@@ -822,7 +822,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   color: rgba(134, 255, 36, 1);
 }
 
-.an-head > .an-menubutton::after, .an-head > * > * > .an-sub::after {
+.an-head > .an-menubutton::after,
+.an-head > .an-menuactor:hover:after
+.an-head > * > * > .an-sub::after {
   top: 31.5%;
 }
 

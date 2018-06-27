@@ -905,7 +905,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menu > .an-sub > .an-submenu > .an-button,
-.an-menu > .an-sub > .an-submenu > .an-button {
+.an-menu-alt > .an-sub > .an-submenu > .an-button {
   color: white;
   background-color: rgba(75, 75, 75, 1);
   letter-spacing: 3px;

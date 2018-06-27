@@ -2439,3 +2439,7 @@ input.an-menucheck {
 .an-menutext:focus ~ .an-menu-2 {
 max-height: 1999px;
 }
+
+@media only screen and (max-width: 768px) {
+  
+}

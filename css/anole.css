@@ -2421,7 +2421,7 @@ input:checked + .an-menu-label {
   color: black;
 }
 
-.test {
+#testme ~ .test {
   display: inline-block;
 }
 

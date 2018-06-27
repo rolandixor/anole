@@ -2402,6 +2402,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1.2s;
 }
 
-an-menu-alt > input[type=checkbox] {
+an-menu-alt > input {
   display: none;
 }

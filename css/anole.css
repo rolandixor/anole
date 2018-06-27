@@ -2462,6 +2462,7 @@ input.an-menucheck {
   .an-menuactor:focus ~ .an-sub-alt {
   display: flex;
   width: 100%;
+  height: auto;
   max-height: auto;
   }
 }

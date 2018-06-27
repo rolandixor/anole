@@ -2394,21 +2394,22 @@ input.an-menucheck {
 
 .an-menutext {
   position: relative;
-  font-size: 15px;
-  background-color: rgb(75, 75, 75);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
-  min-width: 175px !important;
-  max-width: 235px;
-  font-family: LatoWebMedium;
-  font-size: 12px;
+  margin: 0px;
+  color: white;
+  background-color: rgba(48, 48, 48, 1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   letter-spacing: 3px;
-  padding: 10px 10px 5px 10px;
-  text-transform: uppercase;
-  text-align: center;
+  border-color: rgba(135, 255, 35, 0);
+  border-width: 3px 0px 3px 0px;
   border-style: solid;
-  border-width: 0px 0px 5px 0px;
-  border-color: rgba(135, 235, 35, 0.3);
-  transition: 1.2s;
+  text-transform: uppercase;
+  min-width: 5%;
+  max-width: 50%;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  min-height: 100%;
+  text-decoration: none;
+  transition: all 0.421s, border-color 1.735s;
 }
 
 .an-menu-2 {

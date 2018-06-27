@@ -811,7 +811,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.2s;
 }
 
-.an-sub:hover:after, .an-menubutton:hover:after {
+.an-sub:hover:after,
+.an-menubutton:hover:after
+.an-menuactor:hover:after {
   transition: 0.5s;
   top: 35.5%;
   transform: rotate(90deg) !important;
@@ -827,15 +829,20 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   top: 33.5%;
 }
 
-.an-menubutton::after, .an-sub::after, .an-menuactor::after {
+.an-menubutton::after,
+.an-sub::after,
+.an-menuactor::after {
   top: 21.5%;
 }
 
-.an-menubutton:hover:after, .an-sub:hover:after, .an-menuactor:hover:after {
+.an-menubutton:hover:after,
+.an-sub:hover:after,
+.an-menuactor:hover:after {
   top: 23.5%;
 }
 
-.an-menubutton > * > .an-title, .an-menubutton > * > * > * > .an-title {
+.an-menubutton > * > .an-title,
+.an-menubutton > * > * > * > .an-title {
   height: 18px;
 }
 

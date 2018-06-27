@@ -2424,3 +2424,7 @@ input:checked + .an-menu-label {
 .test {
   display: none;
 }
+
+input:checked ~ .test {
+
+}

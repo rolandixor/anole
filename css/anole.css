@@ -2443,7 +2443,7 @@ input.an-menucheck {
 }
 
 @media only screen and (max-width: 768px) {
-  .an-menuactor:focus ~ .an-menu-2 {
+  .an-menuactor:focus ~ .an-sub-alt {
   max-height: 1999px;
   }
 }

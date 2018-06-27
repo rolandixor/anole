@@ -525,7 +525,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.975s;
 }
 
-.an-menubutton {
+.an-menubutton, .an-menuactor {
   position: relative;
   font-size: 15px;
   background-color: rgb(75, 75, 75);

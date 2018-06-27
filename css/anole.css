@@ -2425,14 +2425,6 @@ input.an-menucheck {
 .an-menuactor {
   position: relative;
   margin: 0px;
-  color: white;
-  background-color: rgba(48, 48, 48, 1);
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  letter-spacing: 3px;
-  border-color: rgba(135, 255, 35, 0);
-  border-width: 3px 0px 3px 0px;
-  border-style: solid;
-  text-transform: uppercase;
   padding: 0px 5px 0px 5px;
   text-align: center;
   min-width: 175px !important;

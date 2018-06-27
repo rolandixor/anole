@@ -867,7 +867,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 }
 
 .an-menu > .an-sub:hover > .an-submenu
-.an-menubutton-alt:hover > * > .an-sub-alt > .an-submenu {
+.an-menubutton-alt:hover > .an-sub-alt > .an-submenu {
   opacity: 1;
   top: 0%;
   left: 100%;

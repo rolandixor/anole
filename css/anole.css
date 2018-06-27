@@ -2414,7 +2414,7 @@ input.an-menucheck {
 }
 
 .an-menu-2 {
-  none;
+  display: none;
 }
 
 .an-menucheck:checked ~ .an-menu-2 {

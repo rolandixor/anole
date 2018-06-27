@@ -2466,6 +2466,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 768px) {
   .an-menuactor:focus ~ .an-menu-alt {
+  top: 100%;
   opacity: 1;
   visibility: visible;
   width: 100%;

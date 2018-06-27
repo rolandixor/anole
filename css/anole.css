@@ -2421,6 +2421,8 @@ input.an-menucheck {
   border-width: 3px 0px 3px 0px;
   border-style: solid;
   text-transform: uppercase;
+  min-width: 100%;
+  max-width: 50%;
   padding: 0px 5px 0px 5px;
   text-align: center;
   min-height: 100%;

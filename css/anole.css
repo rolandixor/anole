@@ -2440,7 +2440,7 @@ input.an-menucheck {
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  display: none;
+  display: flex;
   overflow: hidden;
   color: white;
   background-color: rgba(75, 95, 75, 1);

@@ -592,7 +592,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.315s, border-color 0.735s;
 }
 
-.an-head > .an-menubutton {
+.an-head > .an-menubutton,
+.an-head > .an-menubutton-alt {
   position: relative;
   color: white;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);

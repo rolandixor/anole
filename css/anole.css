@@ -845,7 +845,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 0%;
+  width: 105%;
   height: 0%;
   z-index: -350;
   color: white;

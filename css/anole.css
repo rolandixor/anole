@@ -2438,42 +2438,12 @@ input.an-menucheck {
 
 @media only screen and (min-width: 768px) {
   .an-menuactor:hover ~ .an-sub-alt {
-    position: relative;
-    color: white;
-    background-color: rgba(75, 95, 75, 1);
-    letter-spacing: 3px;
-    border-color: rgba(134, 255, 36, 0);
-    border-width: 0px 0px 0px 3px;
-    padding: 15px;
-    margin: 1px 0px 1px 0px;
-    border-style: solid;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-    transition: 0.015s, border-color 0.932s;
+  max-height: 1999px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .an-menuactor:focus ~ .an-sub-alt {
-    position: relative;
-    color: white;
-    background-color: rgba(75, 95, 75, 1);
-    letter-spacing: 3px;
-    border-color: rgba(134, 255, 36, 0);
-    border-width: 0px 0px 0px 3px;
-    padding: 15px;
-    margin: 1px 0px 1px 0px;
-    border-style: solid;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-    transition: 0.015s, border-color 0.932s;
+  max-height: 1999px;
   }
 }

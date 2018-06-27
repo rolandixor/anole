@@ -2417,8 +2417,3 @@ input.an-menucheck {
   background: #696;
   transition: .3s;
 }
-
-.an-menucheck:checked ~ .an-menu-2 {
-  background-color: black;
-  display: inline-block;
-}

@@ -2413,6 +2413,6 @@ input.an-menucheck {
   bottom: 0;
 }
 
-input.an-menucheck {
+input.an-menucheck ~ an-menu-2 {
   background-color: black;
 }

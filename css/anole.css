@@ -2402,29 +2402,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1.2s;
 }
 
-.an-menu-alt input {
-  display: none;
-}
+an-menu-alt input[type=checkbox] {
 
-.an-menu-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: black;
-  color: white;
-}
-
-input:checked + .an-menu-label {
-  background-color: white;
-  color: black;
-}
-
-.test {
-  background-color: white;
-}
-
-input:checked + .test {
-background-color: blue !important;
 }

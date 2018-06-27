@@ -2453,6 +2453,7 @@ input.an-menucheck {
   .an-menubutton-alt:hover .an-sub-alt {
   display: flex;
   width: 100%;
+  max-height: auto;
   }
 }
 
@@ -2460,5 +2461,6 @@ input.an-menucheck {
   .an-menuactor:focus ~ .an-sub-alt {
   display: flex;
   width: 100%;
+  max-height: auto;
   }
 }

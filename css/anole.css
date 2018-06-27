@@ -2419,7 +2419,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-menuactor {
   position: absolute;
-  text-align: center !important;
   min-width: 175px !important;
   max-width: 235px !important;
   min-height: 100%;

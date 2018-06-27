@@ -2439,7 +2439,7 @@ input.an-menucheck {
   top: 0%;
   left: 100%;
   width: 105%;
-  height: 0%;
+  height: auto%;
   z-index: -350;
   color: white;
   background-color: rgba(75, 75, 75, 1);

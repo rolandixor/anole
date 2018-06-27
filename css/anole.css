@@ -2440,7 +2440,7 @@ input.an-menucheck {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 105%;
+  top: 100%;
   left: 0;
   background-color: black;
   text-transform: uppercase;

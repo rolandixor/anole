@@ -2430,6 +2430,7 @@ input.an-menucheck {
 }
 
 .an-sub-alt {
+  display: none;
   max-height: 0;
   overflow: hidden;
   color: white;

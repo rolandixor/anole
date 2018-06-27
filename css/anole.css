@@ -2450,7 +2450,7 @@ input.an-menucheck {
 }
 
 @media only screen and (min-width: 768px) {
-  .an-menubutton-alt:hover ~ .an-sub-alt {
+  .an-menubutton-alt:hover .an-sub-alt {
   max-height: 1999px;
   display: flex;
 

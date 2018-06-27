@@ -2412,7 +2412,10 @@ input.an-menucheck {
 }
 
 .an-menu-2 {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  background: #696;
+  transition: .3s;
 }
 
 .an-menucheck:checked ~ .an-menu-2 {

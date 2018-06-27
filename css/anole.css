@@ -826,7 +826,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   top: 33.5%;
 }
 
-.an-menubutton::after, .an-sub::after {
+.an-menubutton::after, .an-sub::after, .an-menuactor::after {
   top: 21.5%;
 }
 

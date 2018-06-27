@@ -2437,6 +2437,7 @@ input.an-menucheck {
 .an-sub-alt {
   position: absolute;
   width: 100%;
+  display: flex;
   justify-content:center;
   align-content:center;
   flex-direction:column;

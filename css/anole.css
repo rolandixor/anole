@@ -2420,7 +2420,7 @@ input.an-menucheck {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   letter-spacing: 3px;
   border-color: rgba(135, 255, 35, 1);
-  border-width: 3px 0px 3px 0px;
+  border-width: 3px 0px 0px 0px;
   border-style: solid;
   text-transform: uppercase;
   min-width: 5%;

@@ -2422,7 +2422,7 @@ input:checked + .an-menu-label {
 }
 
 #testme ~ .test {
-  display: inline-block;
+  background-color: white;
 }
 
 #testme:checked ~ .test {

@@ -2426,5 +2426,5 @@ input:checked + .an-menu-label {
 }
 
 #testme:checked ~ .test {
-display: none !important;
+background-color: blue;
 }

@@ -2425,6 +2425,6 @@ input:checked + .an-menu-label {
   display: inline-block;
 }
 
-input:checked ~ .test {
+.testing:checked ~ .test {
 display: none;
 }

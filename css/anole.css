@@ -2457,6 +2457,26 @@ input.an-menucheck {
   height: auto;
   max-height: auto;
   }
+
+  opacity: 1;
+  top: 0%;
+  left: 100%;
+  z-index: 200;
+  width: 105%;
+  height: auto;
+  position: absolute;
+  background-color: rgba(75, 75, 75, 0.9);
+  border-width: 0px 0px 0px 3px;
+  border-style: solid;
+  border-color: rgba(134, 255, 36, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  transition: all 0.475s;
 }
 
 @media only screen and (max-width: 768px) {

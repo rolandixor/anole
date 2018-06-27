@@ -2418,7 +2418,7 @@ input.an-menucheck {
   transition: .3s;
 }
 
-.an-menu-2 {
+.an-menutext:focus > .an-menu-2 {
   max-height: 0;
   overflow: hidden;
   background: #696;

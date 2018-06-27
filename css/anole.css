@@ -2401,3 +2401,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgba(135, 235, 35, 0.3);
   transition: 1.2s;
 }
+
+.an-menubutton-alt label {
+
+}

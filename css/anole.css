@@ -622,7 +622,6 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-style: solid;
   border-top-color: rgba(134, 255, 36, 1);
   text-transform: uppercase;
-  min-width: 10%;
   display: flex;
   justify-content:center;
   align-content:center;

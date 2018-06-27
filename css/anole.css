@@ -2430,6 +2430,9 @@ input.an-menucheck {
 }
 
 .an-sub-alt {
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
   display: none;
   max-height: 0;
   overflow: hidden;

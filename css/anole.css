@@ -785,7 +785,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.015s, border-color 0.932s;
 }
 
-.an-menu > .an-sub:hover {
+.an-menu > .an-sub:hover
+.an-menu-alt > .an-sub:hover {
   position: relative;
   background-color: rgba(75, 175, 75, 0.9);
   border-width: 0px 0px 0px 3px;

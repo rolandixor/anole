@@ -2425,6 +2425,6 @@ input:checked + .an-menu-label {
   display: inline-block;
 }
 
-.an-menu-alt input:checked ~ .test {
+#testme:checked ~ .test {
 display: none !important;
 }

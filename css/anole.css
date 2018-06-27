@@ -615,7 +615,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.715s, border-color 1.932s;
 }
 
-.an-head > .an-menubutton:hover {
+.an-head > .an-menubutton:hover,
+.an-head > .menubutton-alt > .an-menuactor:hover {
   position: relative;
   background-color: rgba(75, 135, 95, 0.1);
   border-width: 3px 0px 3px 0px;

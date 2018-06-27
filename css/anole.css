@@ -2496,5 +2496,6 @@ input.an-menucheck {
   width: 100%;
   height: auto;
   max-height: auto;
+  transition: all 0.235s, border-color: 0.735s;
   }
 }

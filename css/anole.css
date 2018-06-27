@@ -2442,6 +2442,7 @@ input.an-menucheck {
   position: absolute;
   top: 100%;
   left: 0;
+  padding: 0px;
   background-color: black;
   text-transform: uppercase;
   letter-spacing: 1px;

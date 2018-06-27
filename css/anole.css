@@ -2432,7 +2432,6 @@ input.an-menucheck {
 .an-sub-alt {
   max-height: 0;
   overflow: hidden;
-  background: #696;
   transition: .3s;
 }
 

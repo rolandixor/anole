@@ -2384,7 +2384,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Experiments - DO NOT USE IN PRODUCTION OR IT WILL EAT YOUR CAT! (YES YOU HAVE A CAT AND I HAVE TO SHOUT!)*/
 .an-menu-alt {
-
+  min-width: 175px !important;
+  max-width: 235px;
 }
 
 input.an-menucheck {
@@ -2396,8 +2397,7 @@ input.an-menucheck {
   font-size: 15px;
   background-color: rgb(75, 75, 75);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
-  min-width: 175px !important;
-  max-width: 235px;
+
   font-family: LatoWebMedium;
   font-size: 12px;
   letter-spacing: 3px;

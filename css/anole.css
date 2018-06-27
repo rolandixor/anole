@@ -865,7 +865,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-menu > .an-sub:hover > .an-submenu {
   opacity: 1;
-  top: -35%;
+  top: 0%;
   left: 99%;
   z-index: 200;
   width: 105%;

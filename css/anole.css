@@ -2383,7 +2383,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Experiments - DO NOT USE IN PRODUCTION OR IT WILL EAT YOUR CAT! (YES YOU HAVE A CAT AND I HAVE TO SHOUT!)*/
-.an-menubutton-alt {
+.an-menualt {
   position: relative;
   font-size: 15px;
   background-color: rgb(75, 75, 75);

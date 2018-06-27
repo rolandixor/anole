@@ -2413,6 +2413,10 @@ input.an-menucheck {
   bottom: 0;
 }
 
+.an-menu-2 {
+  none;
+}
+
 .an-menucheck:checked ~ .an-menu-2 {
   background-color: black;
   display: inline-block;

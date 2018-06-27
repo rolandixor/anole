@@ -2435,6 +2435,8 @@ input.an-menucheck {
 
 .an-menuactor:hover {
   position: relative;
+  min-width: 175px !important;
+  max-width: 235px !important;
   margin: 0px;
   color: white;
   background-color: rgba(75, 135, 95, 0.1);

@@ -2403,14 +2403,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-menu-label {
-
-}
-
-.an-menu-alt input {
-  display: none;
-}
-
-.an-menu-alt span {
   position: absolute;
   top: 0;
   left: 0;
@@ -2418,6 +2410,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   background-color: black;
   color: white;
+}
+
+.an-menu-alt input {
+  display: none;
+}
+
+.an-menu-alt span {
+
 }
 
 .an-menu-alt input:checked + .an-menu-alt > span {

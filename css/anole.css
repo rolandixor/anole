@@ -2460,7 +2460,7 @@ input.an-menucheck {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   padding: 0px;
   background-color: black;

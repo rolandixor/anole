@@ -802,7 +802,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.021s, border-color 1.735s;
 }
 
-.an-sub::after, .an-menubutton::after {
+.an-sub::after,
+.an-menubutton::after,
+.an-menuactor::after {
   content: "▶";
   position: absolute;
   top: 31.5%;

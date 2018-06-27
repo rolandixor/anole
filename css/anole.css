@@ -2456,7 +2456,6 @@ input.an-menucheck {
   width: 100%;
   height: auto;
   max-height: auto;
-  }
 
   opacity: 1;
   top: 0%;
@@ -2477,6 +2476,7 @@ input.an-menucheck {
   align-content:center;
   flex-direction:column;
   transition: all 0.475s;
+  }
 }
 
 @media only screen and (max-width: 768px) {

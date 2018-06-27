@@ -2388,11 +2388,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 input.an-menucheck {
-  display: none;
+  position: relative;
+  font-size: 15px;
+  background-color: rgb(75, 75, 75);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
+  min-width: 175px !important;
+  max-width: 235px;
+  font-family: LatoWebMedium;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 10px 5px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: rgba(135, 235, 35, 0.3);
+  transition: 1.2s;
 }
 
 .an-menutext {
-  
+
 }
 
 .an-menu-2 {

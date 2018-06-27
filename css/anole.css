@@ -2422,7 +2422,7 @@ input:checked + .an-menu-label {
 }
 
 .test {
-  display: none;
+  display: inline-block;
 }
 
 input:checked ~ .test {

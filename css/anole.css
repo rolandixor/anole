@@ -2426,5 +2426,5 @@ input:checked + .an-menu-label {
 }
 
 .an-menu-alt input:checked ~ .test {
-display: none;
+display: none !important;
 }

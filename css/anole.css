@@ -2430,6 +2430,7 @@ input.an-menucheck {
 }
 
 .an-sub-alt {
+  position: absolute;
   justify-content:center;
   align-content:center;
   flex-direction:column;

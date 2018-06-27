@@ -2438,7 +2438,6 @@ input.an-menucheck {
   align-content:center;
   flex-direction:column;
   display: none;
-  max-height: 0;
   overflow: hidden;
   color: white;
   background-color: rgba(75, 95, 75, 1);

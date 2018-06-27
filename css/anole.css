@@ -2466,8 +2466,7 @@ input.an-menucheck {
 
 @media only screen and (max-width: 768px) {
   .an-menuactor:focus ~ .an-sub-alt {
-  visibility: v
-
+  visibility: visible;
   width: 100%;
   height: auto;
   max-height: auto;

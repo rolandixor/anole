@@ -2426,5 +2426,5 @@ input:checked + .an-menu-label {
 }
 
 input:checked ~ .test {
-
+display: inline-block;
 }

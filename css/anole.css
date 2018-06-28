@@ -479,6 +479,7 @@ a.an-mobile-menubutton {
   background-color: rgba(75, 135, 95, 0.3);
   border-width: 0px 0px 0px 0px;
   letter-spacing: 4px;
+  font-size: 12px;
   display: flex;
   justify-content:center;
   align-content:center;

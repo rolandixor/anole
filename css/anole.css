@@ -1000,7 +1000,7 @@ the spacer.
 .an-tail {
   border-style: solid;
   border-width: 1px 0px 0px 0px;
-  border-color: rgb(135, 135, 135);
+  border-color: rgba(135, 135, 135, 0.5);
   background-color: rgb(15, 15, 15);
   z-index: 1030;
   min-height: 45px;

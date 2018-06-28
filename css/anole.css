@@ -820,7 +820,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 .an-menubutton:hover:after,
 .an-menuactor:hover:after {
   transition: 0.5s;
-  top: 37.5%;
+  top: 17.5%;
   transform: rotate(90deg) !important;
   color: rgba(134, 255, 36, 1);
 }

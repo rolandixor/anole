@@ -2270,6 +2270,7 @@ ol.an-boxed-list li {
   min-width: 100% !important;
   text-decoration: none;
   color: white !important;
+  padding: 15px;
   transition: 1s;
 }
 

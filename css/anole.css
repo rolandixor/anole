@@ -1026,7 +1026,7 @@ the spacer.
 
 .an-tail > .an-button {
   background-color: rgb(35, 135, 75);
-
+  border-radius: 5px;
 }
 
 /*Boxes*/

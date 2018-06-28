@@ -2420,7 +2420,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: -105%;
+  top: -305%;
   left: 0;
   padding: 0px;
   background-color: black;

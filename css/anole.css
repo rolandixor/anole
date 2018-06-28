@@ -575,7 +575,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: all 0.235s, border-color: 0.735s;
 }
 
-.an-menubutton:hover > .an-menu, .an-title:hover > .an-menu {
+.an-menubutton:hover > .an-menu,
+.an-title:hover > .an-menu {
   visibility: visible;
   opacity: 1;
   position: absolute;

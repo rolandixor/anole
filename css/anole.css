@@ -1064,8 +1064,7 @@ the spacer.
   transition: all 1s, background 0.735s;
   background-color: rgb(35, 105, 175);
   border-color: rgb(35, 205, 235);
-  letter-spacing: 2px;
-  border-radius: 3px;
+  letter-spacing: 2px
 }
 
 /*Boxes*/

@@ -2443,7 +2443,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 95% !important;
   opacity: 1;
   visibility: visible;
-  transition: all 0.735s, border-color: 0.735s !important;
+  transition: border-color: 0.735s !important;
   }
 }
 
@@ -2452,6 +2452,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 100%;
   opacity: 1;
   visibility: visible;
-  transition: all 0.235s, border-color: 0.735s;
+  transition: 0s;
   }
 }

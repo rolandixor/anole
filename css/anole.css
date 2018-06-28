@@ -1514,7 +1514,7 @@ the spacer.
   letter-spacing: 2px;
 }
 
-.an-button:hover > .an-tip, .an-head:hover > * > .an-tip {
+.an-button:hover .an-tip .an-head:hover > * > .an-tip {
   top: 135%;
   left: 7.35%;
 }

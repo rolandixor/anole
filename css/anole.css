@@ -1232,6 +1232,11 @@ the spacer.
   float: right;
 }
 
+.an-spacer-wide {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .an-protip {
   padding: 35px 35px 35px 35px;
   color: black;

@@ -1012,7 +1012,7 @@ the spacer.
   padding: 0px 15px 0px 15px;
   display: flex;
   align-content:center;
-  align-items: center;
+  align-items:flex-start;
   flex-direction:row;
   color: white;
 }

@@ -2232,7 +2232,7 @@ the spacer.
   transition: 1s;
 }
 
-.an-sidebar > * > .an-button, .an-sidebar > * > * > .an-button {
+.an-sidebar  .an-button {
   border-radius: 5px 5px 5px 5px;
   width: 100% !important;
   min-width: 100% !important;

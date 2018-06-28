@@ -655,6 +655,7 @@ a.an-home-button:hover {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  white-space: nowrap;
   border-style: solid;
   border-width: 0px 0px 5px 0px;
   border-color: rgba(135, 235, 35, 0.0);

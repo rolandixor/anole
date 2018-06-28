@@ -2271,6 +2271,7 @@ ol.an-boxed-list li {
   text-decoration: none;
   color: white !important;
   padding: 15px;
+  padding-bottom: 25px;
   transition: 1s;
 }
 

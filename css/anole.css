@@ -1017,6 +1017,10 @@ the spacer.
   color: white;
 }
 
+.an-tail .an-float-right {
+  align-self: auto;
+}
+
 .an-tail * {
   margin-left: 5px;
   margin-right: 5px;

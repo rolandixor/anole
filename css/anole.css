@@ -1455,7 +1455,7 @@ the spacer.
 }
 
 /*List styles*/
-.an-boxed-list > li {
+ul.an-boxed-list > li {
   border-style: solid;
   border-width: 1px;
   border-radius: 3px;

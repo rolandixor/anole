@@ -1028,6 +1028,10 @@ the spacer.
   margin: 1.5%;
 }
 
+.an-tail .an-label {
+  margin: 5px;
+}
+
 /*an-tail buttons*/
 .an-tail .an-button {
   background-color: rgb(45, 45, 45);

@@ -1056,7 +1056,7 @@ the spacer.
 
 .an-tail .an-button.an-btn-spc:hover {
   background-color: rgb(35, 135, 235);
-  border-color: rgb(35, 215, 235);
+  border-color: rgb(15, 215, 235);
   border-radius: 3px;
   letter-spacing: 4px;
   box-shadow: 0px 0px 15px rgba(0, 135, 135, 0.3);

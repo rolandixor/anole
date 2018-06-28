@@ -2528,7 +2528,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-protip > .an-tip-title {
     display: inline-block;
-    float: left;
     padding: 15px 35px 15px 35px;
     color: white;
     font-size: 15px;

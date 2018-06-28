@@ -1012,6 +1012,7 @@ the spacer.
   padding: 0px 15px 0px 15px;
   display: flex;
   align-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction:row;
   color: white;

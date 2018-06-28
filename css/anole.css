@@ -1019,6 +1019,7 @@ the spacer.
 }
 
 .an-tail .an-float-right {
+  margin-right: auto;
 }
 
 .an-tail * {

@@ -2455,7 +2455,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 95% !important;
   opacity: 1;
   visibility: visible;
-  transition: border-color: 0.735s !important;
+  transition: border-color: 0.735s !important, visibility: 0s;
   }
 }
 

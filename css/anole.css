@@ -607,7 +607,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-width: 3px 0px 3px 0px;
   border-style: solid;
   text-transform: uppercase;
-  padding: 0px 15px 0px 15px !important;
+  padding: 0px 15px 0px 15px;
   text-align: center !important;
   min-height: 100%;
   font-size: 12px;

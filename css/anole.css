@@ -786,6 +786,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   text-transform: uppercase;
   text-align: center;
   display: flex;
+  font-size: 12px;
   justify-content:center;
   align-content:center;
   flex-direction:column;

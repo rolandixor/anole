@@ -1030,6 +1030,12 @@ the spacer.
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
+.an-tail > .an-button {
+  background-color: rgb(35, 135, 75);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 /*Boxes*/
 .an-5p {
   width: 5%;

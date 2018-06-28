@@ -554,7 +554,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 1.2s;
 }
 
-.an-menubutton > .an-menu, .an-title > .an-menu {
+.an-menubutton > .an-menu,
+.an-title > .an-menu {
   visibility: hidden;
   opacity: 0;
   position: absolute;

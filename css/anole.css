@@ -803,7 +803,7 @@ a.an-mobile-menubutton {
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: all 0.135s, border-color 1.735s;
+  transition: all 0.235s, border-color 1.735s;
 }
 
 .an-sub::after,

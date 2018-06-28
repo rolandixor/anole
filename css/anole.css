@@ -529,7 +529,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-menubutton,
 .an-menuactor {
-  position: relative
+  position: relative;
   background-color: rgb(75, 75, 75);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.3);
   min-width: 175px !important;

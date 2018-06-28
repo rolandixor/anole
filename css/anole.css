@@ -1019,7 +1019,7 @@ the spacer.
 }
 
 .an-tail .an-float-right {
-  margin-right: auto;
+  margin-right: 15px;
 }
 
 .an-tail * {

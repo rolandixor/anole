@@ -397,7 +397,9 @@ a.an-link:hover:before {
   transition: 1.015s;
 }
 
-.an-head > .an-title > * > img, .an-head > .an-title > img, .an-title > img {
+.an-head > .an-title > * > img,
+.an-head > .an-title > img,
+.an-title > img {
   width: 24px;
   height: auto;
   margin: 0px 15px 3px 0px;

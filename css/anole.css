@@ -1030,6 +1030,7 @@ the spacer.
 }
 
 .an-group .an-label {
+  display: inline-block;
 }
 
 /*an-tail buttons*/

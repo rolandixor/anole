@@ -1018,7 +1018,7 @@ the spacer.
 }
 
 .an-tail .an-float-right {
-  align-self: auto;
+  align-self:flex-end;
 }
 
 .an-tail * {

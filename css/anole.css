@@ -1022,11 +1022,12 @@ the spacer.
   align-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .an-group > * {
-  margin: 1.5%;
 }
+  margin: 1.5%;
 
 /*an-tail buttons*/
 .an-tail .an-button {

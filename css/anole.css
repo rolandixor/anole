@@ -1011,7 +1011,7 @@ the spacer.
   height: 3%;
   padding: 0px 15px 0px 15px;
   display: flex;
-  justify-content:flex-start;
+  justify-content:flex-end;
   align-content:center;
   align-items: center;
   flex-direction:row;

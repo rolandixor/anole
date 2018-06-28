@@ -2538,6 +2538,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
     font-size: 15px;
     margin-top: 15px;
+    margin-left: -5%;
     display: inline-block;
     color: white;
     width: 100%;

@@ -1024,7 +1024,9 @@ the spacer.
   margin: 1.5%;
 }
 
-.an-tail > .an-button
+.an-tail > .an-button {
+  background-color: rgb(35, 135, 75);
+}
 
 /*Boxes*/
 .an-5p {

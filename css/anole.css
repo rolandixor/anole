@@ -1020,7 +1020,7 @@ the spacer.
   flex-direction: row;
 }
 
-.an-tail-group > * {
+.an-group > * {
   margin: 1.5%;
 }
 

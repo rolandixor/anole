@@ -833,7 +833,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 
 .an-head > .an-menuactor::after {
-  top: 33.5%;
+  top: 37.5%;
 }
 
 .an-head > .an-menubutton:hover:after,

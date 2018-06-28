@@ -630,10 +630,6 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   border-style: solid;
   border-top-color: rgba(134, 255, 36, 1);
   text-transform: uppercase;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
   transition: all 0.421s, border-color 1.735s;
 }
 

@@ -2417,14 +2417,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Experiments - DO NOT USE IN PRODUCTION OR IT WILL EAT YOUR CAT! (YES YOU HAVE A CAT AND I HAVE TO SHOUT!)*/
 .an-menubutton-alt {
+  position: relative;
   min-width: 205px !important;
   max-width: 235px !important;
   position: relative;
 }
 
 .an-menuactor {
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 205px;
+  max-width: 235px;
   min-height: 100%;
   text-align: center;
   text-decoration: none;

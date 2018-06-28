@@ -1233,7 +1233,7 @@ the spacer.
 }
 
 .an-spacer-wide {
-  width: auto;
+  width: 100% auto;
 }
 
 .an-protip {

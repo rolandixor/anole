@@ -630,9 +630,10 @@ a.an-mobile-menubutton {
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-head .an-button,
-.an-head > * > * > .an-button,
-.an-head .an-sub {
+.an-head > * .an-button,
+.an-head > * > * .an-button,
+.an-head > * .an-sub,
+.an-head > * > * .an-sub {
   padding: 15px;
 }
 

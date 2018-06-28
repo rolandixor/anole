@@ -621,7 +621,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 .an-head > .an-menubutton:hover,
 .an-head > .an-menubutton-alt:hover > .an-menuactor {
   position: relative;
-  color: rgb(135, 135, 235) !important;
+  color: rgb(035, 135, 235) !important;
   background-color: rgba(75, 135, 95, 0.1);
   border-width: 3px 0px 3px 0px;
   border-style: solid;

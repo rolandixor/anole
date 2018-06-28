@@ -1018,7 +1018,8 @@ the spacer.
 }
 
 .an-tail .an-float-right {
-  align-self:flex-end;
+  align-self: center;
+  float: right;
 }
 
 .an-tail * {

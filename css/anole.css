@@ -865,7 +865,7 @@ a.an-mobile-menubutton {
   opacity: 0;
   position: absolute;
   top: -15%;
-  left: 105%;
+  left: 100%;
   width: 105%;
   height: 0%;
   z-index: -350;

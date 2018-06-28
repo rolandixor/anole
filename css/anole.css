@@ -2426,9 +2426,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.421s, border-color 1.735s;
 }
 
-.an-menuactor:hover {
-}
-
 .an-menu-alt {
   visibility: hidden;
   opacity: 0;

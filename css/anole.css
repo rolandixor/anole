@@ -1018,6 +1018,11 @@ the spacer.
   color: white;
 }
 
+.an-tail * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .an-group {
   display: flex;
   justify-content: flex-start;
@@ -1039,10 +1044,7 @@ the spacer.
   margin-bottom: auto;
 }
 
-.an-tail * {
-  margin-left: 5px;
-  margin-right: 5px;
-}
+
 
 /*an-tail buttons*/
 .an-tail .an-button {

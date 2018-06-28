@@ -2527,7 +2527,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-protip > .an-tip-title {
-    max-width: auto;
+    width: 75%;
     padding: 15px 35px 15px 35px;
     color: white;
     font-size: 15px;

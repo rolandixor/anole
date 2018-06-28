@@ -657,6 +657,7 @@ a.an-home-button:hover {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
   border-style: solid;
   border-width: 0px 0px 5px 0px;
   border-color: rgba(135, 235, 35, 0.0);

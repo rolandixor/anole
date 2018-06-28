@@ -1032,7 +1032,7 @@ the spacer.
 .an-tail .an-label {
   border-radius: 3px;
   padding-right: 10px;
-  margin: auto;
+  margin-top: auto;
 }
 
 /*an-tail buttons*/

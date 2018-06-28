@@ -786,7 +786,7 @@ a.an-mobile-menubutton {
   justify-content:center;
   align-content:center;
   flex-direction:column;
-  transition: 0.015s, border-color 0.932s;
+  transition: all 0.015s, border-color 0.932s;
 }
 
 .an-menu > .an-sub:hover,

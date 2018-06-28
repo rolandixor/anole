@@ -1029,10 +1029,6 @@ the spacer.
     margin: 1%;
 }
 
-.an-group .an-label {
-  display: flex;
-}
-
 /*an-tail buttons*/
 .an-tail .an-button {
   background-color: rgb(45, 45, 45);

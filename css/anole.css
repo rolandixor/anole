@@ -2428,28 +2428,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.an-menu-alt {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  top: -305%;
-  left: 0;
-  padding: 0px;
-  background-color: black;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  min-width: 100%;
-  text-align: center;
-  min-height: 100%;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  transition: all 0.435s, border-color: 0.735s;
-}
-
 @media only screen and (min-width: 768px) {
   .an-menubutton-alt:hover .an-menu-alt {
   top: 95% !important;

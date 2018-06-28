@@ -491,7 +491,7 @@ a.an-home-button:hover {
   border-width: 0px 3px 0px 0px !important;
   border-right-color: rgba(135, 255, 35, 1);
   letter-spacing: 3px;
-  padding: 35px 0px 35px 0px;
+  padding: 35px 35px px 0px;
 }
 
 .an-head > a.an-mobile-menubutton:hover {

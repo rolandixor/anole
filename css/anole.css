@@ -2420,12 +2420,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.an-menuactor {
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.421s, border-color 1.735s;
-}
-
 .an-menu-alt {
   visibility: hidden;
   opacity: 0;

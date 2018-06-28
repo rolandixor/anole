@@ -1466,7 +1466,7 @@ the spacer.
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), inset 0px 0px 35px 5px rgba(0, 0, 0, 0.5);
 }
 
-.an-boxed-list ul > li {
+.an-boxed-list > ul > li {
   margin-left: -25px;
 }
 

@@ -631,8 +631,7 @@ a.an-mobile-menubutton {
 }
 
 .an-head .an-button,
-.an-head .an-sub,
-.an-head > * > * .an-sub {
+.an-head .an-sub {
   padding: 15px !important;
 }
 

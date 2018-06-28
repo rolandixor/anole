@@ -1023,6 +1023,7 @@ the spacer.
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: 5px;
 }
 
 .an-group * {

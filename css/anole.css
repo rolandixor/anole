@@ -1025,7 +1025,8 @@ the spacer.
   flex-wrap: nowrap;
 }
 
-.an-group > * {
+.an-group * {
+    margin: 1.5%;
 }
 
 /*an-tail buttons*/

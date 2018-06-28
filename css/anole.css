@@ -481,13 +481,12 @@ a.an-mobile-menubutton {
   letter-spacing: 4px;
 }
 
-.an-head a.an-home-button:hover,
-a.an-home-button:hover {
+.an-head > a.an-home-button:hover, {
   background-color: rgba(75, 135, 95, 1);
   border-width: 0px 3px 0px 0px !important;
   border-right-color: rgba(135, 255, 35, 1);
   letter-spacing: 7px;
-  padding-left: 175px;
+  padding-left: 75px;
 }
 
 .an-head > a.an-mobile-menubutton:hover {

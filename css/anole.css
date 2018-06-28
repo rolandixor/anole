@@ -2447,7 +2447,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction:column;
   margin-top: 1px;
   margin-bottom: 1px;
-  transition: all 0.435s, border-color: 0.735s;
+  transition: all 0s, border-color: 0.735s;
 }
 
 @media only screen and (min-width: 768px) {

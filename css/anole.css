@@ -1019,7 +1019,7 @@ the spacer.
 
 .an-tail .an-float-right {
   align-self: center;
-  float: right;
+  float: right !important;
 }
 
 .an-tail * {

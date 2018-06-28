@@ -1143,7 +1143,7 @@ the spacer.
 }
 
 .an-label {
-  display: inline !important;
+  display: inline;
   padding: 5px;
   padding-left: 10px;
   border-radius: 5px;

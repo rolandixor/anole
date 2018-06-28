@@ -608,6 +608,7 @@ a.an-mobile-menubutton {
   border-width: 3px 0px 3px 0px;
   border-style: solid;
   text-transform: uppercase;
+  font-family: LatoWebMedium;
   padding: 0px 15px 0px 15px;
   text-align: center !important;
   min-height: 100%;

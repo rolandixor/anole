@@ -612,6 +612,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   text-align: center !important;
   min-height: 100%;
   min-width: 175px;
+  text-align: center;
   font-size: 12px;
   display: flex;
   justify-content:center;

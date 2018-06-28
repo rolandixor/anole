@@ -1269,7 +1269,8 @@ the spacer.
   margin: 35px 5px 35px 5px;
 }
 
-.an-infobox-dark, .an-box > * > .an-infobox, .an-box > .an-infobox, .an-codeblock {
+.an-infobox-dark, .an-box > * > .an-infobox,
+.an-box > .an-infobox, .an-codeblock {
   box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.3);
   background-color: rgba(35, 35, 35, 1);
   border-color: rgba(255, 255, 255, 0.3);
@@ -1363,7 +1364,8 @@ the spacer.
   transition: 1.35s;
 }
 
-.an-code-blue, .an-codeblock {
+.an-code-blue,
+.an-codeblock {
   color: rgb(95, 235, 255);
 }
 

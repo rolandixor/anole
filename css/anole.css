@@ -474,7 +474,8 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.735s;
 }
 
-.an-head > a.an-home-button, a.an-mobile-menubutton {
+.an-head > a.an-home-button,
+a.an-mobile-menubutton {
   background-color: rgba(75, 135, 95, 0.3);
   border-width: 0px 0px 0px 0px;
   letter-spacing: 4px;

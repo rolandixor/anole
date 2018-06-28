@@ -888,7 +888,7 @@ a.an-mobile-menubutton {
 .an-menu-alt > .an-sub:hover > .an-submenu {
   opacity: 1;
   top: -15%;
-  left: 97.5%;
+  left: 100%;
   z-index: 200;
   width: 105%;
   height: auto;

@@ -1233,6 +1233,7 @@ the spacer.
 }
 
 .an-spacer-wide {
+  margin: auto;
   max-width: 100%;
 }
 

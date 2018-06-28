@@ -2241,7 +2241,7 @@ the spacer.
   transition: 1s;
 }
 
-.an-sidebar > .an-tip {
+.an-sidebar .an-tip {
   position: relative;
   opacity: 0;
   top: -36%;

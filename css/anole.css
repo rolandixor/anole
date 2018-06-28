@@ -2544,7 +2544,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-protip > .an-tip-text {
-    display: inline;
+    display: inline-block;
     font-size: 18px;
   }
 }

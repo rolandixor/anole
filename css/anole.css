@@ -1467,7 +1467,7 @@ the spacer.
 }
 
 div.an-boxed-list li {
-  margin-left: -205px !important;
+  margin-left: 0px !important;
 }
 
 .an-boxed-list li .an-label {

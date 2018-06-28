@@ -2502,6 +2502,10 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   transition: visibility: 1s, border-color: 0.735s;
   }
+
+  .an-tail .an-float-right {
+    margin-right: 4.5%;
+  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -1041,9 +1041,9 @@ the spacer.
 
 /*an-tail buttons*/
 .an-tail .an-button {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   background-color: rgb(45, 45, 45);
   border-radius: 3px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .an-tail .an-button:hover {

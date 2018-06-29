@@ -2563,7 +2563,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-hdn-dragon:hover div {
-  transition: 1s;
+  transition: all 1s;
   opacity: 1;
   width: auto;
 }

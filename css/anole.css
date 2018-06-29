@@ -1071,7 +1071,7 @@ the spacer.
 .an-button.an-btn-alt:hover {
   box-shadow: 0px 0px 5px rgba(0, 235, 135, 0.1);
   transition: all 1s, background 0.735s;
-  background-color: rgb(35, 105, 175);
+  background-color: rgb(35, 175, 105);
   border-color: rgb(35, 205, 235);
   letter-spacing: 2px
 }

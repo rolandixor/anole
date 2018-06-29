@@ -2587,6 +2587,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.an-hdn-dragon:hover .an-tip-text {
+.an-hdn-dragon:hover .an-tip {
   margin-left: 5px;
 }

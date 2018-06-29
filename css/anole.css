@@ -2587,16 +2587,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 
-.an-icon-24 {
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
-  max-width: auto;
-  max-height: 24px;
-}
+.an-hdn-dragon:hover div {
 
-.an-icon-24 img {
-  max-height: auto;
-  max-width: 24px;
 }

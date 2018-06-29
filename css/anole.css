@@ -2540,7 +2540,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Needs work*/
-.an-head .an-hdn-dragon {
+.an-hdn-dragon {
   display: flex;
   justify-content:center;
   align-content:center;

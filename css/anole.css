@@ -2566,5 +2566,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-icon-24 img {
   max-height: auto;
-  max-width: auto;
+  max-width: 24px;
 }

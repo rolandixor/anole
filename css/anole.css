@@ -2558,6 +2558,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-hdn-dragon span {
+  letter-spacing: 3px;
   opacity: 0;
   width: 0%;
   transition: 0.975s;

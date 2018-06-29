@@ -321,7 +321,7 @@ a.an-link:hover:before {
 }
 
 .an-body {
-  padding: 55px 0px 0px 0px;
+  padding: 75px 0px 0px 0px;
   /* TODO:
   Add letter-spacing rules, font family, and an other mandatory default styles.
   Do not set color, that is to be set by individual elements.

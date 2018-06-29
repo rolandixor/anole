@@ -2565,7 +2565,7 @@ h1, h2, h3, h4, h5, h6 {
 .an-hdn-dragon:hover div {
   transition: all 1s;
   opacity: 1;
-  width: 100%;
+  width: 50px;
 }
 
 .an-hdn-dragon img {

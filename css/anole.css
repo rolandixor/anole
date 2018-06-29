@@ -2547,7 +2547,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction:row;
   font-size: 12px;
   letter-spacing: 5px;
-  width: 35px;
+  width: auto;
   transition: 0.975s;
 }
 

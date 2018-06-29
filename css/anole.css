@@ -2577,7 +2577,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: auto;
   margin-top: auto;
   margin-bottom: auto;
-  transition: 0.015s;
+  transition: 0.035s;
 }
 
 .an-hdn-dragon:hover img {

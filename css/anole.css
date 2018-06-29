@@ -2563,6 +2563,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-hdn-dragon:hover div {
   opacity: 1;
+  margin-left: 0%;
 }
 
 .an-hdn-dragon img {

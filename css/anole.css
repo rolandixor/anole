@@ -2565,6 +2565,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.an-hdn-dragon img {
+  max-width: 24px;
+  max-height: auto;
+}
+
 .an-icon-24 {
   display: flex;
   justify-content:center;

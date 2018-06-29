@@ -2540,27 +2540,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Needs work*/
-.an-hdn-dragon {
+.an-head .an-hdn-dragon {
   display: flex;
   justify-content:center;
   align-content:center;
   flex-direction:column;
   font-size: 12px;
   letter-spacing: 5px;
+  width: 0px;
   transition: 0.975s;
 }
 
-.an-hdn-dragon:hover {
+.an-head .an-hdn-dragon:hover {
   padding-left: 5px;
   width: 195px;
   transition: 0.975s;
 }
 
-.an-hdn-dragon div {
+.an-hdn-dragon span {
   opacity: 0;
 }
 
-.an-hdn-dragon:hover div {
+.an-hdn-dragon:hover span {
   opacity: 1;
 }
 

@@ -2568,6 +2568,7 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
   margin-top: auto;
   margin-bottom: auto;
+  transition: 0.975s;
 }
 
 .an-hdn-dragon img {

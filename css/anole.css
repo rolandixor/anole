@@ -2565,6 +2565,8 @@ h1, h2, h3, h4, h5, h6 {
 .an-hdn-dragon:hover span {
   opacity: 1;
   width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .an-hdn-dragon img {

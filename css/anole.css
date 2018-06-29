@@ -2558,14 +2558,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-hdn-dragon div {
   opacity: 0;
-  width: 0px;
-  transition: all 1s;
 }
 
 .an-hdn-dragon:hover div {
-  transition: all 1s;
   opacity: 1;
-  width: 195px;
 }
 
 .an-hdn-dragon img {

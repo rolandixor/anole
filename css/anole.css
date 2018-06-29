@@ -406,8 +406,8 @@ a.an-link:hover:before {
 }
 
 .an-head img {
-  width: 32px;
-  max-width: 32px;
+  width: 30px;
+  max-width: 30px;
   max-height: auto;
 }
 

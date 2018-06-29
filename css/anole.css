@@ -405,7 +405,7 @@ a.an-link:hover:before {
   margin: 0px 15px 3px 0px;
 }
 
-.an-head > a > img {
+.an-head img {
   width: 32px;
   max-width: 32px;
   max-height: auto;

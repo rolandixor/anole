@@ -2581,7 +2581,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-hdn-dragon:hover img {
-  margin-right: 10px;
+  visibility: hidden;
   opacity: 0;
   transition: 1s;
 }

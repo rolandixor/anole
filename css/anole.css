@@ -2544,6 +2544,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 105px !important;
   }
 
+  .an-home-button {
+    max-width: 50px;
+  }
+
   .an-box {
     padding: 15px;
   }

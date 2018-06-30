@@ -2540,6 +2540,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (max-width: 768px) {
+  .an-menu-actor {
+    max-width: 105px;
+  }
+
   .an-box {
     padding: 15px;
   }

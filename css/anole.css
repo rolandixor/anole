@@ -2676,7 +2676,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-mobile-menubutton .an-menu-alt,
 .an-mobile-menubutton .an-menu {
-  min-width: 275px;
+  min-width: 235px;
   background-color: rgb(15, 15, 15);
   position: absolute;
   top: 100%;

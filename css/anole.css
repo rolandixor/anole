@@ -2644,7 +2644,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 12px;
   letter-spacing: 3px;
-  padding: 5px;
+  padding: 5px 15px;
   min-height: 100%;
 }
 

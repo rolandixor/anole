@@ -487,7 +487,7 @@ a.an-home-button:hover {
   padding: 0px 15px 0px 35px;
 }
 
-.an-head > a {
+.an-head > a. {
   background-color: rgba(75, 135, 95, 1);
   border-width: 0px 0px 0px 3px !important;
   border-left-color: rgba(135, 255, 35, 1);

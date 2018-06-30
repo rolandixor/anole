@@ -2655,7 +2655,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-mobile-menubutton::after {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 25.5%;
   content: "☰";
   font-size: 35px;

@@ -480,6 +480,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   color: white;
   background-color: rgb(35, 135, 95);
   padding: 10px;
+  text-decoration: none;
 }
 
 a.an-home-button,

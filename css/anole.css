@@ -2542,7 +2542,7 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 768px) {
   .an-codeblock > .an-box::after {
     left: 50%;
-    top: 15%;
+    top: 10%;
   }
 
   .an-menuactor:focus ~ .an-menu-alt {

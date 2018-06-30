@@ -1050,7 +1050,7 @@ the spacer.
   border-radius: 3px;
 }
 
-.an-button.an-btn-spc {
+.an-button.an-btn-alt {
   background-color: rgb(35, 105, 135);
   border-color: rgb(255, 255, 255);
 }
@@ -1063,7 +1063,7 @@ the spacer.
   letter-spacing: 2px
 }
 
-.an-button.an-btn-alt {
+.an-button.an-btn-spc {
   background-color: rgb(45, 45, 45);
   border-color: rgb(35, 235, 145);
 }

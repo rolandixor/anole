@@ -2653,7 +2653,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-mobile-menubutton:hover {
   background-color: rgb(35, 35, 35);
-  transition: 1s;
+  transition: 0.135s;
 }
 
 .an-mobile-menubutton::after {

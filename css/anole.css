@@ -2663,7 +2663,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
   opacity: 1;
   transform: rotate(90deg);
-  transition: 0.375s;
+  transition: 0.735s;
 }
 
 .an-mobile-menubutton:hover:after {

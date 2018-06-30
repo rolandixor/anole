@@ -2657,3 +2657,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
   padding: 0px 35px 0px 35px;
 }
+
+.an-mobile-menubutton::after {
+  position: absolute;
+  top: 37.5%;
+  left: 89.5%;
+  content: "▶";
+  font-size: 9px;
+  opacity: 0;
+  transition: 0.375s;
+}
+
+.an-mobile-menubutton:hover:after {
+  opacity: 1;
+  transition: 0.735s;
+}

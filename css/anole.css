@@ -2531,6 +2531,10 @@ h1, h2, h3, h4, h5, h6 {
   .an-tail .an-float-right {
     margin-right: 1.5%;
   }
+
+  .an-menu-exit {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -478,6 +478,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-menu-exit {
   display: none;
+  text-align: center;
   font-family: LatoWebMedium;
   font-size: 12px;
   letter-spacing: 5px;

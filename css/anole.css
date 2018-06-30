@@ -2366,7 +2366,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-menubutton-alt:hover {
     max-width: 215px;
-    transition: 1s;
+    transition: 0.715s;
   }
 
   .an-menuactor:focus ~ .an-menu-alt {

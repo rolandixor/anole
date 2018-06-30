@@ -2667,9 +2667,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 5%;
   left: 25.5%;
-  content: "☰";
-  font-size: 35px;
-  opacity: 1;
+  transform: rotateX(180);
   transition: 0.375s;
 }
 

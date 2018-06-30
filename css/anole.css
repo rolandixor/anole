@@ -478,7 +478,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-menu-exit {
   color: white;
-  background-color: rgb(35, 135, 95);
+  background-color: rgb(35, 35, 35);
   padding: 10px;
   text-decoration: none;
 }

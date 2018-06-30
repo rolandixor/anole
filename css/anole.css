@@ -476,6 +476,17 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.735s;
 }
 
+.an-menu-exit {
+  display: none;
+  font-family: LatoWebMedium;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(35, 35, 35);
+  padding: 15px;
+  text-decoration: none;
+}
+
 a.an-home-button,
 a.an-mobile-menubutton {
   background-color: rgba(75, 135, 95, 0.3);

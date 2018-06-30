@@ -2363,6 +2363,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 105px;
   }
 
+  .an-menubutton-alt {
+    max-width: 105px;
+  }
+
   .an-menuactor:focus ~ .an-menu-alt {
   top: 100%;
   opacity: 1;

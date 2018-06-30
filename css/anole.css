@@ -603,7 +603,7 @@ a.an-home-button:hover {
 }
 
 .an-head > .an-menubutton,
-.an-head > .an-menubutton-alt > .an-menuactor {
+.an-head .an-menubutton-alt .an-menuactor {
   position: relative;
   color: white;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);

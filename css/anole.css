@@ -2343,6 +2343,59 @@ h1, h2, h3, h4, h5, h6 {
 /*Common mobile break point - always place at the bottom of the file so it's easier to find*/
 
 @media only screen and (max-width: 768px) {
+  .an-box {
+    padding: 15px;
+  }
+
+  .an-codeblock::after {
+    left: 35%;
+    width: 50%;
+    border-radius: 3px;
+  }
+
+  .an-codeblock > .an-box::after {
+    left: 12%;
+    width: 50%;
+    border-radius: 3px;
+  }
+
+  .an-menuactor:focus ~ .an-menu-alt {
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+  transition: 0s;
+  }
+
+  .an-menu-exit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .an-protip > .an-tip-title {
+    box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.5);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgba(75, 135, 75, 1);
+    border-color: rgb(255, 255, 255);
+    padding: 15px 35px 15px 35px;
+    font-family: LatoWebMedium;
+    margin-bottom: 35px;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: -5%;
+    display: inline-block;
+    color: white;
+    width: 100%;
+  }
+
+  .an-protip > .an-tip-text {
+    margin-bottom: 5%;
+    display: inline-block;
+    font-size: 18px;
+  }
+
   .an-sidebar:hover {
     top: 7.5%;
     left: 0%;

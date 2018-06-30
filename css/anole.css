@@ -2359,6 +2359,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
   }
 
+  .an-menuactor {
+
+  }
+
   .an-menuactor:focus ~ .an-menu-alt {
   top: 100%;
   opacity: 1;

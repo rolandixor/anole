@@ -2668,7 +2668,6 @@ h1, h2, h3, h4, h5, h6 {
 .an-mobile-menubutton:hover:after {
   position: absolute;
   top: 13.5%;
-  transform: rotate(0deg);
   transition: 0.735s;
   opacity: 0.5;
 }

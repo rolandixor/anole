@@ -2659,7 +2659,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 27.5%;
   content: "☰";
   font-size: 35px;
-  opacity: 0.5;
+  opacity: 1;
   transform: rotate(90deg);
   transition: 0.375s;
 }

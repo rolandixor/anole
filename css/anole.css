@@ -2675,7 +2675,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-mobile-menubutton .an-menu-alt,
 .an-mobile-menubutton .an-menu {
-  display: none;
+  display: flex;
 }
 
 .an-mobile-menubutton:hover .an-menu-alt,

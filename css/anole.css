@@ -2679,7 +2679,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(15, 15, 15);
   position: absolute;
   top: 100%;
-  left: -245%;
+  left: -237.5%;
   display: none;
   flex-direction: column;
 }

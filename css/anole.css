@@ -483,6 +483,7 @@ a.an-mobile-menubutton {
   letter-spacing: 4px;
   font-size: 12px;
   display: flex;
+  padding: 15px 0px 15px 0px;
   justify-content:center;
   align-content:center;
   flex-direction:column;

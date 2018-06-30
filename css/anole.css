@@ -2635,7 +2635,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
 }
 
-.an-head .an-mobile-menubutton {
+.an-mobile-menubutton {
   position: relative;
   background-color: black;
   display: flex;

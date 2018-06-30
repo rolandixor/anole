@@ -2637,6 +2637,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-head .an-mobile-menubutton {
   display: flex;
+  align-items: center;
+  align-content:
+
   color: white;
   font-size: 12px;
   letter-spacing: 3px;

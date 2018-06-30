@@ -2370,6 +2370,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 105px;
     transition: 1s;
     white-space: nowrap;
+    overflow:
+
     text-overflow: ellipsis;
   }
 

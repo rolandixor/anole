@@ -2661,6 +2661,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 27.5%;
   content: "☰";
   font-size: 35px;
+  color: rgb(35, 75, 35);
   opacity: 1;
   transition: 0.735s, top 0.135s;
 }

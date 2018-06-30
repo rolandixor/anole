@@ -2668,7 +2668,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 5%;
   left: 25.5%;
-
+  transform: rotate(0deg);
   transition: 0.375s;
 }
 

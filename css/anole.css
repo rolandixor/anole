@@ -2667,6 +2667,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-mobile-menubutton:hover:after {
+  color: white;
   position: absolute;
   top: 13.5%;
   transition: all 0.315s, top 0.135s;

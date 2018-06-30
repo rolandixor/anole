@@ -476,7 +476,9 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   transition: 0.735s;
 }
 
-.an-menu-exit
+.an-menu-exit {
+  background-color: rgb(255, 0, 0, 0.5);
+}
 
 a.an-home-button,
 a.an-mobile-menubutton {

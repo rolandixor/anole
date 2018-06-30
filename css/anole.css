@@ -424,13 +424,6 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   margin-top: -10px;
 }
 
-.an-head > .an-mobile-menubutton {
-  display: none;
-  font-size: 12px;
-  letter-spacing: 3px;
-  padding: 0px 35px 0px 35px;
-}
-
 .an-head > a {
   position: relative;
   margin: 0px;

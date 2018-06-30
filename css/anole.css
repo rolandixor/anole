@@ -2662,7 +2662,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "☰";
   font-size: 35px;
   opacity: 1;
-  transition: 0.735s;
+  transition: 0.735s, top 0.135s;
 }
 
 .an-mobile-menubutton:hover:after {

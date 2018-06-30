@@ -466,8 +466,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
   text-decoration: none;
 }
 
-a.an-home-button,
-a.an-mobile-menubutton {
+a.an-home-button {
   background-color: rgba(75, 135, 95, 0.3);
   border-width: 0px 0px 0px 0px;
   letter-spacing: 4px;

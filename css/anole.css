@@ -484,6 +484,7 @@ a.an-mobile-menubutton {
   font-size: 12px;
   display: flex;
   padding-left: 15px;
+  padding-right: 15px;
   justify-content:center;
   align-content:center;
   flex-direction:column;

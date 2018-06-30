@@ -2663,6 +2663,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.375s;
 }
 
+.an-mobile-menubutton::after {
+  position: absolute;
+  top: 5%;
+  left: 25.5%;
+  content: "☰";
+  font-size: 35px;
+  opacity: 1;
+  transition: 0.375s;
+}
+
 .an-mobile-menubutton:hover:after {
   opacity: 1;
   transition: 0.735s;

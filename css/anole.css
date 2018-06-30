@@ -2636,7 +2636,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-mobile-menubutton {
-  float: right;
+  margin-left: au
+
   background-color: rgb(55, 55, 55);
   position: relative;
   display: flex;

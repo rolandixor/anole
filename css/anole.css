@@ -602,7 +602,7 @@ a.an-home-button:hover {
   transition: all 0.315s, border-color 0.735s;
 }
 
-.an-head > .an-menubutton,
+.an-head .an-menubutton,
 .an-head .an-menubutton-alt .an-menuactor {
   position: relative;
   color: white;

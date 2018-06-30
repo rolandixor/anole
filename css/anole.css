@@ -478,6 +478,7 @@ Due to CSS' quirks, images and text must be wrapped up in a span.
 
 .an-menu-exit {
   background-color: rgb(5, 35, 135);
+  padding: 15px;
 }
 
 a.an-home-button,

@@ -2663,7 +2663,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.375s;
 }
 
-.an-mobile-menubutton::after {
+.an-mobile-menubutton:hover:after {
   position: absolute;
   top: 5%;
   left: 25.5%;

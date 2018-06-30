@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/anole.css">
+    <link rel="shortcut icon" href="../anole-icon.ico">
+    <title>Tips - Anole Demo</title>
+  </head>
+  <body class="anole">
+    <div class="an-head">
+      <img src="../img/anole.svg" alt="" class="an-hdn-mobile">
+      <a class="an-button an-home-button"href="../">return home</a>
+      <div class="an-spacer-tiny an-hdn-mobile">
+      </div>
+      <div class="an-menubutton an-hdn-mobile">
+        documentation
+        <div class="an-menu">
+          <div class="an-title">
+            select one:
+          </div>
+          <div class="an-sub">
+            containers
+            <div class="an-submenu">
+              <div class="an-title">
+                basic
+              </div>
+              <a class="an-button an-disabled">
+                boxes
+              </a>
+              <a class="an-button" href="../an-codeblocks">
+                codeblocks
+              </a>
+              <a class="an-button" href="../an-labels">
+                generic
+              </a>
+            </div>
+          </div>
+          <div class="an-sub">
+            components
+            <div class="an-submenu">
+              <div class="an-title">
+                basic
+              </div>
+              <a class="an-button" href="../an-reveal">
+                an-reveal family
+              </a>
+              <a class="an-button" href="../an-buttons">
+                buttons/menus
+              </a>
+              <a class="an-button" href="../an-labels">
+                labels
+              </a>
+              <a class="an-button" href="../an-sidebars">
+                sidebars
+              </a>
+              <a class="an-button" href="../an-tips">
+                tips
+              </a>
+              <a class="an-button" href="../an-title">
+                titles
+              </a>
+            </div>
+          </div>
+          <div class="an-sub">
+            extend anole
+            <div class="an-submenu">
+              <div class="an-title">
+                CSS
+              </div>
+              <a href="themes" class="an-button">
+                standard themes
+              </a>
+              <a href="create-themes" class="an-button">
+                creating themes
+              </a>
+              <a href="extensions/css" class="an-button">
+                css extensions
+              </a>
+              <div class="an-title">
+                Javascript
+              </div>
+              <a href="exentensions/js" class="an-button">
+                js extensions
+              </a>
+            </div>
+          </div>
+          <a class="an-button" href="an-labels">
+            "easter eggs"
+          </a>
+          <a class="an-button" href="an-title">
+            mobile
+          </a>
+          <div class="an-title">
+            ---
+          </div>
+        </div>
+      </div>
+      <div class="an-spacer-tiny an-hdn-mobile">
+      </div>
+      <div class="an-menubutton an-hdn-mobile">
+        <span><img src="img/anole.svg" alt="">&nbsp;about anole</span>
+        <div class="an-menu">
+          <div class="an-title">
+            choose one
+          </div>
+          <a href="#" class="an-button">
+            FAQ
+          </a>
+          <a class="an-button" href="an-modifiers">
+            why anole?
+          </a>
+          <div class="an-title">
+            ---
+          </div>
+        </div>
+      </div>
+      <div class="an-stickright an-hdn-mobile">
+      </div>
+      <a href="https://rolandixor.pro" class="an-center-row an-tip-parent">
+        <img src="../img/rx-logo.png" alt="">
+        <div class="an-tip an-hdn-mobile">
+          visit my website
+        </div>
+        <span class="an-hdn-dragon">rolandixor.pro</span>
+      </a>
+      <a href="https://https://github.com/rolandixor/anole" class="an-center-row an-tip-parent">
+        <img src="../img/anole.svg" alt="">
+        <div class="an-tip an-hdn-mobile">
+          anole on github
+        </div>
+        <span class="an-hdn-dragon">github project</span>
+      </a>
+      <div class="an-spacer-tiny an-hdn-mobile">
+      </div>
+      <a href="#" class="an-mobile-menubutton">
+        mobile menu
+      </a>
+    </div>
+
+    <!--Body-->
+    <div class="an-body">
+      <!--Inside navigation-->
+      <div class="an-sidebar">
+        <div class="">
+          <div class="an-sb-title">
+            navigation:
+          </div>
+          <a class="an-button" href="#an-box">
+            an-box
+          </a>
+          <a class="an-button" href="#an-infobox">
+            an-infobox
+          </a>
+          <a class="an-button" href="#an-sunkenplace">
+            an-sunkenplace
+          </a>
+        </div>
+      </div>
+
+      <!--Main content-->
+      <div class="an-center-row an-header">
+        <img src="../img/anole.png" alt="" width="128px" height="auto">
+        <div class="" style="margin-left: 35px;">
+          anole docs - text formatting
+        </div>
+        <div class="an-anchorpoint" id="an-box">
+        </div>
+      </div>
+
+      <!--.an-tips-->
+      <div class="an-anchor">
+        <div class="" id="an-tips">
+        </div>
+      </div>
+      <div class="an-glass">
+        <div class="an-title">
+          .an-tips
+        </div>
+        <div class="an-infobox">
+          Easily add a tip to element using <div class="an-label an-label-information">.an-tip</div>. <div class="an-label an-label-information">.an-tip-parent</div> is required on the element that contains the tip.
+          You can also use <div class="an-label an-label-information">.an-text-tip</div> if your tip is attached to a block (or span) of text.
+          <br><br>See the example below:
+        </div>
+        <div class="an-codeblock">
+          &lt;div <span class="an-code-green">class=""</span>&gt;<span class="an-code-white">Hey kid, I've got a tip:</span>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div <span class="an-code-green">class="an-text-tip an-tip-parent"</span>&gt;<span class="an-code-white">I'm a tip, homie.</span>&lt;&#47;div&gt;<span class="an-code-white"> hover/tap the underlined text.</span>
+          <br>&lt;&#47;div&gt;
+          <div class="an-box an-center">
+            <div class="">
+              Hey kid, <span class="an-text-tip an-tip-parent">I've got a tip:<div class="an-tip">I'm a tip, homie.</div></span>
+              hover/tap the underlined text.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="an-gen-spacer-huge">
+      </div>
+
+    </div>
+    <div class="an-tail">
+      <div class="an-label an-label-standard">.an-tail</div>
+      <div class="">
+        this section is always visible, but can be hidden.
+      </div>
+    </div>
+  </body>
+</html>

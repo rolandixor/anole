@@ -2659,7 +2659,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 89.5%;
   content: "▶";
   font-size: 9px;
-  opacity: 0;
+  opacity: 1;
   transition: 0.375s;
 }
 

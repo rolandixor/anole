@@ -2658,7 +2658,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 37.5%;
   left: 73.5%;
   content: "☰";
-  font-size: 15px;
+  font-size: 25px;
   opacity: 1;
   transition: 0.375s;
 }

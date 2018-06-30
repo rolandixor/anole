@@ -2651,7 +2651,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
 }
 
-.an-head > .an-mobile-menubutton {
+.an-head .an-mobile-menubutton {
   display: none;
   font-size: 12px;
   letter-spacing: 3px;

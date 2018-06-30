@@ -1058,7 +1058,7 @@ the spacer.
 .an-button.an-btn-spc:hover {
   box-shadow: 0px 0px 5px rgba(0, 135, 235, 0.1);
   transition: all 1s, background 0.735s;
-  background-color: rgb(75, 135, 235);
+  background-color: rgb(75, 195, 235);
   border-color: rgb(35, 205, 235);
   letter-spacing: 2px
 }

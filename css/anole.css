@@ -2360,7 +2360,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-menuactor {
-    width: 105px;
+    max-width: 105px;
   }
 
   .an-menuactor:focus ~ .an-menu-alt {

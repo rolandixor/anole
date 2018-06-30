@@ -2409,13 +2409,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: 1s;
   }
 
-  .an-mobile-menubutton {
-    display: flex !important;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-  }
-
   .an-center-row {
     flex-direction: column;
   }

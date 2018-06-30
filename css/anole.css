@@ -2366,6 +2366,13 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
   }
 
+  .an-home-button {
+    max-width: 45px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .an-menubutton-alt {
     max-width: 105px;
     transition: 1s;

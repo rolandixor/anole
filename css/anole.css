@@ -2647,6 +2647,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   letter-spacing: 3px;
   padding: 0px 35px 0px 35px;
+  width: 50px;
 }
 
 .an-mobile-menubutton::after {

@@ -623,6 +623,8 @@ a.an-home-button:hover {
   display: flex;
   justify-content:center;
   align-content:center;
+  align-items:
+
   flex-direction:row;
   transition: 0.715s, border-color 1.932s;
 }

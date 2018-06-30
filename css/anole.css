@@ -2362,8 +2362,8 @@ h1, h2, h3, h4, h5, h6 {
   .an-home-button {
     max-width: 45px;
     white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .an-menubutton-alt {

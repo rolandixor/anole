@@ -1209,7 +1209,7 @@ the spacer.
 
 .an-label-green {
   color: white;
-  text-shadow: 0px 0px 1px white;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
   background-color: rgba(75, 185, 135, 1);
 }
 

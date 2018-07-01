@@ -2666,6 +2666,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
   }
 
+  .an-head .an-tip {
+
+  }
+
   .an-center-row {
     padding: 35px;
   }

@@ -2648,7 +2648,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
   width: 50px;
   min-height: 100%;
-  border-width: 0px 1px 5px 1px;
+  border-width: 0px 1px 0px 1px;
   border-style: solid;
   border-color: rgba(75, 235, 35, 0.5);
   transition: 0.715s;

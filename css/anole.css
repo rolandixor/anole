@@ -2682,7 +2682,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
   opacity: 0.8;
   top: 7.35%;
-  left: 5%;
+  left: 3.5%;
   color: white;
   transform: rotate(90deg);
   transition: all 0.315s, font-size 0.735s, top 0.135s;

@@ -2538,17 +2538,6 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
   }
 
-  .an-menubutton-alt {
-    max-width: 105px;
-    transition: 1s;
-  }
-
-  .an-menubutton-alt:hover {
-    overflow: visible;
-    max-width: 245px;
-    transition: 0.715s;
-  }
-
   .an-menuactor:focus ~ .an-menu-alt {
   top: 100%;
   opacity: 1;

@@ -2514,6 +2514,10 @@ h1, h2, h3, h4, h5, h6 {
   [class*="an-5"] {
     width: 100%;
   }
+
+  .an-mobile-menubutton {
+    display: none;
+  }
 }
 
 @media only screen and (max-height: 600px) {

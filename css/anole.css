@@ -2655,7 +2655,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-mobile-menubutton:hover {
-  background-color: #5C8771
+  background-color: #5C8771;
   transition: 0.135s;
 }
 

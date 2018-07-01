@@ -2688,3 +2688,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
+
+/**Detect if it's a mobile device, and act accordingly**/
+@media (hover: none) {
+    .an-menuactor:focus ~ .an-menu-alt {
+      top: 95%;
+      opacity: 1;
+      visibility: visible;
+      transition: 0s;
+    }
+}

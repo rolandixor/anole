@@ -375,7 +375,7 @@ a.an-link:hover:before {
   width: auto;
 }
 
-.an-head > .an-title {
+.an-head .an-title {
   color: rgb(95, 195, 35);
   font-size: 15px;
   border-color: rgba(135, 135, 135, 0);

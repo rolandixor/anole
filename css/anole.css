@@ -2538,13 +2538,6 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
   }
 
-  .an-menuactor:focus ~ .an-menu-alt {
-    top: 95%;
-    opacity: 1;
-    visibility: visible;
-    transition: 0s;
-  }
-
   .an-menu-exit {
     display: flex;
     align-items: center;

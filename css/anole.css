@@ -2698,12 +2698,3 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0s;
   }
 }
-
-@media (any-hover: hover) {
-  .an-menubutton-alt:hover .an-menu-alt {
-    top: 95%;
-    opacity: 1;
-    visibility: visible;
-    transition: 0s;
-  }
-}

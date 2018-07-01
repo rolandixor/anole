@@ -2672,6 +2672,7 @@ h1, h2, h3, h4, h5, h6 {
   align-content: center;
   justify-content: center;
   opacity: 1;
+  border-width: 1px;
   transition: 0.735s, font-size 0.135s, padding 0.135s;
 }
 

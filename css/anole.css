@@ -2651,7 +2651,7 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 0px 0px 0px 1px;
   border-style: solid;
   border-color: rgba(75, 235, 35, 0.5);
-  transition: 0.715s;
+  transition: 0.715s border-width 0.135s;
 }
 
 .an-mobile-menubutton:hover {

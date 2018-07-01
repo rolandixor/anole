@@ -2683,7 +2683,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
   padding-top: 5px;
   color: white;
-  transition: all 0.315s, font-size 0.135s, padding 0.135s;
+  transition: all 0.315s, font-size 0.135s, top 0.135s;
 }
 
 .an-mobile-menubutton .an-menu-alt,

@@ -2107,13 +2107,15 @@ ol.an-boxed-list li {
   transition: 1s;
 }
 
-.an-reveal:hover > .an-spoiler-spinoutx, .an-spoiler-spinoutx.active {
+.an-reveal:hover > .an-spoiler-spinoutx,
+.an-spoiler-spinoutx.active {
   opacity: 0;
   transform: rotateX(360deg);
   transition: 1s;
 }
 
-.an-reveal:hover > .an-spoiler-spinouty, .an-spoiler-spinouty.active {
+.an-reveal:hover > .an-spoiler-spinouty,
+.an-spoiler-spinouty.active {
   opacity: 0;
   transform: rotateY(180deg);
   transition: 1s;

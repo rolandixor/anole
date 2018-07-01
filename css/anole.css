@@ -2672,9 +2672,6 @@ h1, h2, h3, h4, h5, h6 {
   align-content: center;
   justify-content: center;
   opacity: 1;
-  border-width: 0px 1px;
-  border-style: solid;
-  border-color: rgb(35, 135, 35);
   transition: 0.735s, font-size 0.135s, top 0.135s;
 }
 

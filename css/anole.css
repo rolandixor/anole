@@ -2685,7 +2685,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 7.35%;
   color: white;
   transform: rotate(450deg);
-  transition: all 0.315s, font-size 0.135s, top 0.135s, transform 0.035s;
+  transition: all 0.315s, font-size 0.135s, top 0.135s, transform 0.235s;
 }
 
 .an-mobile-menubutton .an-menu-alt,

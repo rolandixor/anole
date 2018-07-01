@@ -2674,6 +2674,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   border-width: 1px;
   border-style: solid;
+  border-color: rgb(35, 135, 35);
   transition: 0.735s, font-size 0.135s, padding 0.135s;
 }
 

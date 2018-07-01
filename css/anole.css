@@ -2674,7 +2674,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .an-mobile-menubutton:hover:after {
-  font-size: 32px;
+  font-size: 24px;
   opacity: 0.8;
   padding-top: 5px;
   color: white;

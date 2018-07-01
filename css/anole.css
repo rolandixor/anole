@@ -2656,7 +2656,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .an-mobile-menubutton:hover {
   background-color: #5B8C73;
-  border-left-width: 2px;
+  border-left-width: 3px;
   border-color: rgba(0, 0, 0, 0.5);
   transition: 0.375s;
 }

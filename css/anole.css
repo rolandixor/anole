@@ -2538,7 +2538,7 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
   }
 
-  .an-menuactor:hover ~ .an-menu-alt {
+  .an-menuactor:active ~ .an-menu-alt {
     top: 100%;
     opacity: 1;
     visibility: visible;

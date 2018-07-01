@@ -2542,7 +2542,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 95%;
     opacity: 1;
     visibility: visible;
-    transition: 0s,
+    transition: 0s;
   }
 
   .an-menu-exit {

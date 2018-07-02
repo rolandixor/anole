@@ -1162,6 +1162,10 @@ the spacer.
   flex-direction: row;
 }
 
+.an-wrap {
+  flex-wrap: wrap;
+}
+
 .an-label {
   display: inline;
   padding: 5px;

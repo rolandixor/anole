@@ -2547,13 +2547,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
   }
 
-  .an-home-button {
-    max-width: 45px !important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
   .an-home-button:hover {
     max-width: 245px !important;
     white-space: nowrap;

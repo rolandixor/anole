@@ -692,7 +692,7 @@ a.an-home-button:hover {
 .an-button.an-btn-critical {
   color: white;
   background-color: rgb(235, 15, 75);
-  border-color: rgb(45, 135, 245);
+  border-color: rgb(45, 235, 245);
 }
 
 .an-button.an-btn-critical:hover {

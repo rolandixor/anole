@@ -696,9 +696,9 @@ a.an-home-button:hover {
 }
 
 .an-button.an-btn-critical:hover {
+  background-color: rgb(235, 75, 145);
   box-shadow: 0px 0px 5px rgba(0, 135, 35, 0.1);
   transition: all 1s, background 0.735s;
-  background-color: rgb(235, 75, 135);
   border-color: rgb(135, 235, 135);
   letter-spacing: 2px
 }

@@ -2681,6 +2681,7 @@ h1, h2, h3, h4, h5, h6 {
   .an-header img {
     width: 105px;
     height: auto;
+    margin-top: -15px;
   }
 
   .an-head {

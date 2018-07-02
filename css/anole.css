@@ -1332,6 +1332,11 @@ the spacer.
   margin: 35px 5px 35px 5px;
 }
 
+.an-infobox .an-button,
+.an-infobox-dark .an-button {
+  
+}
+
 .an-infobox-dark, .an-box > * > .an-infobox,
 .an-box > .an-infobox, .an-codeblock {
   box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.3);

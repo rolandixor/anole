@@ -1334,7 +1334,7 @@ the spacer.
 
 .an-infobox .an-button,
 .an-infobox-dark .an-button {
-  
+  border-radius: 5px;
 }
 
 .an-infobox-dark, .an-box > * > .an-infobox,

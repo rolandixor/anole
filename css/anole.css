@@ -2674,8 +2674,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-header {
     align-items:center;
-    text-align: center;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1.75em;
   }
 

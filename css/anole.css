@@ -1062,7 +1062,7 @@ the spacer.
 
 .an-button.an-btn-white {
   background-color: rgb(255, 255, 255);
-  border-color: rgb(35, 235, 145);
+  border-color: rgb(35, 35, 35);
 }
 
 .an-button.an-btn-white:hover {

@@ -2554,11 +2554,6 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
   }
 
-  .an-header {
-    font-size: 15px !important;
-    transition: 1s;
-  }
-
   .an-menubutton-alt:hover .an-menu-alt {
     top: 95%;
     opacity: 1;
@@ -2679,6 +2674,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-header {
     align-items:center;
+    text-align: center;
     font-size: 21px;
     line-height: 1.75em;
   }

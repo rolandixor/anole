@@ -2674,7 +2674,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .an-header {
     align-items:center;
-    justify-content: space-around;
     font-size: 18px;
     line-height: 1.75em;
   }

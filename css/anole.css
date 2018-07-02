@@ -1060,6 +1060,19 @@ the spacer.
   letter-spacing: 2px
 }
 
+.an-button.an-btn-spc {
+  background-color: rgb(45, 45, 45);
+  border-color: rgb(35, 235, 145);
+}
+
+.an-button.an-btn-spc:hover {
+  box-shadow: 0px 0px 5px rgba(0, 135, 35, 0.1);
+  transition: all 1s, background 0.735s;
+  background-color: rgb(0, 135, 135);
+  border-color: rgb(255, 255, 255);
+  letter-spacing: 2px
+}
+
 /*Boxes*/
 .an-5p {
   width: 5%;

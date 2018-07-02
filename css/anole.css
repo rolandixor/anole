@@ -1060,7 +1060,7 @@ the spacer.
   letter-spacing: 2px
 }
 
-.an-button.an-btn-white {
+.an-button.an-btn-critical {
   color: rgb(75, 75, 75);
   background-color: rgb(255, 255, 255);
   border-color: rgb(105, 195, 245);

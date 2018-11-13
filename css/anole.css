@@ -2,13 +2,16 @@
 As with Passionfruit, Anole is designed to help you get your site up and running
 quickly. Also, as with Passionfruit, Anole sets nothing by default. Rather, it is
 designed to only come when called, so that you can mix and match it with other
-CSS frameworks such as Bootstrap, Yahoo's Foundation, and others.
-*Anole is light-weight and loads quickly, but it contains numerous components
+CSS frameworks such as Bootstrap, Foundation, and others.
+
+Anole is light-weight and loads quickly, but it contains numerous components
 and even animations. It is recommended that you use it with Passionfruit if you
 want the finer grained control provided by Passionfruit as opposed to Anole, but
 you should be able to get right to work - right away, without needing to dive
-back into your CSS code very often. Just write your HTML, drop in the right
-classes, and watch Anole do the work of making your site look pretty for you!
+back into your CSS code very often.
+
+Just write your HTML, drop in the right classes, and watch Anole do the work
+of making your site look pretty for you!
 */
 
 /**Fonts**/
@@ -1061,7 +1064,7 @@ the spacer.
 /*an-tail buttons*/
 .an-tail .an-button {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  background-color: rgb(45, 75, 75);
+  /*background-color: rgb(45, 75, 75);*/
   border-color: rgb(95, 135, 95);
   border-radius: 3px;
 }
@@ -1074,7 +1077,7 @@ the spacer.
   border-radius: 3px;
 }
 
-/*Boxes*/
+/*Set specific sizes in percentages*/
 .an-5p {
   width: 5%;
 }
@@ -1092,11 +1095,11 @@ the spacer.
 }
 
 .an-25p {
-  width: 75%;
+  width: 25%;
 }
 
 .an-30p {
-  width: 75%;
+  width: 30%;
 }
 
 .an-35p {
@@ -1152,6 +1155,14 @@ the spacer.
   align-content:center;
   align-items: center;
   flex-direction:column;
+}
+
+.an-center-adjust {
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .an-center-row {
@@ -1466,6 +1477,10 @@ the spacer.
 }
 
 /*List styles*/
+.an-list li {
+  margin-bottom: 15px;
+}
+
 .an-boxed-list li {
   border-style: solid;
   border-width: 1px;
@@ -1634,6 +1649,14 @@ ol.an-boxed-list li {
   text-decoration-color: rgba(35, 235, 135, 0.5);
   text-decoration-style: dotted;
   transition: all 1s;
+}
+
+.an-flipX {
+  transform: rotateX(180deg);
+}
+
+.an-flipY {
+  transform: rotateY(180deg);
 }
 
 /*Forms*/
@@ -2316,22 +2339,33 @@ ol.an-boxed-list li {
   top: -75px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.an-text h1, .an-text h2, .an-text h3, .an-text h4, .an-text h5, .an-text h6,
+.an-text-alt h1, .an-text-alt h2, .an-text-alt h3, .an-text-alt h4,
+.an-text-alt h5, .an-text-alt h6 {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
-.an-text > h1, .an-text > h2, .an-text > h3, .an-text > h4, .an-text > h5, .an-text > h6 {
+.an-text h1, .an-text h2, .an-text h3, .an-text h4, .an-text h5, .an-text h6 {
   color: rgb(135, 235, 105);
 }
 
-.an-text-alt > h1, .an-text-alt > h2, .an-text-alt > h3, .an-text-alt > h4, .an-text-alt > h5, .an-text-alt > h6 {
+.an-text-alt h1, .an-text-alt h2, .an-text-alt h3, .an-text-alt h4,
+.an-text-alt h5, .an-text-alt h6 {
   color: rgb(255, 255, 255);
+}
+
+.an-text i {
+
 }
 
 .an-shn-mobile {
   display: none;
+}
+
+.an-shn-always {
+  display: flex !important;
 }
 
 /*Common mobile break point - always place at the bottom of the file so it's easier to find*/
@@ -2599,6 +2633,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: 1s;
   }
 
+
+  .an-center-adjust {
+    flex-direction: column;
+  }
+
   .an-center-row {
     flex-direction: column;
   }
@@ -2612,6 +2651,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .an-shn-mobile {
+    display: inherit;
+  }
+
+  .an-shn-always {
     display: inherit;
   }
 

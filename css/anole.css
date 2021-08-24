@@ -133,6 +133,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-head-item-hover-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   /*.an-head img*/
   --an-head-img-height: auto;
+  --an-head-img-margin: 0 18px 0 18px;
   --an-head-img-width: 32px;
   /*.an-head > .an-title*/
   --an-head-title-background: var(--anole-colors-light-black);
@@ -156,6 +157,9 @@ can pick and choose what you need without having to learn the full framework.
   --an-head-title-img-margin: 0 15px 3px 0;
   --an-head-title-img-height: auto;
   --an-head-title-img-width: 24px;
+
+  /*an-body*/
+  --an-body-padding: 75px 0 0 0;
 
   /**.an-header**/
   --an-header-border-color: rgba(5, 5, 5, 0.1);
@@ -504,16 +508,24 @@ can pick and choose what you need without having to learn the full framework.
 }
 
 .an-head > img {
-  padding-left: 18px;
-  padding-right: 18px;
+  margin: var(--an-head-img-margin);
 }
 
-.an-head *, .an-head *:hover {
+.an-head img {
+  height: var(--an-head-img-height);
+  width: var(--an-head-img-width);
+}
+
+.an-head * {
   border-radius: var(--an-head-item-border-radius);
 }
 
+.an-head *:hover {
+  border-radius: var(--an-head-item-hover-border-radius);
+}
+
 .an-body {
-  padding: 75px 0 0 0;
+  padding: var(--an-body-padding);
 }
 
 .an-glass {
@@ -593,11 +605,6 @@ can pick and choose what you need without having to learn the full framework.
   height: var(--an-head-title-img-height);
   margin: var(--an-head-title-img-margin);
   width: var(--an-head-title-img-width);
-}
-
-.an-head img {
-  height: var(--an-head-img-height);
-  width: var(--an-head-img-width);
 }
 
 .an-home-button {

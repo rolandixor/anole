@@ -8,6 +8,8 @@ and even animations. It plays well with other libraries and frameworks, and you
 can pick and choose what you need without having to learn the full framework.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
 /**Variables**/
 :root {
   /**.anole**/
@@ -62,10 +64,11 @@ can pick and choose what you need without having to learn the full framework.
   --anole-head-z-index: 1030; /* TODO: make this optional */
 
   /**Fonts**/
-  --anole-standard-font: Lato;
-  --anole-light-font: Lato Light;
+  --anole-standard-font: 'Lato', sans-serif;
+  /* TODO: fix these, seeing as we're now using Google fonts */
+  --anole-light-font: 'Lato', sans-serif;
   --anole-font-medium: var(--anole-standard-font), Helvetica, sans-serif;
-  --anole-font-standard: var(--anole-light-font), Roboto, OpenSans, sans-serif;
+  --anole-font-standard: var(--anole-light-font), sans-serif;
 
   /* TODO: sort this out. Temporary fix */
   --anole-heading-font-size: 15px;

@@ -1,5 +1,7 @@
 # Anole
-A pure CSS framework for creating websites that adapt to their environment, much like the [Anole lizards](https://en.wikipedia.org/wiki/Dactyloidae) have done throughout their range. Designed originally as an personal experiment, meant to see what was possible using CSS alone, Anole has since evolved into a robust framework of its own. It utilizes the power of features of CSS3, such as Flexbox and CSS Custom Properties (variables). Primarily class-driven, Anole is not pushy, and will not attempt to style anything unless asked.
+A pure CSS framework for creating websites that adapt to their environment, much like the [Anole lizards](https://en.wikipedia.org/wiki/Dactyloidae) have done throughout their range. Designed originally as an personal experiment, meant to see what was possible using CSS alone, Anole has since evolved into a robust framework of its own.
+
+Anole utilizes the powerful features of CSS3, such as Flexbox and CSS Custom Properties (variables). Primarily class-driven, Anole is not pushy, and will not attempt to style anything unless asked.
 
 # Real World Examples:
 

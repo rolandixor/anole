@@ -30,13 +30,14 @@ can pick and choose what you need without having to learn the full framework.
   --anole-colors-light-black: rgb(15, 15, 15);
   --anole-colors-dull-black: rgb(35, 35, 35);
   /*Blue*/
-  --anole-electric-blue: rgb(15, 235, 255);
-  --anole-calm-blue: rgb(35, 135, 235);
+  --anole-colors-electric-blue: rgb(15, 235, 255);
+  --anole-colors-calm-blue: rgb(35, 135, 235);
   /*Green:*/
   --anole-colors-blue-green: rgb(35, 135, 135);
   --anole-colors-bright-green: rgb(105, 255, 135);
   --anole-colors-main-green: rgb(75, 135, 105);
   --anole-colors-rich-green: rgb(105, 195, 95);
+  --anole-colors-standard-green: rgb(35, 135, 35);
   /*White:*/
   --anole-colors-dim-white: rgb(215, 215, 215);
   --anole-colors-dull-white: rgb(245, 245, 245);
@@ -60,6 +61,9 @@ can pick and choose what you need without having to learn the full framework.
   /*Letter-spacing*/
   --anole-letter-spacing-action-items: 3px;
   --anole-letter-spacing-titles: 5px;
+  --anole-letter-spacing-box-links: 0.35ch;
+  --anole-letter-spacing-links: 0.35ch;
+  --anole-letter-spacing-text: 0.25ch;
   /*Z-indices*/
   --anole-head-z-index: 1030; /* TODO: make this optional */
 
@@ -234,8 +238,7 @@ can pick and choose what you need without having to learn the full framework.
 
   /**Links**/
   /*defaults*/
-  --an-link-border-color: var(--anole-colors-blue-green);
-  --an-link-color: var(--anole-electric-blue);
+  --an-link-color: var(--anole-colors-electric-blue);
   --an-link-display: inline-block; /* Should either be inline-block, or inline */
   --an-link-font-variant: small-caps;
   --an-link-letter-spacing: var(--anole-letter-spacing-action-items);
@@ -260,7 +263,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-after-width: 0;
   --an-link-after-transition: all var(--anole-transition-normal) var(--anole-transition-timing-function);
   /*.an-link:after (arrow) (hover state)*/
-  --an-link-after-border-left-hover: 5px solid var(--anole-electric-blue);
+  --an-link-after-border-left-hover: 5px solid var(--anole-colors-electric-blue);
   --an-link-after-opacity-hover: 1;
   --an-link-after-top-hover: 37.75%;
   --an-link-after-transform-hover: rotate(0deg);
@@ -276,7 +279,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-before-transition: all var(--anole-transition-normal) var(--anole-transition-timing-function);
   --an-link-before-transform: scale(0);
   /*an-link:before:hover (underline)*/
-  --an-link-before-hover-bg-color: var(--anole-electric-blue);
+  --an-link-before-hover-bg-color: var(--anole-colors-electric-blue);
   --an-link-before-hover-opacity: .7;
   --an-link-before-hover-transform: scale(1);
   --an-link-before-hover-transition: all var(--anole-transition-medium) var(--anole-transition-timing-function);
@@ -349,8 +352,21 @@ can pick and choose what you need without having to learn the full framework.
   /*.an-box .an-link*/
   /* TODO: standardize these styles, so they can be shared between different
   components. Eg: all boxes would have a shared link style. */
-  --an-box_an-link-color: var(--anole-calm-blue);
+  --an-box_an-link-color: var(--anole-colors-calm-blue);
   --an-box_an-link-font-variant: normal;
+  --an-box_an-link-letter-spacing: var(--anole-letter-spacing-box-links);
+  --an-box_an-link-margin: 0 8px 0 3px;
+  --an-box_an-link-shadow: none;
+  /*.an-box .an-link:hover*/
+  --an-box_an-link-hover-color: var(--anole-colors-standard-green);
+  /*.an-box .an-link:after*/
+  --an-box_an-link-after-bg-color: var(--anole-colors-full-black);
+  --an-box_an-link-after-opacity: 0.5;
+  /*.an-box .an-link:hover:after*/
+  --an-box_an-link-hover-after-bg-color: var(--anole-colors-dull-black);
+  --an-box_an-link-hover-after-opacity: 1;
+  /*.an-box .an-link:hover:before*/
+  --an-box_an-link-hover-before-bg-color: var(--anole-colors-blue-green);
 
   /*an-label*/
   --an-label-box-sizing: border-box;
@@ -441,43 +457,28 @@ can pick and choose what you need without having to learn the full framework.
 }
 
 .an-box .an-link {
-  color: var(--anole-calm-blue);
-  font-variant: normal;
-  letter-spacing: 0;
-  margin-left: 3px;
-  margin-right: 8px;
-  text-shadow: none;
+  color: var(--anole-colors-calm-blue);
+  font-variant: var(--an-box_an-link-font-variant);
+  letter-spacing: var(--an-box_an-link-letter-spacing);
+  margin: var(--an-box_an-link-margin);
+  text-shadow: var(--an-box_an-link-shadow);
 }
 
 .an-box .an-link:hover {
-  color: rgb(35, 135, 35);
-  letter-spacing: 0.5px;
-  margin-left: 0;
+  color: var(--anole-colors-standard-green);
 }
 
-.an-box .an-link::after {;
-  color: black;
-  opacity: 0.5;
-  font-size: 8px;
-  position: absolute;
-  transform: rotate(-35deg);
-  top: -13.5%;
-  left: 103.5%;
-  transition-duration: 0.735s;
+.an-box .an-link::after {
+  background-color: var(--an-box_an-link-after-bg-color);
+  opacity: var(--an-box_an-link-after-opacity);
 }
 
-.an-box .an-link:hover:after {;
-  color: black;
-  opacity: 0.5;
-  top: 0.75%;
-  font-size: 13px;
-  position: absolute;
-  transform: rotate(0deg);
-  transition-duration: 0.735s;
+.an-box .an-link:hover:after {
+  opacity:  var(--an-box_an-link-hover-after-opacity);
 }
 
 .an-box .an-link:hover:before {
-  border-color: var(--an-link-border-color);
+  border-color: var(--an-box_an-link-hover-before-bg-color);
 }
 
 .an-head {

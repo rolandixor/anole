@@ -37,8 +37,16 @@ can pick and choose what you need without having to learn the full framework.
 
   /**Title Component specific rules**/
   /* TODO: organize this more - will take planning */
+  --anole-title-components-align-items: center;
+  --anole-title-components-border: none;
+  --anole-title-components-border-radius: 3px;
+  --anole-title-components-display: flex;
+  --anole-title-components-flex-direction: row;
+  --anole-title-components-justify-content: center;
   --anole-title-components-letter-spacing: var(--anole-letter-spacing-huge);
   --anole-title-components-margin: 0 0 var(--anole-big-block-margin) 0;
+  --anole-title-components-padding: 15px;
+  --anole-title-components-text-align: center;
   --anole-title-components-text-transform: uppercase;
 
   /*Standard, shared colors:*/
@@ -192,19 +200,24 @@ can pick and choose what you need without having to learn the full framework.
   --an-header-letter-spacing: clamp(5px, 1.05rem, 8px);
 
   /**.an-title**/
-  --an-title-align-content: center;
+  /* TODO: clean this up */
+  --an-title-align-items: var(--anole-title-components-align-items);
   --an-title-background-color: var(--anole-colors-main-green);
-  --an-title-border-color: rgba(135, 135, 135, 0.3);
-  --an-title-border-radius: 3px;
-  --an-title-border-style: solid;
-  --an-title-border-width: 1px;
+  --an-title-border: var(--anole-title-components-border);
+  --an-title-border-radius: var(--anole-title-components-border-radius);
   --an-title-box-shadow: var(--anole-title-box-shadow);
   --an-title-color: var(--anole-colors-dull-white);
+  --an-title-display: var(--anole-title-components-display);
+  --an-title-flex-direction: var(--anole-title-components-flex-direction);
   --an-title-font-size: var(--anole-font-size-large);
+  --an-title-justify-content: var(--anole-title-components-justify-content);
   --an-title-letter-spacing: var(--anole-title-components-letter-spacing);
   --an-title-margin: var(--anole-title-components-margin);
+  --an-title-padding: var(--anole-title-components-padding);
+  --an-title-text-align: var(--anole-title-components-text-align);
   --an-title-text-transform: var(--anole-title-components-text-transform);
   --an-title-text-shadow: var(--anole-title-text-shadow);
+  --an-title-width: 15%; /* TODO: standardize? */
 
   /*.an-title img*/
   --an-title-img-margin: 0 15px 3px 0;
@@ -576,25 +589,23 @@ can pick and choose what you need without having to learn the full framework.
 }
 
 .an-title {
-  align-content: var(--an-title-align-content);
+  align-items: var(--an-title-align-items);
   background-color: var(--an-title-background-color);
   border-radius: var(--an-title-border-radius);
-  border: var(--an-title-border-width) var(--an-title-border-style) var(--an-title-border-color);
+  border: var(--an-title-border);
   box-shadow: var(--an-title-box-shadow);
   color: var(--an-title-color);
+  display: var(--an-title-display);
+  flex-direction: var(--an-title-flex-direction);
   font-size: var(--an-title-font-size);
-  text-transform: var(--an-title-text-transform);
-  margin: var(--an-title-margin);
+  justify-content: center;
   letter-spacing: var(--an-title-letter-spacing);
-  min-width: 15%;
-  padding: 15px;
-  padding-top: 18px;
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction:row;
+  margin: var(--an-title-margin);
+  min-width: var(--an-title-width);
+  padding: var(--an-title-padding);
+  text-align: var(--an-title-text-align);
   text-shadow: var(--an-title-text-shadow);
+  text-transform: var(--an-title-text-transform);
 }
 
 .an-title img {
@@ -604,8 +615,6 @@ can pick and choose what you need without having to learn the full framework.
 }
 
 .an-head > .an-title {
-  align-content: center;
-  align-items: center;
   background-color: var(--an-head-title-background);
   border: var(--an-head-title-border);
   border-bottom: var(--an-head-title-bottom-border);
@@ -615,11 +624,8 @@ can pick and choose what you need without having to learn the full framework.
   border-top: var(--an-head-title-top-border);
   box-shadow: var(--an-head-title-shadow);
   color: var(--an-head-title-color);
-  display: flex;
-  flex-direction: row;
   font-size: var(--an-head-title-font-size);
-  font-weight: var(--an-head-title-font-weight);
-  justify-content: center;
+  font-weight: var(--an-head-title-font-weight);  
   letter-spacing: var(--anole-letter-spacing-titles);
   margin: var(--an-head-title-margin);
   min-height: var(--an-head-title-min-height);

@@ -19,10 +19,27 @@ can pick and choose what you need without having to learn the full framework.
   --anole-background-color: rgb(35, 35, 35);
   --anole-font-size: 18px;
   --anole-font-size-small: 13px;
+  --anole-font-size-large: 25px;
   --anole-line-height: 35px;
   --anole-letter-spacing: inherit;
+  --anole-letter-spacing-huge: 0.5ch;
+  /*
+    Margins.
+
+    Includes the standard margin of the body, but also values to be shared\
+    across various elemnents of various types and categories.
+
+  */
   --anole-margin: 0;
+  --anole-big-block-margin: 35px;
+
   --anole-padding: 0;
+
+  /**Title Component specific rules**/
+  /* TODO: organize this more - will take planning */
+  --anole-title-components-letter-spacing: var(--anole-letter-spacing-huge);
+  --anole-title-components-margin: 0 0 var(--anole-big-block-margin) 0;
+  --anole-title-components-text-transform: uppercase;
 
   /*Standard, shared colors:*/
   /*Black:*/
@@ -183,7 +200,10 @@ can pick and choose what you need without having to learn the full framework.
   --an-title-border-width: 1px;
   --an-title-box-shadow: var(--anole-title-box-shadow);
   --an-title-color: var(--anole-colors-dull-white);
-  --an-title-box-shadow: var(--anole-title-text-shadow);
+  --an-title-font-size: var(--anole-font-size-large);
+  --an-title-letter-spacing: var(--anole-title-components-letter-spacing);
+  --an-title-margin: var(--anole-title-components-margin);
+  --an-title-text-transform: var(--anole-title-components-text-transform);
   --an-title-text-shadow: var(--anole-title-text-shadow);
 
   /*.an-title img*/
@@ -271,7 +291,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-after-content: "";
   --an-link-after-display: initial;
   --an-link-after-height: 0;
-  --an-link-after-left: 100.5%;
+  --an-link-after-left: 101.35%;
   --an-link-after-opacity: 0.1;
   --an-link-after-top: 25%;
   --an-link-after-transform: rotate(-25deg);
@@ -280,7 +300,7 @@ can pick and choose what you need without having to learn the full framework.
   /*.an-link:after (arrow) (hover state)*/
   --an-link-after-border-left-hover: 5px solid var(--anole-colors-electric-blue);
   --an-link-after-opacity-hover: 1;
-  --an-link-after-top-hover: 37.75%;
+  --an-link-after-top-hover: 43.25%;
   --an-link-after-transform-hover: rotate(0deg);
   /*an-link:before:hover (underline)*/
   --an-link-before-border: none;
@@ -558,16 +578,14 @@ can pick and choose what you need without having to learn the full framework.
 .an-title {
   align-content: var(--an-title-align-content);
   background-color: var(--an-title-background-color);
-  border-color: var(--an-title-border-color);
   border-radius: var(--an-title-border-radius);
-  border-style: var(--an-title-border-style);
-  border-width: var(--an-title-border-width);
+  border: var(--an-title-border-width) var(--an-title-border-style) var(--an-title-border-color);
   box-shadow: var(--an-title-box-shadow);
   color: var(--an-title-color);
-  font-size: 25px;
-  text-transform: uppercase;
-  margin: 0 0 35px 0;
-  letter-spacing: 7px;
+  font-size: var(--an-title-font-size);
+  text-transform: var(--an-title-text-transform);
+  margin: var(--an-title-margin);
+  letter-spacing: var(--an-title-letter-spacing);
   min-width: 15%;
   padding: 15px;
   padding-top: 18px;

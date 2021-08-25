@@ -74,6 +74,14 @@ can pick and choose what you need without having to learn the full framework.
   --anole-font-medium: var(--anole-standard-font), Helvetica, sans-serif;
   --anole-font-standard: var(--anole-light-font), sans-serif;
 
+  /**Box shadows**/
+  --anole-heading-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* TODO: replace with the actual value */
+  --anole-title-box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+
+  /**Text shadows**/
+  --anole-heading-text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* TODO: replace with the actual value */
+  --anole-title-text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
   /* TODO: sort this out. Temporary fix */
   --anole-heading-font-size: 15px;
 
@@ -173,8 +181,10 @@ can pick and choose what you need without having to learn the full framework.
   --an-title-border-radius: 3px;
   --an-title-border-style: solid;
   --an-title-border-width: 1px;
-  --an-title-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  --an-title-box-shadow: var(--anole-title-box-shadow);
   --an-title-color: var(--anole-colors-dull-white);
+  --an-title-box-shadow: var(--anole-title-text-shadow);
+  --an-title-text-shadow: var(--anole-title-text-shadow);
 
   /*.an-title img*/
   --an-title-img-margin: 0 15px 3px 0;
@@ -209,15 +219,16 @@ can pick and choose what you need without having to learn the full framework.
   --an-disabled-hover-shadow: 0 0 5px rgba(0, 135, 35, 0.1);
 
   /**Home Button**/
+  /* TODO: draw the colours from action item variables */
   --an-home-button-align-content: center;
   --an-home-button-color: rgb(235, 235, 235);
   --an-home-button-hover-color: rgb(235, 235, 235);
   --an-home-button-background: rgb(35, 35, 35);
-  --an-home-button-hover-background: rgba(35, 175, 135);
+  --an-home-button-hover-background: rgb(35, 175, 135);
   --an-home-button-border-width: 0 0 0 0;
   --an-home-button-hover-border-width: 0 3px 0 0;
   --an-home-button-border-color: transparent;
-  --an-home-button-hover-border-color: rgb(35, 235, 235);
+  --an-home-button-hover-border-color: var(--anole-colors-electric-blue);
   --an-home-button-border-style: solid;
   --an-home-button-hover-border-style: solid;
   --an-home-button-text-decoration: dotted;
@@ -565,7 +576,7 @@ can pick and choose what you need without having to learn the full framework.
   justify-content:center;
   align-items:center;
   flex-direction:row;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--an-title-text-shadow);
 }
 
 .an-title img {

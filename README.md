@@ -33,4 +33,9 @@ A website using Anole typically consists of three main areas:
 - **.an-tail:** optional, recommended for author info and links. Can optionally replace the head, to be used for navigation.
 
 ## Requirements:
-- Lato fonts (will soon be replaced with Google Fonts).
+- A working flux capacitor.
+- A kraken's eye.
+- A robust sense of humour.
+
+
+Actually there are none. Just download anole.css and read the documentation!

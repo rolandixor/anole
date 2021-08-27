@@ -65,11 +65,11 @@ can pick and choose what you need without having to learn the full framework.
   --anole-colors-standard-green: rgb(35, 135, 35);
   /*White:*/
   --anole-colors-dim-white: rgb(215, 215, 215);
-  --anole-colors-dull-white: rgb(245, 245, 245);
+  --anole-colors-white: rgb(235, 235, 235);
   --anole-colors-dark-white: rgb(205, 205, 205);
   /*NB: for antialiasing; eg: in Firefox*/
   --anole-colors-dim-white-transparent: rgba(215, 215, 215, 0);
-  --anole-colors-dull-white-transparent: rgba(245, 245, 245, 0);
+  --anole-colors-white-transparent: rgba(245, 245, 245, 0);
   --anole-colors-dark-white-transparent: rgba(205, 205, 205, 0);
 
   /**Transitions**/
@@ -207,7 +207,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-title-border: var(--anole-title-components-border);
   --an-title-border-radius: var(--anole-title-components-border-radius);
   --an-title-box-shadow: var(--anole-title-box-shadow);
-  --an-title-color: var(--anole-colors-dull-white);
+  --an-title-color: var(--anole-colors-white);
   --an-title-display: var(--anole-title-components-display);
   --an-title-flex-direction: var(--anole-title-components-flex-direction);
   --an-title-font-size: var(--anole-font-size-large);
@@ -299,9 +299,9 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-hover-color: var(--anole-colors-bright-green);
   --an-link-hover-transition: all var(--anole-transition-faster) var(--anole-transition-timing-function);
   /*.an-link:after (arrow) (Optional)*/
-  --an-link-after-border-bottom: 5px solid var(--anole-colors-dull-white-transparent);
-  --an-link-after-border-left: 5px solid var(--anole-colors-dull-white);
-  --an-link-after-border-top: 5px solid var(--anole-colors-dull-white-transparent);
+  --an-link-after-border-bottom: 5px solid var(--anole-colors-white-transparent);
+  --an-link-after-border-left: 5px solid var(--anole-colors-white);
+  --an-link-after-border-top: 5px solid var(--anole-colors-white-transparent);
   --an-link-after-content: "";
   --an-link-after-display: initial;
   --an-link-after-height: 0;

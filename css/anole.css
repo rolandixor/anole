@@ -2996,6 +2996,8 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
 .an-hdn-dragon span {
   color: white;
   letter-spacing: 3px;
+  margin-bottom: auto;
+  margin-top: auto;
   opacity: 0;
   text-decoration: none;
   text-transform: uppercase;
@@ -3007,8 +3009,6 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
 }
 
 .an-hdn-dragon:hover span, .an-hdn-dragon:focus span {
-  margin-bottom: auto;
-  margin-top: auto;
   opacity: 1;
   transform: scaleX(1);
   width: -moz-fit-content;

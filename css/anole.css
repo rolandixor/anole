@@ -625,7 +625,7 @@ can pick and choose what you need without having to learn the full framework.
   box-shadow: var(--an-head-title-shadow);
   color: var(--an-head-title-color);
   font-size: var(--an-head-title-font-size);
-  font-weight: var(--an-head-title-font-weight);  
+  font-weight: var(--an-head-title-font-weight);
   letter-spacing: var(--anole-letter-spacing-titles);
   margin: var(--an-head-title-margin);
   min-height: var(--an-head-title-min-height);
@@ -2985,27 +2985,12 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   font-size: 12px;
   letter-spacing: 3px;
   width: 55px;
-  transition-duration: 0.975s;
+  transition-duration: var(--anole-transition-slow);
 }
 
 .an-head .an-hdn-dragon:hover, .an-head .an-hdn-dragon:focus {
   padding-left: 5px;
   width: 195px;
-  transition-duration: 0.975s;
-}
-
-@keyframes crouching-tiger {
-  0% {
-    opacity: 0;
-    display: none;
-  }
-  5% {
-    opacity: 0;
-    display: inherit;
-  }
-  100% {
-    opacity: 100%;
-  }
 }
 
 .an-hdn-dragon span {
@@ -3014,20 +2999,20 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   opacity: 0;
   text-decoration: none;
   text-transform: uppercase;
-  transition-duration: 0.975s;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition-duration: var(--anole-transition-slow);
+  white-space: nowrap;
   width: 0;
 }
 
 .an-hdn-dragon:hover span, .an-hdn-dragon:focus span {
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-name: crouching-tiger;
-  color: white;
   margin-bottom: auto;
   margin-top: auto;
-  text-decoration: none;
-  transition-duration: 0.975s;
-  width: auto;
+  opacity: 1;
+  transform: scaleX(1);
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .an-hdn-dragon img {

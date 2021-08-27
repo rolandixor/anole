@@ -74,10 +74,11 @@ can pick and choose what you need without having to learn the full framework.
 
   /**Transitions**/
   /*Transition-duration*/
-  --anole-transition-faster: 0.175s;
-  --anole-transition-fast: 0.375s;
-  --anole-transition-medium: 0.575s;
-  --anole-transition-normal: 0.735s;
+  --anole-transition-fastest: .075s;
+  --anole-transition-faster: .175s;
+  --anole-transition-fast: .375s;
+  --anole-transition-medium: .575s;
+  --anole-transition-normal: .735s;
   --anole-transition-slow: 1s;
   /*Transition-timing-functions*/
   /* NB: By default, most components will use this */
@@ -331,6 +332,10 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-before-hover-opacity: .7;
   --an-link-before-hover-transform: scale(1);
   --an-link-before-hover-transition: all var(--anole-transition-medium) var(--anole-transition-timing-function);
+
+  /**.an-hdn-dragon**/
+  /*.an-hdn-dragon img*/
+  --an-hdn-dragon-img-max-width: 24px;
 
   /*Lists*/
   --an-list-bg-color: rgba(15, 15, 15, 1);
@@ -3003,7 +3008,7 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   text-transform: uppercase;
   transform: scaleX(0);
   transform-origin: right;
-  transition-duration: var(--anole-transition-slow);
+  transition-duration: var(--anole-transition-fast);
   white-space: nowrap;
   width: 0;
 }
@@ -3016,12 +3021,12 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
 }
 
 .an-hdn-dragon img {
-  max-width: 24px;
+  max-width: var(--an-hdn-dragon-img-max-width);
   height: auto;
   /*margin-top: auto; works in Firefox, but no longer works in Chrome*/
   margin-top: 12px;
   margin-bottom: auto;
-  transition-duration: 0.035s;
+  transition-duration: var(--anole-transition-fastest);
 }
 
 .an-hdn-dragon:hover img, .an-hdn-dragon:focus img {

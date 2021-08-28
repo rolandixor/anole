@@ -18,7 +18,7 @@ can pick and choose what you need without having to learn the full framework.
   --anole-background-image: radial-gradient(rgb(45, 45, 45), rgb(35, 35, 35));
   --anole-background-color: rgb(35, 35, 35);
   --anole-font-size: 18px;
-  --anole-font-size-small: 13px;
+  --anole-font-size-small: 12px;
   --anole-font-size-large: 25px;
   --anole-line-height: 35px;
   --anole-letter-spacing: inherit;
@@ -54,6 +54,8 @@ can pick and choose what you need without having to learn the full framework.
   --anole-colors-full-black: black;
   --anole-colors-light-black: rgb(15, 15, 15);
   --anole-colors-dull-black: rgb(35, 35, 35);
+  --anole-colors-dull-black-transp: rgba(35, 35, 35, 0.1);
+  --anole-colors-dark-grey: rgb(45, 45, 45);
   /*Blue*/
   --anole-colors-electric-blue: rgb(15, 235, 255);
   --anole-colors-calm-blue: rgb(35, 135, 235);
@@ -115,27 +117,12 @@ can pick and choose what you need without having to learn the full framework.
   --anole-group-spacing: 0.45%;
 
   /*Action components:*/
+  --anole-action-component-text-decoration: none;
   --anole-action-component-text-transform: uppercase;
 
-  /*Action components: .an-head*/
-  --an-head-action-component-background: rgb(45, 45, 45);
-  --an-head-action-component-hover-background: rgb(35, 35, 35);
-  --an-head-action-component-color: rgb(195, 195, 195);
-  --an-head-action-component-hover-color: var(--anole-colors-dim-white);
-  --an-head-action-component-menu-color: var(--anole-colors-dim-white);
-  --an-head-action-component-menu-hover-color: rgb(105, 105, 105);
-  --an-head-action-component-highlight: rgba(105, 235, 235, 0.5);
-  --an-head-action-component-highlight-inactive: rgba(105, 235, 235, 0);
-  --an-head-action-component-inactive-border: 0 0 3px 0;
-  --an-head-action-component-hover-inactive-border: 0 0 3px 0;
-  --an-head-action-component-border-radius: 0;
-  --an-head-action-component-hover-border-radius: 0;
-  --an-head-action-component-border-style: solid;
-  --an-head-action-component-text-align: center;
-
   /**.an-head**/
-  --an-head-background: rgb(45, 45, 45);
-  --an-head-border-color: rgba(35, 35, 35, 0.1);
+  --an-head-background: var(--anole-colors-dark-grey);
+  --an-head-border-color: var(--anole-colors-dull-black-transp);
   --an-head-border-style: solid;
   --an-head-border-width: 0 0 1px 0;
   /*.an-head: display information*/
@@ -154,6 +141,28 @@ can pick and choose what you need without having to learn the full framework.
   --an-head-top: 0;
   --an-head-position: fixed;
   --an-head-shadow: 0 0 35px rgba(0, 0, 0, 0.8), 0 0 12px rgba(35, 35, 35, 0.5);
+
+  /*Action components: .an-head*/
+  --an-head-action-component-background: rgb(45, 45, 45);
+  --an-head-action-component-hover-background: rgb(35, 35, 35);
+  --an-head-action-component-color: rgb(195, 195, 195);
+  --an-head-action-component-hover-color: var(--anole-colors-dim-white);
+  --an-head-action-component-font-size: var(--anole-font-size-small);
+  --an-head-action-component-height: auto;
+  --an-head-action-component-highlight: rgba(105, 235, 235, 0.5);
+  --an-head-action-component-highlight-inactive: rgba(105, 235, 235, 0);
+  --an-head-action-component-hover-inactive-border: 0 0 3px 0;
+  --an-head-action-component-inactive-border: 0 0 3px 0;
+  --an-head-action-component-menu-color: var(--anole-colors-dim-white);
+  --an-head-action-component-menu-hover-color: rgb(105, 105, 105);
+  --an-head-action-component-border-radius: 0;
+  --an-head-action-component-hover-border-radius: 0;
+  --an-head-action-component-border-style: solid;
+  --an-head-action-component-text-align: center;
+  --an-head-action-component-text-decoration: var(--anole-action-component-text-decoration);
+  --an-head-action-component-hover-text-decoration: var(--anole-action-component-text-decoration);
+  --an-head-action-component-text-transform: var(--anole-action-component-text-transform);
+
   /*.an-head: items*/
   --an-head-item-border-radius: 0;
   --an-head-item-hover-border-radius: 0;
@@ -334,8 +343,31 @@ can pick and choose what you need without having to learn the full framework.
   --an-link-before-hover-transition: all var(--anole-transition-medium) var(--anole-transition-timing-function);
 
   /**.an-hdn-dragon**/
+  --an-hdn-dragon-font-size: var(--an-head-action-component-font-size);
+  --an-hdn-dragon-width: 76px;
   /*.an-hdn-dragon img*/
+  --an-hdn-dragon-img-margin: 12px 0 auto 0;
+  --an-hdn-dragon-img-max-height: auto;
+  --an-hdn-dragon-hover-img-max-height: 0;
   --an-hdn-dragon-img-max-width: 24px;
+  --an-hdn-dragon-hover-img-max-width: 0;
+  --an-hdn-dragon-hover-img-opacity: 0;
+  --an-hdn-dragon-img-transition-duration: var(--anole-transition-slow);
+  /*.an-hdn-dragon span*/
+  --an-hdn-dragon-span-margin: auto 0 auto -100%;
+  --an-hdn-dragon-hover-span-margin: auto 0;
+  --an-hdn-dragon-span-opacity: 0;
+  --an-hdn-dragon-hover-span-opacity: 1;
+  --an-hdn-dragon-span-text-decoration: var(--an-head-action-component-text-decoration);
+  --an-hdn-dragon-hover-span-text-decoration: var(--an-head-action-component-hover-text-decoration);
+  --an-hdn-dragon-span-text-transform: var(--an-head-action-component-text-transform);
+  --an-hdn-dragon-span-transform: scaleX(0);
+  --an-hdn-dragon-hover-span-transform: scaleX(1);
+  --an-hdn-dragon-span-transform-origin: left;
+  --an-hdn-dragon-span-whitespace: nowrap;
+  --an-hdn-dragon-span-width: 100%;
+  --an-hdn-dragon-hover-span-moz-width: -moz-fit-content; /*Only necessary if fit-content is used*/
+  --an-hdn-dragon-hover-span-width: fit-content;
 
   /*Lists*/
   --an-list-bg-color: rgba(15, 15, 15, 1);
@@ -2982,58 +3014,58 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
 
 /*Needs work*/
 .an-head .an-hdn-dragon {
-  text-decoration: none;
+  align-content: center;
   display: flex;
-  justify-content:center;
-  align-content:center;
   flex-direction:row;
   font-size: 12px;
+  justify-content:center;
   letter-spacing: 3px;
-  width: 55px;
+  text-decoration: none;
   transition-duration: var(--anole-transition-slow);
+  width: var(--an-hdn-dragon-width);
 }
 
 .an-head .an-hdn-dragon:hover, .an-head .an-hdn-dragon:focus {
-  padding-left: 5px;
-  width: 195px;
-}
-
-.an-hdn-dragon span {
-  color: white;
-  letter-spacing: 3px;
-  margin-bottom: auto;
-  margin-top: auto;
-  opacity: 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition-duration: var(--anole-transition-fast);
-  white-space: nowrap;
-  width: 0;
-}
-
-.an-hdn-dragon:hover span, .an-hdn-dragon:focus span {
-  opacity: 1;
-  transform: scaleX(1);
+  padding: 0 35px 0 45px;
   width: -moz-fit-content;
   width: fit-content;
 }
 
+.an-hdn-dragon span {
+  color: var(--anole-colors-white);
+  letter-spacing: var(--anole-letter-spacing-action-items);
+  margin: var(--an-hdn-dragon-span-margin);
+  opacity: var(--an-hdn-dragon-span-opacity);
+  text-decoration: var(--an-hdn-dragon-span-text-decoration);
+  text-transform: var(--an-hdn-dragon-span-text-transform);
+  transform: var(--an-hdn-dragon-span-transform);
+  transform-origin: var(--an-hdn-dragon-span-transform-origin);
+  transition-duration: var(--anole-transition-normal);
+  white-space: var(--an-hdn-dragon-span-whitespace);
+  width: var(--an-hdn-dragon-span-width);
+}
+
+.an-hdn-dragon:hover span, .an-hdn-dragon:focus span {
+  margin: var(--an-hdn-dragon-hover-span-margin);
+  opacity: var(--an-hdn-dragon-hover-span-opacity);
+  transform: var(--an-hdn-dragon-hover-span-transform);
+  transition-duration: var(--anole-transition-normal);
+  width: var(--an-hdn-dragon-hover-span-moz-width);
+  width: var(--an-hdn-dragon-span-moz-width);
+}
+
 .an-hdn-dragon img {
   max-width: var(--an-hdn-dragon-img-max-width);
-  height: auto;
-  /*margin-top: auto; works in Firefox, but no longer works in Chrome*/
-  margin-top: 12px;
-  margin-bottom: auto;
+  height: var(--an-hdn-dragon-img-max-height);
+  margin: var(--an-hdn-dragon-img-margin);
   transition-duration: var(--anole-transition-fastest);
 }
 
 .an-hdn-dragon:hover img, .an-hdn-dragon:focus img {
-  max-width: 0;
-  max-height: 0;
-  opacity: 0;
-  transition-duration: 1s;
+  max-height: var(--an-hdn-dragon-hover-img-max-height);
+  max-width: var(--an-hdn-dragon-hover-img-max-width);
+  opacity: var(--an-hdn-dragon-hover-img-opacity);
+  transition-duration: var(--an-hdn-dragon-img-transition-duration);
 }
 
 .an-head .an-tip {

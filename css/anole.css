@@ -35,34 +35,26 @@ can pick and choose what you need without having to learn the full framework.
 
   --anole-padding: 0;
 
-  /**Title Component specific rules**/
-  /* TODO: organize this more - will take planning */
-  --anole-title-components-align-items: center;
-  --anole-title-components-border: none;
-  --anole-title-components-border-radius: 3px;
-  --anole-title-components-display: flex;
-  --anole-title-components-flex-direction: row;
-  --anole-title-components-justify-content: center;
-  --anole-title-components-letter-spacing: var(--anole-letter-spacing-huge);
-  --anole-title-components-margin: 0 0 var(--anole-big-block-margin) 0;
-  --anole-title-components-padding: 15px;
-  --anole-title-components-text-align: center;
-  --anole-title-components-text-transform: uppercase;
-
   /*Standard, shared colors:*/
+  --anole-colors-transparent: rgba(0, 0, 0, 0);
   /*Black:*/
   --anole-colors-full-black: black;
   --anole-colors-light-black: rgb(15, 15, 15);
   --anole-colors-dull-black: rgb(35, 35, 35);
   --anole-colors-dull-black-transp: rgba(35, 35, 35, 0.1);
+  /*Grey*/
   --anole-colors-dark-grey: rgb(45, 45, 45);
+  --anole-colors-deep-grey: rgba(75, 75, 75, 1);
   /*Blue*/
   --anole-colors-electric-blue: rgb(15, 235, 255);
   --anole-colors-calm-blue: rgb(35, 135, 235);
   /*Green:*/
+  --anole-colors-green: rgb(75, 175, 75);
   --anole-colors-blue-green: rgb(35, 135, 135);
   --anole-colors-bright-green: rgb(105, 255, 135);
   --anole-colors-main-green: rgb(75, 135, 105);
+  --anole-colors-lime-green: rgb(135, 235, 35);
+  --anole-colors-pale-bright-green: rgb(135, 195, 105);
   --anole-colors-rich-green: rgb(105, 195, 95);
   --anole-colors-standard-green: rgb(35, 135, 35);
   /*White:*/
@@ -79,6 +71,7 @@ can pick and choose what you need without having to learn the full framework.
   --anole-transition-fastest: .075s;
   --anole-transition-faster: .175s;
   --anole-transition-fast: .375s;
+  --anole-transition-measured: .475s;
   --anole-transition-medium: .575s;
   --anole-transition-normal: .735s;
   --anole-transition-slow: 1s;
@@ -101,6 +94,20 @@ can pick and choose what you need without having to learn the full framework.
   --anole-light-font: 'Lato', sans-serif;
   --anole-font-medium: var(--anole-standard-font), Helvetica, sans-serif;
   --anole-font-standard: var(--anole-light-font), sans-serif;
+
+  /**Title Component specific rules**/
+  /* TODO: organize this more - will take planning */
+  --anole-title-components-align-items: center;
+  --anole-title-components-border: none;
+  --anole-title-components-border-radius: 3px;
+  --anole-title-components-display: flex;
+  --anole-title-components-flex-direction: row;
+  --anole-title-components-justify-content: center;
+  --anole-title-components-letter-spacing: var(--anole-letter-spacing-huge);
+  --anole-title-components-margin: 0 0 var(--anole-big-block-margin) 0;
+  --anole-title-components-padding: 15px;
+  --anole-title-components-text-align: center;
+  --anole-title-components-text-transform: uppercase;
 
   /**Box shadows**/
   --anole-heading-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* TODO: replace with the actual value */
@@ -153,6 +160,8 @@ can pick and choose what you need without having to learn the full framework.
   --an-head-action-component-highlight-inactive: rgba(105, 235, 235, 0);
   --an-head-action-component-hover-inactive-border: 0 0 3px 0;
   --an-head-action-component-inactive-border: 0 0 3px 0;
+  --an-head-action-component-letter-spacing: 3px;
+  --an-head-action-component-hover-letter-spacing: 3px;
   --an-head-action-component-menu-color: var(--anole-colors-dim-white);
   --an-head-action-component-menu-hover-color: rgb(105, 105, 105);
   --an-head-action-component-border-radius: 0;
@@ -245,7 +254,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-button-focus-outline-color: rgba(255, 255, 255, 0.5);
   --an-button-focus-outline-style: solid;
   --an-button-focus-outline-width: 3px;
-  --an-button-text-color: white;
+  --an-button-color: white;
   --an-button-font-size: 12px;
   --an-button-font-weight: bolder;
 
@@ -385,22 +394,39 @@ can pick and choose what you need without having to learn the full framework.
   --an-menubutton-padding: 10px 15px 5px 15px;
   --an-menubutton-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.3);
   /*Menus: .an-menu*/
+  /* TODO: cleanup and determine if necessary */
   --an-menu-background: rgb(35, 35, 35);
   --an-menu-padding: 0;
   --an-menu-border-radius: 0;
   /*Menu items*/
-  --an-menu-item-padding: 15px 5px 15px 5px;
-  --an-menu-item-background-color: rgba(75, 75, 75, 1);
-  --an-menu-item-border: 0;
-  --an-menu-item-letter-spacing: 3px;
-  --an-menu-item-text-align: center;
-  --an-menu-item-hover-letter-spacing: 1px;
-  --an-menu-item-border-width: 0 0 0 3px;
-  --an-menu-item-border-color: rgba(134, 255, 36, 0);
-  --an-menu-item-hover-border-color: rgba(134, 255, 36, 1);
-  --an-separator-bg: rgb(75, 135, 95);
+  /*Menu items - display properties*/
+  --an-menu-item-align-items: center;
+  --an-menu-item-flex-direction: column;
+  --an-menu-item-justify-content: center;
+  /*Menu items - standard properties*/
+  --an-menu-item-padding: 15px 5px 15px 5px; /* TODO: determine if this can draw from elsewhere */
+  --an-menu-item-background-color: var(--anole-colors-deep-grey);
+  --an-menu-item-border-color: var(--anole-colors-transparent);
+  --an-menu-item-border-radius: var(--an-head-action-component-border-radius);
+  --an-menu-item-border-width: 0;
+  --an-menu-item-color: var(--an-button-color);
+  --an-menu-item-letter-spacing: var(--an-head-action-component-letter-spacing);
+  --an-menu-item-margin: 1px 0;
+  --an-menu-item-text-align: var(--an-head-action-component-text-align);
+  --an-menu-item-text-transform: var(--an-head-action-component-text-transform);
+  /*Menu items:hover*/
+  --an-menu-item-hover-background-color: var(--anole-colors-green);
+  --an-menu-item-hover-border-color: var(--anole-colors-lime-green);;
+  --an-menu-item-hover-border-radius: var(--an-head-action-component-hover-border-radius);
+  --an-menu-item-hover-border-width: 0 0 0 3px;
+  --an-menu-item-hover-letter-spacing: 2px;
+  /* TODO: use standardized colours. */
+  --an-menu-item-hover-border-color: var(--anole-colors-lime-green);
   /*Menu titles*/
   --an-menu-title-background: rgb(35, 35, 35);
+
+  /**Mobile menu**/
+  --an-mobile-menubutton-color: var(--anole-colors-white);
 
   /**Menus And Buttons**/
   --an-button-standard-width: 215px;
@@ -408,6 +434,31 @@ can pick and choose what you need without having to learn the full framework.
   --an-button-standard-border-width: 0 0 5px 0;
   --an-button-standard-transition-duration: 0.735s;
   --an-button-hover-standard-transition-duration: 0.421s;
+
+  /*Buttons in menus*/
+  /*Buttons in menus: display properties*/
+  --an-menu-button-align-items: var(--an-menu-item-align-items);
+  --an-menu-button-flex-direction: var(--an-menu-item-flex-direction);
+  --an-menu-button-justify-content: var(--an-menu-item-justify-content);
+  /*Buttons in menus - common properties*/
+  --an-menu-button-background-color: var(--an-menu-item-background-color);
+  --an-menu-button-border: var(--an-menu-item-border-width) var(--an-menu-item-border-style) var(--an-menu-item-border-color);
+  --an-menu-button-border-radius: var(--an-menu-item-border-radius);
+  --an-menu-button-color: var(--an-menu-item-color);
+  --an-menu-button-letter-spacing: var(--an-menu-item-letter-spacing);
+  --an-menu-button-margin: var(--an-menu-item-margin);
+  --an-menu-button-padding: var(--an-menu-item-padding);
+  --an-menu-button-text-transform: var(--an-menu-item-text-transform);
+  --an-menu-button-transition-duration: var(--anole-transition-normal);
+  /*Buttons in menus:hover*/
+  --an-menu-button-hover-background-color: var(--an-menu-item-hover-background-color);
+  --an-menu-button-hover-border: var(--an-menu-item-hover-border-width) var(--an-menu-item-hover-border-style) var(--an-menu-item-hover-border-color);
+  --an-menu-button-hover-border-radius: var(--an-menu-item-hover-border-radius);
+  --an-menu-button-hover-letter-spacing: var(--an-menu-item-hover-letter-spacing);
+  --an-menu-button-hover-transition-duration: var(--anole-transition-measured);
+
+  /**.an-separator**/
+  --an-separator-bg: rgb(75, 135, 95);
 
   /**Boxes**/
   /*standard anole "box-type component" box-shadows*/
@@ -733,11 +784,11 @@ can pick and choose what you need without having to learn the full framework.
       * Test the layout and behaviour.
 */
 .an-tail .an-home-button {
-  background-color: rgb(45, 45, 45);
+  background-color: var(--anole-colors-dark-grey);
   border-color: transparent;
   border-style: solid;
   border-width: 0 0 5px 0;
-  color: white;
+  color: var(--anole-colors-white);
   margin-left: -15px;
   max-width: 25%;
   min-height: 45px;
@@ -751,7 +802,7 @@ can pick and choose what you need without having to learn the full framework.
 */
 .an-tail .an-home-button:hover {
   padding: 0 35px 0 15px;
-  border-color: rgb(35, 135, 75);
+  border-color: var(--anole-colors-standard-green);
   transition-duration: 0.735s;
 }
 
@@ -766,7 +817,7 @@ can pick and choose what you need without having to learn the full framework.
   border-style: var(--an-menubutton-border-style);
   border-width: var(--an-button-standard-border-width);
   box-shadow: var(--an-menubutton-box-shadow);
-  color: var(--an-button-text-color);
+  color: var(--an-button-color);
   cursor: pointer;
   display: flex;
   font-family: var(--anole-font-medium);
@@ -816,7 +867,7 @@ can pick and choose what you need without having to learn the full framework.
   background-color: var(--an-menubutton-hover-background-color);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 5px rgba(45, 135, 95, 0.5);
   border-width: 0 0 5px 0;
-  border-color: rgba(135, 235, 35, 1);
+  border-color: var(--anole-colors-lime-green);
   transition-duration: 1.2s;
 }
 
@@ -834,9 +885,9 @@ can pick and choose what you need without having to learn the full framework.
   text-align: center;
   min-height: 100%;
   display: none;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .an-menucontainer:hover .an-menu,
@@ -855,34 +906,32 @@ can pick and choose what you need without having to learn the full framework.
 
 .an-menu .an-button,
 .an-menu-alt .an-button {
+  align-items: var(--an-menu-button-align-items);
+  background-color: var(--an-menu-button-background-color);
+  border: var(--an-menu-button-border);
+  border-radius: var(--an-menu-button-border-radius);
+  color: var(--an-menu-button-color);
+  display: flex;
+  flex-direction: var(--an-menu-button-flex-direction);
+  font-size: var(--an-button-font-size);
+  justify-content: var(--an-menu-button-justify-content);
+  letter-spacing: var(--an-menu-button-letter-spacing);
+  margin: var(--an-menu-button-margin);
+  padding: var(--an-menu-button-padding);
   position: relative;
-  color: var(--an-button-text-color);
-  border-radius: var(--an-menu-item-border);
-  background-color: var(--an-menu-item-background-color);
-  letter-spacing: var(--an-menu-item-letter-spacing);
-  border-color: var(--an-menu-item-border-color);
-  border-width: var(--an-menu-item-border-width);
-  padding: 15px;
-  margin: 1px 0 1px 0;
-  border-style: solid;
   text-align: var(--an-menu-item-text-align);
   text-transform: var(--anole-action-component-text-transform);
-  font-size: var(--an-button-font-size);
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  transition-duration: 0.715s;
+  transition-duration: var(--an-menu-button-transition-duration);
 }
 
 .an-menu .an-button:hover,
 .an-menu-alt .an-button:hover {
+  background-color: var(--an-menu-button-hover-background-color);
+  border-style: var(--an-menu-button-hover-border-style);
+  border-color: var(--an-menu-button-hover-border-color);
+  letter-spacing: var(--an-menu-button-hover-letter-spacing);
   position: relative;
-  background-color: rgba(75, 175, 75, 0.9);
-  border-style: solid;
-  border-color: rgba(134, 255, 36, 1);
-  letter-spacing: var(--an-menu-item-hover-letter-spacing);
-  transition-duration: 0.421s;
+  transition-duration: var(--an-menu-button-hover-transition-duration);
 }
 
 .an-menu .an-sub,
@@ -3073,25 +3122,27 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   margin-top: 15px;
 }
 
-/* TODO: I might actually keep this. It looks better. Just make it work
-on mobile without hover */
+/* TODO:
+  I might actually keep this. It looks better.
+  Just make it work on mobile without hover
+*/
 .an-mobile-menubutton {
-  margin-left: auto;
-  background-color: rgb(35, 35, 35);
-  position: relative;
-  display: flex;
-  align-items: center;
   align-content: center;
-  justify-content: center;
-  color: white;
-  font-size: 12px;
-  letter-spacing: 3px;
-  width: 50px;
-  min-height: 100%;
-  border-width: 0 0 0 1px;
-  border-style: solid;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
   border-color: rgba(75, 235, 35, 0.5);
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  color: var(--an-mobile-menubutton-color);
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  letter-spacing: 3px;
+  margin-left: auto;
+  min-height: 100%;
+  position: relative;
   transition-duration: 0.715s;
+  width: 50px;
 }
 
 .an-mobile-menubutton:hover {
@@ -3108,7 +3159,7 @@ on mobile without hover */
   width: 100%;
   content: "☰";
   font-size: 24px;
-  color: rgb(135, 195, 105);
+  color: var(--anole-colors-pale-bright-green);
   display: flex;
   align-items: center;
   align-content: center;
@@ -3127,7 +3178,7 @@ on mobile without hover */
 
 .an-mobile-menubutton:hover:after {
   opacity: 1;
-  color: white;
+  color: var(--anole-colors-white);
   transform: rotate(450deg);
   transition-duration: 0.315s;
 }

@@ -150,8 +150,8 @@ can pick and choose what you need without having to learn the full framework.
   --an-head-shadow: 0 0 35px rgba(0, 0, 0, 0.8), 0 0 12px rgba(35, 35, 35, 0.5);
 
   /*Action components: .an-head*/
-  --an-head-action-component-background: rgb(45, 45, 45);
-  --an-head-action-component-hover-background: rgb(35, 35, 35);
+  --an-head-action-component-background: var(--anole-colors-dark-grey);
+  --an-head-action-component-hover-background: var(--anole-colors-dull-black);
   --an-head-action-component-color: rgb(195, 195, 195);
   --an-head-action-component-hover-color: var(--anole-colors-dim-white);
   --an-head-action-component-font-size: var(--anole-font-size-small);

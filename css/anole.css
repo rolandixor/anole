@@ -280,6 +280,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-home-button-border-width: 0 0 0 0;
   --an-home-button-hover-border-width: 0 3px 0 0;
   --an-home-button-border-color: transparent;
+  --an-home-button-max-width: 35ch; /* TODO: determine if this is a reasonable value. */
   --an-home-button-hover-border-color: var(--anole-colors-electric-blue);
   --an-home-button-border-style: solid;
   --an-home-button-hover-border-style: solid;
@@ -731,6 +732,7 @@ can pick and choose what you need without having to learn the full framework.
 }
 
 .an-home-button {
+  /* TODO: truncate the text above a certain size - feeling like lazy fixes ;) */
   align-content: var(--an-home-button-align-content);
   background-color: var(--an-home-button-background);
   border-color: var(--an-home-button-border-color);
@@ -742,6 +744,7 @@ can pick and choose what you need without having to learn the full framework.
   font-size: var(--an-home-button-font-size);
   justify-content: var(--an-home-button-justify-content);
   letter-spacing: var(--an-home-button-letter-spacing);
+  max-width: var(--an-home-button-max-width);
   padding: var(--an-home-button-padding);
   position: var(--an-home-button-position);
   text-decoration: var(--an-home-button-text-decoration);
@@ -3226,7 +3229,9 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   }
 
   .an-codeblock::after {
-    left: 35%;
+    top: 15px;
+    left: auto;
+    right: 0;
     width: 50%;
     border-radius: 3px;
   }
@@ -3396,11 +3401,6 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
   /*TODO: Is this how this should work?*/
   .an-center-row {
     padding: 35px;
-  }
-
-  .an-codeblock::after {
-    top: 5px;
-    left: 55.5%;
   }
 
   .an-5p, .an-10p, .an-15p, .an-20p, .an-25p,

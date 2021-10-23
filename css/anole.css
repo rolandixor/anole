@@ -1843,6 +1843,7 @@ the spacer.*/
   padding: 35px;
 }
 
+/*todo: convert all of these to use variables*/
 .an-codeblock {
   background-color: rgb(15, 15, 15);
   border-style: solid;
@@ -1869,23 +1870,22 @@ the spacer.*/
 }
 
 .an-codeblock > .an-box::after {
-  content: 'example';
-  font-weight: bold;
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.1);
-  border-width: 1px;
-  position: absolute;
-  font-family: LatoWebLight;
   color: rgb(235,235,235);
-  text-transform: uppercase;
-  font-size: 10px;
-  letter-spacing: 5px;
+  content: 'example:';
   background-color: rgba(35, 35, 35, 1);
-  padding: 5px 15px 5px 22px;
   border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  font-family: LatoWebLight;
+  font-size: 10px;
+  font-weight: bold;
+  left: auto;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 5px 15px 5px 22px;
+  right: 15px;
   top: -20px;
-  left: 83%;
   transition-duration: 2.5s;
 }
 
@@ -2037,8 +2037,25 @@ Some concepts from here: https://css-tricks.com/custom-list-number-styling/*/
 }
 
 /*A general spacer for use anywhere*/
+
+/* TODO: make all of these use variables, which would
+then be available to pull from for all spacing in Anole.
+
+This way everything becomes a bit more standardized and "modular" */
+[class*="an-gen-spacer"] {
+  visibility: hidden;
+}
+
 .an-gen-spacer-tiny {
   margin: 5px;
+}
+
+.an-gen-spacer-small {
+  margin: 15px;
+}
+
+.an-gen-spacer-reduced {
+  margin: 25px;
 }
 
 .an-gen-spacer {

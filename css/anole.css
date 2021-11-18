@@ -510,6 +510,13 @@ can pick and choose what you need without having to learn the full framework.
   --an-label-margin: 0 8px 0 3px;
   --an-label-padding: 0 18px;
   --an-label-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+  /*an-reveal*/
+  --an-reveal-active-opacity: 0;
+  --an-reveal-background-color: var(--anole-colors-main-green);
+  --an-reveal-border-color: rgba(135, 235, 35, 1);
+  --an-reveal-border-width: 5px;
+  --an-reveal-opacity: 1;
 }
 
 /**Standard stuff**/
@@ -2587,13 +2594,13 @@ This way everything becomes a bit more standardized and "modular" */
   transition-duration: 1s;
 }
 
-.an-reveal > .an-show-down {
-  border-style: solid;
-  border-width: 5px 0 0 0;
-  border-color: rgba(135, 235, 35, 1);
+.an-reveal > .an-show-down,
+.an-reveal > .an-show-left,
+.an-reveal > .an-show-right,
+.an-reveal > .an-show-up {
   position: absolute;
-  background-color: rgb(95, 135, 105);
-  opacity: 1;
+  background-color: var(--an-reveal-background-color);
+  opacity: var(--an-reveal-opacity);
   bottom: 0%;
   left: 0%;
   width: 100%;
@@ -2605,86 +2612,43 @@ This way everything becomes a bit more standardized and "modular" */
   flex-direction:column;
   transition-duration: 1s;
 }
-
-.an-reveal:hover > .an-show-down, .an-show-down.active {
-  opacity: 0;
-  height: 0%;
-  transition-duration: 1s;
-}
-
 .an-reveal > .an-show-up {
-  border-style: solid;
-  border-width: 0 0 5px 0;
-  border-color: rgba(135, 235, 35, 1);
-  position: absolute;
-  background-color: rgb(95, 135, 105);
-  opacity: 1;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
-  transition-duration: 1s;
+  border-bottom: var(--an-reveal-border-width) solid var(--an-reveal-border-color);
+  transform-origin: top;
 }
 
-.an-reveal:hover > .an-show-up, .an-show-up.active {
-  opacity: 0;
-  height: 0%;
-  transition-duration: 1s;
+.an-reveal > .an-show-down {
+  border-top: var(--an-reveal-border-width) solid var(--an-reveal-border-color);
+  transform-origin: bottom;
+}
+
+.an-reveal:hover > .an-show-up, .an-show-up.active,
+.an-reveal:hover > .an-show-down, .an-show-down.active,
+.an-reveal:hover > .an-show-left, .an-show-left.active,
+.an-reveal:hover > .an-show-right, .an-show-right.active {
+  transition-duration: var(--anole-transition-slow);
+}
+
+.an-reveal:hover > .an-show-up, .an-show-up.active,
+.an-reveal:hover > .an-show-down, .an-show-down.active {
+  opacity: var(--an-reveal-active-opacity);
+  transform: scaleY(0);
 }
 
 .an-reveal > .an-show-left {
-  border-style: solid;
-  border-width: 0 5px 0 0;
-  border-color: rgba(135, 235, 35, 1);
-  position: absolute;
-  background-color: rgb(95, 135, 105);
-  opacity: 1;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
-  transition-duration: 1s;
-}
-
-.an-reveal:hover > .an-show-left, .an-show-left.active {
-  opacity: 0;
-  width: 0%;
-  transition-duration: 1s;
+  border-right: var(--an-reveal-border-width) solid var(--an-reveal-border-color);
+  transform-origin: left;
 }
 
 .an-reveal > .an-show-right {
-  border-style: solid;
-  border-width: 0 0 0 5px;
-  border-color: rgba(135, 235, 35, 1);
-  position: absolute;
-  background-color: rgb(95, 135, 105);
-  opacity: 1;
-  top: 0%;
-  right: 0%;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
-  transition-duration: 1s;
+  border-left: var(--an-reveal-border-width) solid var(--an-reveal-border-color);
+  transform-origin: right;
 }
 
+.an-reveal:hover > .an-show-left, .an-show-left.active,
 .an-reveal:hover > .an-show-right, .an-show-right.active {
   opacity: 0;
-  width: 0%;
-  transition-duration: 1s;
+  transform: scaleX(0);
 }
 
 .an-reveal > .an-spoiler-x {

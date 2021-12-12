@@ -1222,14 +1222,13 @@ to have an official mobile style. */
 .an-button:hover {
   background-color: rgb(75, 135, 95);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 5px rgba(45, 135, 95, 0.5);
-  letter-spacing: 4px;
   border-color: rgba(135, 235, 35, 1);
-  transition-duration: 1.2s;
+  transform: translateY(-2px);
+  transition-duration: var(--anole-transition-faster);
 }
 
 .an-button-wide:hover {
   min-width: 215px;
-  letter-spacing: 4px;
 }
 
 .an-button.an-btn-alt {
@@ -1241,8 +1240,6 @@ to have an official mobile style. */
   box-shadow: 0 0 5px rgba(0, 135, 235, 0.1);
   background-color: rgb(35, 135, 195);
   border-color: rgb(135, 255, 255);
-  letter-spacing: 2px;
-  transition-duration: 1s;
 }
 
 .an-button.an-btn-blue {
@@ -1255,7 +1252,6 @@ to have an official mobile style. */
   transition-duration: 1s;
   background-color: rgb(15, 175, 195);
   border-color: rgb(195, 255, 255);
-  letter-spacing: 2px;
 }
 
 /* TODO:
@@ -1271,7 +1267,6 @@ to have an official mobile style. */
   background-color: rgb(55, 175, 135);
   border-color: rgb(215, 215, 215);
   box-shadow: 0 0 5px rgba(0, 135, 235, 0.1);
-  transition-duration: 1s;
 }
 
 .an-btn-orange {
@@ -1283,7 +1278,6 @@ to have an official mobile style. */
   background-color: rgb(215, 135, 105);
   border-color: rgb(135, 215, 235);
   box-shadow: 0 0 5px rgba(0, 135, 235, 0.1);
-  transition-duration: 1s;
 }
 
 .an-btn-purple {
@@ -1295,7 +1289,6 @@ to have an official mobile style. */
   background-color: rgb(135, 105, 205);
   border-color: rgb(215, 215, 215);
   box-shadow: 0 0 5px rgba(0, 135, 235, 0.1);
-  transition-duration: 1s;
 }
 
 .an-btn-red {
@@ -1307,7 +1300,6 @@ to have an official mobile style. */
   background-color: rgb(205, 95, 105);
   border-color: rgb(215, 215, 215);
   box-shadow: 0 0 5px rgba(0, 135, 235, 0.1);
-  transition-duration: 1s;
 }
 
 .an-btn-spc {
@@ -1319,7 +1311,6 @@ to have an official mobile style. */
   background-color: rgb(0, 135, 135);
   border-color: rgb(255, 255, 255);
   box-shadow: 0 0 5px rgba(0, 135, 35, 0.1);
-  transition-duration: 1s;
 }
 
 .an-btn-critical {
@@ -1332,14 +1323,7 @@ to have an official mobile style. */
   background-color: rgb(195, 35, 105);
   border-color: rgb(135, 135, 135);
   box-shadow: 0 0 5px rgba(0, 135, 35, 0.1);
-  transition-duration: 1s;
 }
-
-/*
-  TODO:
-    Cleanup the disabled stuff.
-    Also may need to move it within the document so it works in the head.
-*/
 
 .an-btn-disabled {
   background-color: var(--an-btn-disabled-background-color);
@@ -1364,7 +1348,7 @@ to have an official mobile style. */
   color: var(--an-btn-disabled-color);
   cursor: var(--an-btn-disabled-cursor);
   letter-spacing: 3px;
-  transition-duration: 1s;
+  transition-duration: var(--anole-transition-fast);
 }
 
 .an-disabled, .an-disabled:hover,
@@ -1623,11 +1607,11 @@ the spacer.*/
 }
 
 .an-flex-left {
-
+  justify-content: flex-start;
 }
 
 .an-flex-right {
-
+  justify-content: flex-end;
 }
 
 [class^="an-center"] {

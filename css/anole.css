@@ -2881,7 +2881,7 @@ This way everything becomes a bit more standardized and "modular" */
   transition-duration: 1s;
 }
 
-.an-sidebar .an-sb-title {
+.an-sidebar .an-sidebar-heading {
   max-width: 100%;
   width: 100%;
   font-family: var(--anole-font-standard);
@@ -2905,7 +2905,7 @@ This way everything becomes a bit more standardized and "modular" */
   max-height: 35px;
 }
 
-.an-sidebar:hover .an-sb-title {
+.an-sidebar:hover .an-sidebar-heading {
   margin-left: -5px;
   width: 100%;
   transition-duration: 1s;

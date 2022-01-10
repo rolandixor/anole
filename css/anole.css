@@ -1818,6 +1818,7 @@ the spacer.*/
   line-height: var(--an-infobox-line-height);
 }
 
+/* TODO: share variables with infobox-dark */
 .an-infobox {
   box-shadow: var(--an-infobox-shadow);
   background-color: var(--an-infobox-background-color);
@@ -1826,7 +1827,7 @@ the spacer.*/
   border-radius: var(--an-infobox-border-radius);
   border-width: 1px;
   padding: 35px;
-  margin: 35px 5px 35px 5px;
+  margin: 35px 15px;
   color: white;
 }
 

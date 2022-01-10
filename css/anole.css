@@ -2963,7 +2963,7 @@ This way everything becomes a bit more standardized and "modular" */
 }
 
 .an-text h1, .an-text h2, .an-text h3, .an-text h4, .an-text h5, .an-text h6 {
-  color: rgb(135, 235, 105);
+  color: var(--anole-colors-pale-bright-green);
 }
 
 .an-text-alt h1, .an-text-alt h2, .an-text-alt h3, .an-text-alt h4,

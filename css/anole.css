@@ -1965,18 +1965,19 @@ the spacer.*/
   font-weight: 600;
 }
 
+/* TODO: convert to variables */
 .an-sunkenplace {
-  display: flex;
   align-items: center;
-  border-color: rgba(5, 5, 5, 0.1);
+  background-color: rgba(0, 0, 0, .1);
+  border-color: rgba(105, 105, 105, 0.3);
   border-style: solid;
-  border-width: 2px;
-  border-radius: 15px;
-  letter-spacing: 0.2pt;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 135px rgba(0, 0, 0, 0.8);
   color: white;
-  box-shadow: inset 0 0 35px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  margin: 35px 15px;
   padding: 45px;
-  margin: 35px 15px 35px 15px;
 }
 
 /*List styles*/

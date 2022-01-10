@@ -17,10 +17,10 @@ can pick and choose what you need without having to learn the full framework.
   --anole-border-color-standard: rgba(135, 235, 35);
   --anole-background-image: radial-gradient(rgb(45, 45, 45), rgb(35, 35, 35));
   --anole-background-color: rgb(35, 35, 35);
-  --anole-font-size: 18px;
+  --anole-font-size: calc(0.735em + 1vh);
   --anole-font-size-small: 12px;
   --anole-font-size-large: 25px;
-  --anole-line-height: 35px;
+  --anole-line-height: calc(1.5em + 1vh);
   --anole-letter-spacing: inherit;
   --anole-letter-spacing-huge: 0.5ch;
   /*
@@ -102,6 +102,7 @@ can pick and choose what you need without having to learn the full framework.
   --anole-title-components-border-radius: 3px;
   --anole-title-components-display: flex;
   --anole-title-components-flex-direction: row;
+  --anole-title-components-font-weight: 400;
   --anole-title-components-justify-content: center;
   --anole-title-components-letter-spacing: var(--anole-letter-spacing-huge);
   --anole-title-components-margin: 0 0 var(--anole-big-block-margin) 0;
@@ -221,7 +222,7 @@ can pick and choose what you need without having to learn the full framework.
   /**.an-title**/
   /* TODO: clean this up */
   --an-title-align-items: var(--anole-title-components-align-items);
-  --an-title-background-color: var(--anole-colors-main-green);
+  --an-title-background-color: var(--anole-colors-blue-green);
   --an-title-border: var(--anole-title-components-border);
   --an-title-border-radius: var(--anole-title-components-border-radius);
   --an-title-box-shadow: var(--anole-title-box-shadow);
@@ -229,6 +230,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-title-display: var(--anole-title-components-display);
   --an-title-flex-direction: var(--anole-title-components-flex-direction);
   --an-title-font-size: var(--anole-font-size-large);
+  --an-title-font-weight: var(--anole-title-components-font-weight);
   --an-title-justify-content: var(--anole-title-components-justify-content);
   --an-title-letter-spacing: var(--anole-title-components-letter-spacing);
   --an-title-margin: var(--anole-title-components-margin);
@@ -257,6 +259,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-button-color: white;
   --an-button-font-size: 12px;
   --an-button-font-weight: bolder;
+  --an-button-text-align: center;
 
   /*Disabled Buttons*/
   --an-btn-disabled-color: rgba(255, 255, 255, 0.5);
@@ -394,6 +397,7 @@ can pick and choose what you need without having to learn the full framework.
   --an-menubutton-max-width: 235px;
   --an-menubutton-padding: 10px 15px 5px 15px;
   --an-menubutton-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 5px rgba(0, 0, 0, 0.3);
+  --an-menubutton-text-align: var(--an-button-text-align);
   /*Menus: .an-menu*/
   /* TODO: cleanup and determine if necessary */
   --an-menu-background: rgb(35, 35, 35);
@@ -480,7 +484,7 @@ can pick and choose what you need without having to learn the full framework.
   /*-Used by .an-infobox, .an-infobox-dark*/
   --an-infobox-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.9);
   --an-infobox-shadow-light: 0 0 35px 1px rgba(0, 0, 0, 0.3);
-  --an-infobox-line-height: 35px;
+  --an-infobox-line-height: 2.5rem;
   /*.an-codeblock*/
   --an-codeblock-border-radius: 1px;
 
@@ -507,7 +511,8 @@ can pick and choose what you need without having to learn the full framework.
 
   /*an-label*/
   --an-label-box-sizing: border-box;
-  --an-label-margin: 0 8px 0 3px;
+  --an-label-border-radius: 2px;
+  --an-label-margin: 3px 3px 3px 5px;
   --an-label-padding: 0 18px;
   --an-label-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 
@@ -694,6 +699,7 @@ can pick and choose what you need without having to learn the full framework.
   display: var(--an-title-display);
   flex-direction: var(--an-title-flex-direction);
   font-size: var(--an-title-font-size);
+  font-weight: var(--an-title-font-weight);
   justify-content: center;
   letter-spacing: var(--an-title-letter-spacing);
   margin: var(--an-title-margin);
@@ -708,6 +714,10 @@ can pick and choose what you need without having to learn the full framework.
   height: var(--an-title-img-height);
   margin: var(--an-title-img-margin);
   width: var(--an-title-img-width);
+}
+
+p + .an-title {
+  margin-top: 45px; /* TODO: turn this to a variable */
 }
 
 .an-head > .an-title {
@@ -852,8 +862,6 @@ can pick and choose what you need without having to learn the full framework.
   background-color: var(--an-menubutton-hover-background-color);
 }
 
-/* TODO: determine if this should be kept as an alternative */
-
 .an-menubutton {
   position: relative;
   background-color: var(--an-menubutton-background);
@@ -865,7 +873,7 @@ can pick and choose what you need without having to learn the full framework.
   letter-spacing: var(--an-menubutton-letter-spacing);
   padding: var(--an-menubutton-padding);
   text-transform: var(--anole-action-component-text-transform);
-  text-align: center;
+  text-align: var(--an-menubutton-text-align);
   border-style: var(--an-button-standard-border-style);
   border-width: var(--an-button-standard-border-width);
   border-color: var(--an-menubutton-border-color);
@@ -1629,8 +1637,8 @@ the spacer.*/
 [class*="an-label"]{
   box-shadow: var(--an-label-shadow);
   box-sizing: var(--an-label-box-sizing);
-  border-radius: 4px;
-  display: inline-block;
+  border-radius: var(--an-label-border-radius);
+  display: inline-flex;
   margin: var(--an-label-margin);
   padding: var(--an-label-padding);
 }
@@ -2781,7 +2789,7 @@ This way everything becomes a bit more standardized and "modular" */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   color: white;
   padding: 5px;
-  z-index: 21000;
+  z-index: 100; /* TODO: see if this should be removed */
   position: fixed;
   top: 17.5%;
   left: 0%;
@@ -2827,10 +2835,17 @@ This way everything becomes a bit more standardized and "modular" */
   transition-duration: 0.735s;
 }
 
+.an-sidebar:hover::before {
+  background-color: rgba(15, 15, 15, 0.5);
+  content: '';
+  filter: blur(15px);
+  inset: 15px;
+  position: absolute;
+  z-index: -1;
+}
+
 .an-sidebar > * {
-  height: 100%;
   opacity: 0;
-  height: 35px;
   display: flex;
   justify-content:center;
   align-content:center;
@@ -2853,7 +2868,6 @@ This way everything becomes a bit more standardized and "modular" */
 .an-sidebar > * > * {
   opacity: 0;
   min-width: 100%;
-  height: 35px;
   margin-bottom: 15px;
   margin-top: 15px;
   transition-duration: 1s;
@@ -2862,7 +2876,6 @@ This way everything becomes a bit more standardized and "modular" */
 .an-sidebar:hover > * > * {
   opacity: 1;
   min-width: 100%;
-  height: 45px;
   margin-left: -5px;
   transition-duration: 1s;
 }
@@ -2903,8 +2916,7 @@ This way everything becomes a bit more standardized and "modular" */
   min-width: 100%;
   text-decoration: none;
   color: white;
-  padding: 15px;
-  padding-bottom: 25px;
+  margin: 5px;
   transition-duration: 1s;
 }
 

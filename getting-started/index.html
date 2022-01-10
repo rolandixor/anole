@@ -7,6 +7,100 @@
     <title>Getting Started - Anole Framework Documentation</title>
   </head>
   <body class="anole">
+
+    <h1 class="an-center-row an-header an-header-full">
+      <img src="../img/anole.png" alt="" width="128px" height="auto">
+      <div class="" style="margin-left: 35px;">
+        getting started with anole
+      </div>
+    </h1>
+
+    <aside class="an-sidebar">
+      <a href="#" class="an-button">
+        Basics
+      </a>
+      <a href="#typography" class="an-button an-btn-spc">
+        typography
+      </a>
+      <a href="#" class="an-button">
+        structure of a web page
+      </a>
+    </aside>
+
+    <main class="an-body">
+      <div class="an-anchorpoint">
+        <div class="" id="an-button">
+        </div>
+      </div>
+      <article class="an-infobox-dark">
+        <h1 class="an-title">
+          basics
+        </h1>
+        <p>
+          Anole is primarily a class-based framework, and does not apply styles
+          to <em>anything</em> on the page without a class attached to the
+          element or its parent. Even the
+          <span class="an-code-blue">&lt;body&gt;</span> requires the class
+          ".anole" in order to apply the supplied default styling. However,
+          Anole is a breeze to work with once you have a grasp of the basics,
+          having being designed and built by a designer.
+        </p>
+        <div class="an-anchorpoint" id="typography">
+        </div>
+        <h2 class="an-heading">
+          typography
+        </h2>
+        <p>
+          By default, Anole uses the "Lato" font.
+        </p>
+        <p>
+          Font size is set responsizely, using the variable
+          <span class="an-label-optional">--anole-font-size</span>, with a value
+          of <span class="an-label-information">calc(0.735em + 1vh)</span>, as is
+          line-height, governed by the variable
+          <span class="an-label-optional">--anole-line-height</span>. The value for
+          this variable is <span class="an-label-information">calc(1.5em + 1vh)</span>.
+          You can easily change these values in your own projects by overwriting
+          these variables. Letter spacing is governed by the variable
+          <span class="an-label-optional">--anole-letter-spacing</span>, by default.
+          Optionally, you can reference the variable
+          <span class="an-label-optional">--anole-letter-spacing-huge</span>,
+          for wide letter spacing. This variable uses a value of
+          <span class="an-label-information">0.5ch.</span>
+        </p>
+        <h1 class="an-title">
+          Using Anole
+        </h1>
+        <h2 class="an-heading">
+          structure of an anole-based web page
+        </h2>
+        <p>
+          Anole comes with a basic layout in three parts:
+          <div class="an-label an-label-standard">
+            an-head
+          </div>
+          <div class="an-label an-label-standard">
+            an-body
+          </div>
+          <div class="an-label an-label-standard">
+            an-tail
+          </div>
+        </p>
+        <p>
+          Take a look at the following examples to see how it works:
+        </p>
+        <div class="an-group an-center-adjust">
+          <a href="basic" class="an-button an-button-wide">standard website</a>
+          <a href="mobile" class="an-button an-button-wide">mobile website</a>
+        </div>
+      </article>
+    </main>
+    <div class="an-gen-spacer-huge">
+    </div>
+    <br>
+    <div class="an-gen-spacer-huge">
+    </div>
+
     <nav class="an-head">
       <a href="../" class="an-home-button">return home</a>
       <div class="an-spacer">
@@ -198,58 +292,5 @@
         </div>
       </div>
     </nav>
-
-    <h1 class="an-center-row an-header an-header-full">
-      <img src="../img/anole.png" alt="" width="128px" height="auto">
-      <div class="" style="margin-left: 35px;">
-        getting started with anole
-      </div>
-    </h1>
-
-    <section class="an-body">
-      <div class="an-anchorpoint">
-        <div class="" id="an-button">
-        </div>
-      </div>
-      <article class="an-infobox-dark">
-        <div class="an-title">
-          basics
-        </div>
-        <p>
-          Like many popular frameworks, Anole is a primary class-based framework,
-          and does not apply styles to anything on the page without a class
-          attached to the element or its parent. Even the body of your page
-          requires the class ".anole". However, you should find that working with
-          Anole is a breeze, and once you get started, its easy to fall in love.
-        </p>
-        <h2 class="an-heading">
-          structure of an anole-based web page
-        </h2>
-        <p>
-          Anole comes with a basic layout in three parts:
-          <div class="an-label an-label-standard">
-            an-head
-          </div>
-          <div class="an-label an-label-standard">
-            an-body
-          </div>
-          <div class="an-label an-label-standard">
-            an-tail
-          </div>
-        </p>
-        <p>
-          Take a look at the following examples to see how it works:
-        </p>
-        <div class="an-group an-center-adjust">
-          <a href="basic" class="an-button an-button-wide">standard website</a>
-          <a href="mobile" class="an-button an-button-wide">mobile website</a>
-        </div>
-      </article>
-    </section>
-    <div class="an-gen-spacer-huge">
-    </div>
-    <br>
-    <div class="an-gen-spacer-huge">
-    </div>
   </body>
 </html>

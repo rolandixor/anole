@@ -8,37 +8,36 @@
   </head>
   <body class="anole">
 
-    <!--Body-->
-    <div class="an-body">
-      <!--Inside navigation-->
-      <div class="an-sidebar">
-        <div class="">
-          <div class="an-sb-title">
-            navigation:
-          </div>
-          <a class="an-button" href="#an-text">
-            .an-text
-          </a>
-          <a class="an-button" href="#an-headings">
-            headings
-          </a>
-          <a class="an-button" href="#an-sunkenplace">
-            an-sunkenplace
-          </a>
-        </div>
-      </div>
 
-      <!--Main content-->
-      <header class="an-header an-header-full">
-        <div class="an-15p">
-          <img src="../img/anole.png" alt="Anole Logo" class="an-responsive-img">
+    <!--Inside navigation-->
+    <aside class="an-sidebar">
+      <div class="">
+        <div class="an-sb-title">
+          navigation:
         </div>
-        <div>
-          anole docs - text
-        </div>
-        <div class="an-anchorpoint" id="an-box">
-        </div>
-      </header>
+        <a class="an-button" href="#an-text">
+          .an-text
+        </a>
+        <a class="an-button" href="#an-headings">
+          headings
+        </a>
+        <a class="an-button" href="#an-sunkenplace">
+          an-sunkenplace
+        </a>
+      </div>
+    </aside>
+
+    <header class="an-header an-header-full">
+      <div class="an-15p">
+        <img src="../img/anole.png" alt="Anole Logo" class="an-responsive-img">
+      </div>
+      <div>
+        anole docs - text
+      </div>
+    </header>
+
+    <!--Main content-->
+    <main class="an-body">
       <!--.an-text-->
       <div class="an-anchorpoint">
         <div id="an-text">
@@ -46,41 +45,50 @@
       </div>
       <div class="an-glass">
         <div class="an-title">
-          text formatting with .an-text
+          .an-text and .an-text-alt
         </div>
-        <div class="an-infobox">
-          To format text, wrap it up in an element with the class <div class="an-label an-label-standard">.an-text</div> or <div class="an-label an-label-standard">.an-text-alt</div>.
-          This will ensure that your text formatting remains consistent with Anole's style and conventions. It's also rich in Vitamin C.
-        </div>
-        <div class="an-gen-spacer">
-        </div>
-        <div class="an-heading">
-          headings
-        </div>
-        <div class="an-center-row">
-          <div class="an-text an-35p an-center an-sunkenplace">
-            <div class="an-heading">
-              .an-text
-            </div>
-            <h1>Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-            <h5>Heading 5</h5>
-            <h6>Heading 6</h6>
+        <article class="an-infobox">
+          <p class="">
+            <span class="an-label-information">.an-text</span> and
+            <span class="an-label-information">.an-text-alt</span>, provide
+            conditional formatting for certain semantic elements, such as
+            <span class="an-code-blue">&lt;h1&gt;</span> through
+            <span class="an-code-blue">&lt;h6&gt;</span>,
+            <span class="an-code-blue">&lt;em&gt;</span>, and more.
+            More information (inclusive of examples), is provided below.
+          </p>
+          <p>
+          </p>
+          <div class="an-gen-spacer">
           </div>
-          <div class="an-text-alt an-35p an-center an-sunkenplace">
-            <div class="an-heading">
-              .an-text-alt
-            </div>
-            <h1>Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-            <h5>Heading 5</h5>
-            <h6>Heading 6</h6>
+          <div class="an-heading">
+            headings
           </div>
-        </div>
+          <div class="an-center-row">
+            <div class="an-text an-35p an-center an-sunkenplace">
+              <div class="an-heading">
+                .an-text
+              </div>
+              <h1>Heading 1</h1>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+            </div>
+            <div class="an-text-alt an-35p an-center an-sunkenplace">
+              <div class="an-heading">
+                .an-text-alt
+              </div>
+              <h1>Heading 1</h1>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+            </div>
+          </div>
+        </article>
         <div class="an-heading">
           numbering
         </div>
@@ -94,18 +102,18 @@
       <div class="an-gen-spacer-huge">
       </div>
 
-    </div>
+    </main>
     <footer class="an-tail">
         this section is always visible, but can be hidden.
     </footer>
 
     <nav class="an-head">
-      <img src="../img/anole.svg" alt="" class="an-hdn-mobile">
       <a href="../" class="an-home-button">return home</a>
       <div class="an-spacer">
       </div>
-      <div class="an-menubutton an-hdn-mobile">
-        <label class="an-menuactor">documentation</label>
+      <label class="an-menucontainer an-hdn-mobile">
+        documentation
+        <input type="checkbox" name="documentation">
         <div class="an-menu">
           <div class="an-title">
             select one:
@@ -212,7 +220,7 @@
             ---
           </div>
         </div>
-      </div>
+      </label>
       <div class="an-spacer-tiny an-hdn-mobile">
       </div>
       <div class="an-menubutton an-hdn-mobile">

@@ -2123,8 +2123,8 @@ This way everything becomes a bit more standardized and "modular" */
   top: -135%;
 }
 
-.an-button:hover .an-tip .an-head:hover * .an-tip {
-  top: 135%;
+.an-button:hover .an-tip, .an-head *:hover .an-tip {
+  top: 100%;
   left: 7.35%;
 }
 
@@ -3098,8 +3098,9 @@ This way everything becomes a bit more standardized and "modular" */
 }
 
 .an-head .an-tip {
-  margin-left: 5px;
-  margin-top: 15px;
+  border-radius: 0;
+  margin-left: -3px;
+  margin-top: 1px;
 }
 
 /* TODO:
